@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #191919;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #1a6e59;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #33a17d;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #a3a3a3;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #757575;
+    color: white;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.left-panel {
+    flex: 1;
+    min-width: 0;
+}
+
+.right-panel {
+    flex: 1;
+    min-width: 300px;
+}
+
+.section {
+    background: #474747;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.characteristic {
+    margin: 5px 0;
+    padding-left: 15px;
+}
+
+.info-section {
+    background: #474747;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.info-item {
+    margin-bottom: 12px;
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    flex: 1;
+    min-width: 0;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+.selectors-container {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leader-strength-input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#advice {
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+    color: white;
+    white-space: pre-line;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-panel,
+    .right-panel {
+        width: 100%;
+    }
+}

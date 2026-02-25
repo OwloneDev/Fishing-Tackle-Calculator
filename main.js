@@ -1,0 +1,8506 @@
+
+const poleRods = {
+    poleRod1: {
+        name: "TeleStick TL13",
+        strength: 4,
+        price: 19,
+        quality: 1
+    },
+    poleRod2: {
+        name: "TeleStick TL16",
+        strength: 4,
+        price: 25,
+        quality: 1
+    },
+    poleRod3: {
+        name: "TeleStick TL20",
+        strength: 4,
+        price: 31,
+        quality: 1
+    },
+    poleRod4: {
+        name: "Comfort Telescopic 4",
+        strength: 5.5,
+        price: 41,
+        quality: 2
+    },
+    poleRod5: {
+        name: "Comfort Telescopic 5",
+        strength: 5.5,
+        price: 45,
+        quality: 2
+    },
+    poleRod6: {
+        name: "Comfort Telescopic 6",
+        strength: 5.5,
+        price: 46,
+        quality: 2
+    },
+    poleRod7: {
+        name: "Comfort Telescopic 7",
+        strength: 5.5,
+        price: 49,
+        quality: 2
+    },
+    poleRod8: {
+        name: "StarlingStick SS13",
+        strength: 6.1,
+        price: 58,
+        quality: 2
+    },
+    poleRod9: {
+        name: "StarlingStick SS20",
+        strength: 6.1,
+        price: 68,
+        quality: 2
+    },
+    poleRod10: {
+        name: "WalrusStick WS13",
+        strength: 7.4,
+        price: 159,
+        quality: 3
+    },
+    poleRod11: {
+        name: "WalrusStick WS20",
+        strength: 7.4,
+        price: 168,
+        quality: 3
+    },
+    poleRod12: {
+        name: "WalrusStick WS26",
+        strength: 7.4,
+        price: 175,
+        quality: 3
+    },
+    poleRod13: {
+        name: "Kontakt Telescopic 5",
+        strength: 7,
+        price: 184,
+        quality: 4
+    },
+    poleRod14: {
+        name: "Kontakt Telescopic 6",
+        strength: 7,
+        price: 199,
+        quality: 4
+    },
+    poleRod15: {
+        name: "Kontakt Telescopic 7",
+        strength: 7,
+        price: 199,
+        quality: 4
+    },
+    poleRod16: {
+        name: "Redstick RS16",
+        strength: 8,
+        price: 266,
+        quality: 5
+    },
+    poleRod17: {
+        name: "Redstick RS23",
+        strength: 8,
+        price: 285,
+        quality: 5
+    },
+    poleRod18: {
+        name: "Ultra Telescopic 4",
+        strength: 2.2,
+        price: 389,
+        quality: 6
+    },
+    poleRod19: {
+        name: "Ultra Telescopic 5",
+        strength: 2.2,
+        price: 399,
+        quality: 6
+    },
+    poleRod20: {
+        name: "Ultra Telescopic 6",
+        strength: 2.2,
+        price: 419,
+        quality: 6
+    },
+    poleRod21: {
+        name: "Ultra Telescopic 7",
+        strength: 2.2,
+        price: 429,
+        quality: 6
+    },
+    poleRod22: {
+        name: "Genius T500",
+        strength: 4.9,
+        price: 454,
+        quality: 6
+    },
+    poleRod23: {
+        name: "Genius T700",
+        strength: 4.9,
+        price: 489,
+        quality: 6
+    },
+    poleRod24: {
+        name: "Belmor Pole 5",
+        strength: 8.6,
+        price: 339,
+        quality: 6
+    },
+    poleRod25: {
+        name: "Belmor Pole 7",
+        strength: 8.6,
+        price: 369,
+        quality: 6
+    },
+    poleRod26: {
+        name: "Linear Telescopic 13",
+        strength: 8.7,
+        price: 349,
+        quality: 6
+    },
+    poleRod27: {
+        name: "Linear Telescopic 20",
+        strength: 8.7,
+        price: 378,
+        quality: 6
+    },
+    poleRod28: {
+        name: "Linear Telescopic 26",
+        strength: 8.7,
+        price: 394,
+        quality: 6
+    },
+    poleRod29: {
+        name: "Mechta Telescopic 6",
+        strength: 10.5,
+        price: 799,
+        quality: 6
+    },
+    poleRod30: {
+        name: "Mechta Telescopic 8",
+        strength: 10.5,
+        price: 879,
+        quality: 6
+    },
+    poleRod31: {
+        name: "Trophy T400",
+        strength: 2.6,
+        price: 539,
+        quality: 7
+    },
+    poleRod32: {
+        name: "Trophy T600",
+        strength: 2.6,
+        price: 589,
+        quality: 7
+    },
+    poleRod33: {
+        name: "Model Two T500",
+        strength: 9.4,
+        price: 675,
+        quality: 7
+    },
+    poleRod34: {
+        name: "Model Two T600",
+        strength: 9.4,
+        price: 689,
+        quality: 7
+    },
+    poleRod35: {
+        name: "Model Two T700",
+        strength: 9.4,
+        price: 708,
+        quality: 7
+    },
+    poleRod36: {
+        name: "Model Two T800",
+        strength: 9.4,
+        price: 778,
+        quality: 7
+    },
+    poleRod37: {
+        name: "White Pole 4",
+        strength: 10.5,
+        price: 859,
+        quality: 7
+    },
+    poleRod38: {
+        name: "White Pole 6",
+        strength: 10.5,
+        price: 949,
+        quality: 7
+    },
+    poleRod39: {
+        name: "Model One T700",
+        strength: 11.2,
+        price: 990,
+        quality: 7
+    },
+    poleRod40: {
+        name: "Soul Pole 5",
+        strength: 3.5,
+        price: 1340,
+        quality: 8
+    },
+    poleRod41: {
+        name: "Soul Pole 7",
+        strength: 3.5,
+        price: 1482,
+        quality: 8
+    },
+    poleRod42: {
+        name: "Crystal Pole 5",
+        strength: 6,
+        price: 1319,
+        quality: 8
+    },
+    poleRod43: {
+        name: "Crystal Pole 7",
+        strength: 6,
+        price: 1460,
+        quality: 8
+    },
+    poleRod44: {
+        name: "Windmaster TL 500",
+        strength: 7.9,
+        price: 2453,
+        quality: 8
+    },
+    poleRod45: {
+        name: "Windmaster TL 700",
+        strength: 7.9,
+        price: 2631,
+        quality: 8
+    },
+    poleRod46: {
+        name: "Heritage TL 500",
+        strength: 8,
+        price: 1424,
+        quality: 8
+    },
+    poleRod47: {
+        name: "Heritage TL 600",
+        strength: 8,
+        price: 1500,
+        quality: 8
+    },
+    poleRod48: {
+        name: "Heritage TL 700",
+        strength: 8,
+        price: 1596,
+        quality: 8
+    },
+    poleRod49: {
+        name: "Aurora Pole 5",
+        strength: 12,
+        price: 1262,
+        quality: 8
+    },
+    poleRod50: {
+        name: "Aurora Pole 7",
+        strength: 12,
+        price: 1370,
+        quality: 8
+    },
+    poleRod51: {
+        name: "Ethnic Pole 4",
+        strength: 14,
+        price: 1590,
+        quality: 8
+    },
+    poleRod52: {
+        name: "Ethnic Pole 6",
+        strength: 14,
+        price: 1788,
+        quality: 8
+    },
+    poleRod53: {
+        name: "Ethnic Pole 8",
+        strength: 14,
+        price: 1919,
+        quality: 8
+    },
+    poleRod54: {
+        name: "Falcon TL 400",
+        strength: 21.8,
+        price: 3102,
+        quality: 8
+    },
+    poleRod55: {
+        name: "Falcon TL 600",
+        strength: 21.8,
+        price: 3398,
+        quality: 8
+    },
+    poleRod56: {
+        name: "Falcon TL 800",
+        strength: 21.8,
+        price: 3689,
+        quality: 8
+    },
+    poleRod57: {
+        name: "Expression TL 500",
+        strength: 4.5,
+        price: 2968,
+        quality: 9
+    },
+    poleRod58: {
+        name: "Expression TL 700",
+        strength: 4.5,
+        price: 3250,
+        quality: 9
+    },
+    poleRod59: {
+        name: "Crimson Star TL 500",
+        strength: 13,
+        price: 3464,
+        quality: 9
+    },
+    poleRod60: {
+        name: "Crimson Star TL 600",
+        strength: 13,
+        price: 3543,
+        quality: 9
+    },
+    poleRod61: {
+        name: "Crimson Star TL 700",
+        strength: 13,
+        price: 3699,
+        quality: 9
+    },
+    poleRod62: {
+        name: "Crimson Star TL 800",
+        strength: 13,
+        price: 3988,
+        quality: 9
+    },
+    poleRod63: {
+        name: "Spirit 500",
+        strength: 18,
+        price: 3033,
+        quality: 9
+    },
+    poleRod64: {
+        name: "Spirit 600",
+        strength: 18,
+        price: 3145,
+        quality: 9
+    },
+    poleRod65: {
+        name: "Spirit 700",
+        strength: 18,
+        price: 3358,
+        quality: 9
+    },
+    poleRod66: {
+        name: "Inferno 500",
+        strength: 25,
+        price: 6486,
+        quality: 9
+    },
+    poleRod67: {
+        name: "Inferno 600",
+        strength: 25,
+        price: 7078,
+        quality: 9
+    },
+    poleRod68: {
+        name: "Inferno 700",
+        strength: 25,
+        price: 7794,
+        quality: 9
+    },
+    poleRod69: {
+        name: "Inferno 800",
+        strength: 25,
+        price: 8514,
+        quality: 9
+    },
+    poleRod70: {
+        name: "Razor Ultra 500",
+        strength: 5.6,
+        price: 7197,
+        quality: 10
+    },
+    poleRod71: {
+        name: "Razor Ultra 600",
+        strength: 5.6,
+        price: 7435,
+        quality: 10
+    },
+    poleRod72: {
+        name: "Razor Ultra 700",
+        strength: 5.6,
+        price: 7913,
+        quality: 10
+    },
+    poleRod73: {
+        name: "Razor Ultra 800",
+        strength: 5.6,
+        price: 8514,
+        quality: 10
+    },
+    poleRod74: {
+        name: "Razor 400",
+        strength: 10,
+        price: 6615,
+        quality: 10
+    },
+    poleRod75: {
+        name: "Razor 500",
+        strength: 10,
+        price: 6851,
+        quality: 10
+    },
+    poleRod76: {
+        name: "Razor 600",
+        strength: 10,
+        price: 7208,
+        quality: 10
+    },
+    poleRod77: {
+        name: "Master 500",
+        strength: 17,
+        price: 10177,
+        quality: 10
+    },
+    poleRod78: {
+        name: "Master 600",
+        strength: 17,
+        price: 10868,
+        quality: 10
+    },
+    poleRod79: {
+        name: "Master 700",
+        strength: 17,
+        price: 11960,
+        quality: 10
+    },
+    poleRod80: {
+        name: "Master 800",
+        strength: 17,
+        price: 12981,
+        quality: 10
+    }
+};
+const bologneseRods = {
+    bologneseRod1: {
+        name: "Sensiv Bolognese II SB13",
+        strength: 3.8,
+        price: 59,
+        quality: 1
+    },
+    bologneseRod2: {
+        name: "Sensiv Bolognese II SB16",
+        strength: 3.8,
+        price: 65,
+        quality: 1
+    },
+    bologneseRod3: {
+        name: "Sensiv Bolognese II SB23",
+        strength: 3.8,
+        price: 71,
+        quality: 1
+    },
+    bologneseRod4: {
+        name: "Siren Bolognese SB13",
+        strength: 5.3,
+        price: 133,
+        quality: 2
+    },
+    bologneseRod5: {
+        name: "Siren Bolognese SB20",
+        strength: 5.3,
+        price: 148,
+        quality: 2
+    },
+    bologneseRod6: {
+        name: "S-Eagle Bolognese SB15",
+        strength: 6.2,
+        price: 175,
+        quality: 3
+    },
+    bologneseRod7: {
+        name: "S-Eagle Bolognese SB20",
+        strength: 6.2,
+        price: 184,
+        quality: 3
+    },
+    bologneseRod8: {
+        name: "S-Eagle Bolognese SB25",
+        strength: 6.2,
+        price: 199,
+        quality: 3
+    },
+    bologneseRod9: {
+        name: "KingMaster Bolognese KB16",
+        strength: 6.2,
+        price: 352,
+        quality: 5
+    },
+    bologneseRod10: {
+        name: "KingMaster Bolognese KB20",
+        strength: 6.2,
+        price: 364,
+        quality: 5
+    },
+    bologneseRod11: {
+        name: "KingMaster Bolognese KB26",
+        strength: 6.2,
+        price: 385,
+        quality: 5
+    },
+    bologneseRod12: {
+        name: "Linear Bolognese 400",
+        strength: 8.1,
+        price: 455,
+        quality: 5
+    },
+    bologneseRod13: {
+        name: "Linear Bolognese 500",
+        strength: 8.1,
+        price: 477,
+        quality: 5
+    },
+    bologneseRod14: {
+        name: "Linear Bolognese 600",
+        strength: 8.1,
+        price: 490,
+        quality: 5
+    },
+    bologneseRod15: {
+        name: "Linear Bolognese 700",
+        strength: 8.1,
+        price: 511,
+        quality: 5
+    },
+    bologneseRod16: {
+        name: "Genius Bolognese 400",
+        strength: 4.9,
+        price: 642,
+        quality: 6
+    },
+    bologneseRod17: {
+        name: "Genius Bolognese 600",
+        strength: 4.9,
+        price: 685,
+        quality: 6
+    },
+    bologneseRod18: {
+        name: "Mechta Bolognese 5",
+        strength: 10.5,
+        price: 980,
+        quality: 6
+    },
+    bologneseRod19: {
+        name: "Mechta Bolognese 6",
+        strength: 10.5,
+        price: 1078,
+        quality: 6
+    },
+    bologneseRod20: {
+        name: "Mechta Bolognese 7",
+        strength: 10.5,
+        price: 1099,
+        quality: 6
+    },
+    bologneseRod21: {
+        name: "Fortuna Bolognese 500",
+        strength: 4.7,
+        price: 817,
+        quality: 7
+    },
+    bologneseRod22: {
+        name: "Fortuna Bolognese 600",
+        strength: 4.7,
+        price: 859,
+        quality: 7
+    },
+    bologneseRod23: {
+        name: "Fortuna Bolognese 700",
+        strength: 4.7,
+        price: 899,
+        quality: 7
+    },
+    bologneseRod24: {
+        name: "Model One Bolognese 500",
+        strength: 10.3,
+        price: 1277,
+        quality: 7
+    },
+    bologneseRod25: {
+        name: "Model One Bolognese 700",
+        strength: 10.3,
+        price: 1460,
+        quality: 7
+    },
+    bologneseRod26: {
+        name: "Ethnic Bolognese 4",
+        strength: 14,
+        price: 1798,
+        quality: 7
+    },
+    bologneseRod27: {
+        name: "Ethnic Bolognese 6",
+        strength: 14,
+        price: 1919,
+        quality: 7
+    },
+    bologneseRod28: {
+        name: "Ethnic Bolognese 8",
+        strength: 14,
+        price: 2129,
+        quality: 7
+    },
+    bologneseRod29: {
+        name: "Heritage BL 500",
+        strength: 8,
+        price: 1799,
+        quality: 7
+    },
+    bologneseRod30: {
+        name: "Heritage BL 600",
+        strength: 8,
+        price: 1864,
+        quality: 7
+    },
+    bologneseRod31: {
+        name: "Heritage BL 700",
+        strength: 8,
+        price: 1961,
+        quality: 7
+    },
+    bologneseRod32: {
+        name: "Windmaster BL 500",
+        strength: 7.9,
+        price: 2900,
+        quality: 8
+    },
+    bologneseRod33: {
+        name: "Windmaster BL 700",
+        strength: 7.9,
+        price: 3007,
+        quality: 8
+    },
+    bologneseRod34: {
+        name: "Windmaster BL 800",
+        strength: 7.9,
+        price: 3195,
+        quality: 8
+    },
+    bologneseRod35: {
+        name: "Crimson Star BL 500",
+        strength: 13,
+        price: 4263,
+        quality: 8
+    },
+    bologneseRod36: {
+        name: "Crimson Star BL 600",
+        strength: 13,
+        price: 4470,
+        quality: 8
+    },
+    bologneseRod37: {
+        name: "Crimson Star BL 700",
+        strength: 13,
+        price: 4596,
+        quality: 8
+    },
+    bologneseRod38: {
+        name: "Crimson Star BL 800",
+        strength: 13,
+        price: 4789,
+        quality: 8
+    },
+    bologneseRod39: {
+        name: "Falcon BL 400",
+        strength: 20.7,
+        price: 3692,
+        quality: 8
+    },
+    bologneseRod40: {
+        name: "Falcon BL 600",
+        strength: 20.7,
+        price: 3851,
+        quality: 8
+    },
+    bologneseRod41: {
+        name: "Falcon BL 700",
+        strength: 20.7,
+        price: 4294,
+        quality: 8
+    },
+    bologneseRod42: {
+        name: "Rebellion BL 600",
+        strength: 14.5,
+        price: 5071,
+        quality: 9
+    },
+    bologneseRod43: {
+        name: "Rebellion BL 800",
+        strength: 14.5,
+        price: 5500,
+        quality: 9
+    },
+    bologneseRod44: {
+        name: "Spirit Bolognese 500",
+        strength: 18,
+        price: 3680,
+        quality: 9
+    },
+    bologneseRod45: {
+        name: "Spirit Bolognese 600",
+        strength: 18,
+        price: 3782,
+        quality: 9
+    },
+    bologneseRod46: {
+        name: "Spirit Bolognese 700",
+        strength: 18,
+        price: 3828,
+        quality: 9
+    },
+    bologneseRod47: {
+        name: "Inferno Bolognese 500",
+        strength: 25,
+        price: 7197,
+        quality: 9
+    },
+    bologneseRod48: {
+        name: "Inferno Bolognese 600",
+        strength: 25,
+        price: 7913,
+        quality: 9
+    },
+    bologneseRod49: {
+        name: "Inferno Bolognese 700",
+        strength: 25,
+        price: 8635,
+        quality: 9
+    },
+    bologneseRod50: {
+        name: "Inferno Bolognese 800",
+        strength: 25,
+        price: 9289,
+        quality: 9
+    },
+    bologneseRod51: {
+        name: "Razor Bolognese 400",
+        strength: 10,
+        price: 7446,
+        quality: 10
+    },
+    bologneseRod52: {
+        name: "Razor Bolognese 500",
+        strength: 10,
+        price: 7685,
+        quality: 10
+    },
+    bologneseRod53: {
+        name: "Razor Bolognese 600",
+        strength: 10,
+        price: 7924,
+        quality: 10
+    },
+    bologneseRod54: {
+        name: "Master Bolognese 500",
+        strength: 17,
+        price: 10914,
+        quality: 10
+    },
+    bologneseRod55: {
+        name: "Master Bolognese 600",
+        strength: 17,
+        price: 11407,
+        quality: 10
+    },
+    bologneseRod56: {
+        name: "Master Bolognese 700",
+        strength: 17,
+        price: 12382,
+        quality: 10
+    },
+    bologneseRod57: {
+        name: "Master Bolognese 800",
+        strength: 17,
+        price: 13295,
+        quality: 10
+    }
+};
+const matchRods = {
+    matchRod1: {
+        name: "Ranger Match RM13",
+        strength: 4.4,
+        price: 49,
+        quality: 2
+    },
+    matchRod2: {
+        name: "Ranger Match RM16",
+        strength: 4.4,
+        price: 68,
+        quality: 2
+    },
+    matchRod3: {
+        name: "Harp Match HM12",
+        strength: 6.1,
+        price: 355,
+        quality: 3
+    },
+    matchRod4: {
+        name: "Harp Match HM16",
+        strength: 4.6,
+        price: 374,
+        quality: 3
+    },
+    matchRod5: {
+        name: "Harp Match HM20",
+        strength: 4.6,
+        price: 395,
+        quality: 3
+    },
+    matchRod6: {
+        name: "Ellite Match EM12",
+        strength: 6.8,
+        price: 625,
+        quality: 4
+    },
+    matchRod7: {
+        name: "Ellite Match EM16",
+        strength: 6.8,
+        price: 640,
+        quality: 4
+    },
+    matchRod8: {
+        name: "Ellite Match EM18",
+        strength: 7.1,
+        price: 675,
+        quality: 4
+    },
+    matchRod9: {
+        name: "Ellite Match EM18XH",
+        strength: 8.1,
+        price: 695,
+        quality: 4
+    },
+    matchRod10: {
+        name: "Ellite Match EM20",
+        strength: 7.1,
+        price: 698,
+        quality: 4
+    },
+    matchRod11: {
+        name: "Akkord Match 3.6",
+        strength: 9,
+        price: 716,
+        quality: 4
+    },
+    matchRod12: {
+        name: "Akkord Match 3.9",
+        strength: 9,
+        price: 736,
+        quality: 4
+    },
+    matchRod13: {
+        name: "Akkord Match 4.2",
+        strength: 9,
+        price: 756,
+        quality: 4
+    },
+    matchRod14: {
+        name: "Genius Match M110M",
+        strength: 8.7,
+        price: 778,
+        quality: 5
+    },
+    matchRod15: {
+        name: "Genius Match M150M",
+        strength: 8.7,
+        price: 819,
+        quality: 5
+    },
+    matchRod16: {
+        name: "Vertigo Match M130H",
+        strength: 12.4,
+        price: 885,
+        quality: 6
+    },
+    matchRod17: {
+        name: "Vertigo Match M140H",
+        strength: 12.4,
+        price: 895,
+        quality: 6
+    },
+    matchRod18: {
+        name: "Vertigo Match M150MH",
+        strength: 12.6,
+        price: 917,
+        quality: 6
+    },
+    matchRod19: {
+        name: "Karelia Match 320M",
+        strength: 13,
+        price: 950,
+        quality: 6
+    },
+    matchRod20: {
+        name: "Karelia Match 360M",
+        strength: 13,
+        price: 979,
+        quality: 6
+    },
+    matchRod21: {
+        name: "Karelia Match 380MH",
+        strength: 14,
+        price: 999,
+        quality: 6
+    },
+    matchRod22: {
+        name: "Fortuna Match M130ML",
+        strength: 13,
+        price: 1147,
+        quality: 6
+    },
+    matchRod23: {
+        name: "Fortuna Match M140MH",
+        strength: 16.7,
+        price: 1211,
+        quality: 6
+    },
+    matchRod24: {
+        name: "Sport Match 3.3",
+        strength: 14,
+        price: 1262,
+        quality: 6
+    },
+    matchRod25: {
+        name: "Sport Match 3.6",
+        strength: 14,
+        price: 1305,
+        quality: 6
+    },
+    matchRod26: {
+        name: "Sport Match 3.9",
+        strength: 14,
+        price: 1348,
+        quality: 6
+    },
+    matchRod27: {
+        name: "Sport Match 4.4",
+        strength: 14,
+        price: 1370,
+        quality: 6
+    },
+    matchRod28: {
+        name: "Katapulta 4.2",
+        strength: 16,
+        price: 1154,
+        quality: 6
+    },
+    matchRod29: {
+        name: "Model One Match M140MH",
+        strength: 16.2,
+        price: 1581,
+        quality: 7
+    },
+    matchRod30: {
+        name: "Model One Match M140XH",
+        strength: 16.9,
+        price: 1630,
+        quality: 7
+    },
+    matchRod31: {
+        name: "Inventer Match 300",
+        strength: 15.8,
+        price: 2331,
+        quality: 8
+    },
+    matchRod32: {
+        name: "Inventer Match 330",
+        strength: 15.8,
+        price: 2414,
+        quality: 8
+    },
+    matchRod33: {
+        name: "Inventer Match 360",
+        strength: 15.8,
+        price: 2470,
+        quality: 8
+    },
+    matchRod34: {
+        name: "Ethnic Match 340MH",
+        strength: 18,
+        price: 1898,
+        quality: 8
+    },
+    matchRod35: {
+        name: "Ethnic Match 380MH",
+        strength: 18,
+        price: 2008,
+        quality: 8
+    },
+    matchRod36: {
+        name: "Ethnic Match 420H",
+        strength: 20,
+        price: 2118,
+        quality: 8
+    },
+    matchRod37: {
+        name: "Elementary Match 390",
+        strength: 19.5,
+        price: 1971,
+        quality: 8
+    },
+    matchRod38: {
+        name: "Elementary Match 420",
+        strength: 19.5,
+        price: 2025,
+        quality: 8
+    },
+    matchRod39: {
+        name: "Falcon Match 360",
+        strength: 42.6,
+        price: 4263,
+        quality: 8
+    },
+    matchRod40: {
+        name: "Falcon Match 390",
+        strength: 42.6,
+        price: 4490,
+        quality: 8
+    },
+    matchRod41: {
+        name: "Falcon Match 390XH",
+        strength: 44.1,
+        price: 4597,
+        quality: 8
+    },
+    matchRod42: {
+        name: "Raven Match 320",
+        strength: 18,
+        price: 5440,
+        quality: 9
+    },
+    matchRod43: {
+        name: "Raven Match 340",
+        strength: 36,
+        price: 5557,
+        quality: 9
+    },
+    matchRod44: {
+        name: "Raven Match 360",
+        strength: 40,
+        price: 5557,
+        quality: 9
+    },
+    matchRod45: {
+        name: "Borray Match 390",
+        strength: 18.2,
+        price: 3510,
+        quality: 9
+    },
+    matchRod46: {
+        name: "Borray Match 420",
+        strength: 23.9,
+        price: 3692,
+        quality: 9
+    },
+    matchRod47: {
+        name: "Borray Match 450",
+        strength: 23.9,
+        price: 3976,
+        quality: 9
+    },
+    matchRod48: {
+        name: "Rebellion Match 390H",
+        strength: 41.2,
+        price: 5199,
+        quality: 9
+    },
+    matchRod49: {
+        name: "Rebellion Match 420H",
+        strength: 41.2,
+        price: 5395,
+        quality: 9
+    },
+    matchRod50: {
+        name: "Rebellion Match 450LC",
+        strength: 35,
+        price: 5987,
+        quality: 9
+    },
+    matchRod51: {
+        name: "Shooting Match 420",
+        strength: 52,
+        price: 6248,
+        quality: 9
+    },
+    matchRod52: {
+        name: "Shooting Match 450",
+        strength: 58,
+        price: 6601,
+        quality: 9
+    },
+    matchRod53: {
+        name: "Plasma Match 320",
+        strength: 22,
+        price: 7327,
+        quality: 10
+    },
+    matchRod54: {
+        name: "Plasma Match 340",
+        strength: 34,
+        price: 7327,
+        quality: 10
+    },
+    matchRod55: {
+        name: "Plasma Match 380",
+        strength: 46,
+        price: 7685,
+        quality: 10
+    },
+    matchRod56: {
+        name: "Plasma Match 420",
+        strength: 54,
+        price: 7994,
+        quality: 10
+    },
+    matchRod57: {
+        name: "Monster Match 320",
+        strength: 31.5,
+        price: 11197,
+        quality: 10
+    },
+    matchRod58: {
+        name: "Monster Match 360",
+        strength: 50,
+        price: 11568,
+        quality: 10
+    },
+    matchRod59: {
+        name: "Monster Match 400",
+        strength: 58,
+        price: 14065,
+        quality: 10
+    },
+    matchRod60: {
+        name: "Monster Match 440",
+        strength: 65,
+        price: 15900,
+        quality: 10
+    }
+};
+const spinningRods = {
+    spinningRod1: {
+        name: "Corona S60L",
+        strength: 3.9,
+        price: 19,
+        quality: 1
+    },
+    spinningRod2: {
+        name: "Corona S60MH",
+        strength: 4.2,
+        price: 20,
+        quality: 1
+    },
+    spinningRod3: {
+        name: "Corona S66MH",
+        strength: 4.2,
+        price: 24,
+        quality: 1
+    },
+    spinningRod4: {
+        name: "Corona S66H",
+        strength: 5.4,
+        price: 34,
+        quality: 1
+    },
+    spinningRod5: {
+        name: "Corona S70H",
+        strength: 5.4,
+        price: 36,
+        quality: 1
+    },
+    spinningRod6: {
+        name: "Dynamic S60MH",
+        strength: 5.9,
+        price: 86,
+        quality: 2
+    },
+    spinningRod7: {
+        name: "Dynamic S66H",
+        strength: 6.5,
+        price: 91,
+        quality: 2
+    },
+    spinningRod8: {
+        name: "Dynamic S70MH",
+        strength: 5.9,
+        price: 103,
+        quality: 2
+    },
+    spinningRod9: {
+        name: "Arrow S60UL",
+        strength: 3,
+        price: 170,
+        quality: 3
+    },
+    spinningRod10: {
+        name: "Arrow S60L",
+        strength: 5,
+        price: 162,
+        quality: 3
+    },
+    spinningRod11: {
+        name: "Arrow S66M",
+        strength: 7,
+        price: 169,
+        quality: 3
+    },
+    spinningRod12: {
+        name: "Arrow S70M",
+        strength: 7,
+        price: 174,
+        quality: 3
+    },
+    spinningRod13: {
+        name: "Comfort SF60MH",
+        strength: 10,
+        price: 182,
+        quality: 3
+    },
+    spinningRod14: {
+        name: "Comfort SXF68H",
+        strength: 11,
+        price: 190,
+        quality: 3
+    },
+    spinningRod15: {
+        name: "Comfort SF70MH",
+        strength: 10,
+        price: 196,
+        quality: 3
+    },
+    spinningRod16: {
+        name: "Comfort SF70XH",
+        strength: 13,
+        price: 370,
+        quality: 3
+    },
+    spinningRod17: {
+        name: "Comfort SF78M",
+        strength: 9,
+        price: 204,
+        quality: 3
+    },
+    spinningRod18: {
+        name: "Comfort SXF78H",
+        strength: 11,
+        price: 204,
+        quality: 3
+    },
+    spinningRod19: {
+        name: "Comfort SF88MH",
+        strength: 10,
+        price: 217,
+        quality: 3
+    },
+    spinningRod20: {
+        name: "Comfort SXF88H",
+        strength: 11,
+        price: 217,
+        quality: 3
+    },
+    spinningRod21: {
+        name: "Comfort SF88XH",
+        strength: 13,
+        price: 387,
+        quality: 3
+    },
+    spinningRod22: {
+        name: "Comfort SXF98H",
+        strength: 11,
+        price: 227,
+        quality: 3
+    },
+    spinningRod23: {
+        name: "Comfort SF98XH",
+        strength: 13,
+        price: 397,
+        quality: 3
+    },
+    spinningRod24: {
+        name: "Lait SSL60UL",
+        strength: 4,
+        price: 519,
+        quality: 4
+    },
+    spinningRod25: {
+        name: "Lait SSL70L",
+        strength: 7.5,
+        price: 539,
+        quality: 4
+    },
+    spinningRod26: {
+        name: "Lait SSL78ML",
+        strength: 11.5,
+        price: 559,
+        quality: 4
+    },
+    spinningRod27: {
+        name: "Linear S60L",
+        strength: 7,
+        price: 439,
+        quality: 4
+    },
+    spinningRod28: {
+        name: "Linear S68ML",
+        strength: 11,
+        price: 445,
+        quality: 4
+    },
+    spinningRod29: {
+        name: "Linear S78MH",
+        strength: 13.5,
+        price: 498,
+        quality: 4
+    },
+    spinningRod30: {
+        name: "Linear S78H",
+        strength: 15.3,
+        price: 504,
+        quality: 4
+    },
+    spinningRod31: {
+        name: "Linear S88H",
+        strength: 15.3,
+        price: 508,
+        quality: 4
+    },
+    spinningRod32: {
+        name: "Linear S88XH",
+        strength: 20.1,
+        price: 941,
+        quality: 4
+    },
+    spinningRod33: {
+        name: "Linear S98H",
+        strength: 15.3,
+        price: 544,
+        quality: 4
+    },
+    spinningRod34: {
+        name: "Heavy S70H",
+        strength: 11,
+        price: 210,
+        quality: 4
+    },
+    spinningRod35: {
+        name: "Heavy S70XH",
+        strength: 13.1,
+        price: 388,
+        quality: 4
+    },
+    spinningRod36: {
+        name: "Heavy S80XH",
+        strength: 15.4,
+        price: 448,
+        quality: 4
+    },
+    spinningRod37: {
+        name: "Premium Stick S60M",
+        strength: 11.7,
+        price: 299,
+        quality: 4
+    },
+    spinningRod38: {
+        name: "Premium Stick S60H",
+        strength: 12.1,
+        price: 299,
+        quality: 4
+    },
+    spinningRod39: {
+        name: "Premium Stick S60MH",
+        strength: 12,
+        price: 299,
+        quality: 4
+    },
+    spinningRod40: {
+        name: "Premium Stick S66MH",
+        strength: 12,
+        price: 309,
+        quality: 4
+    },
+    spinningRod41: {
+        name: "Premium Stick S70H",
+        strength: 12.1,
+        price: 315,
+        quality: 4
+    },
+    spinningRod42: {
+        name: "Premium Stick S70MH",
+        strength: 12,
+        price: 315,
+        quality: 4
+    },
+    spinningRod43: {
+        name: "Premium Stick S80H",
+        strength: 12.1,
+        price: 322,
+        quality: 4
+    },
+    spinningRod44: {
+        name: "Premium Stick S90MH",
+        strength: 12,
+        price: 348,
+        quality: 4
+    },
+    spinningRod45: {
+        name: "Inspiration S60UL",
+        strength: 4.5,
+        price: 799,
+        quality: 5
+    },
+    spinningRod46: {
+        name: "Inspiration S68UL",
+        strength: 4.5,
+        price: 808,
+        quality: 5
+    },
+    spinningRod47: {
+        name: "Inspiration S68L",
+        strength: 12.1,
+        price: 808,
+        quality: 5
+    },
+    spinningRod48: {
+        name: "Inspiration S78L",
+        strength: 12.1,
+        price: 814,
+        quality: 5
+    },
+    spinningRod49: {
+        name: "Inspiration S78ML",
+        strength: 14,
+        price: 814,
+        quality: 5
+    },
+    spinningRod50: {
+        name: "Fortuna S60MH",
+        strength: 13.5,
+        price: 389,
+        quality: 5
+    },
+    spinningRod51: {
+        name: "Fortuna S60H",
+        strength: 14,
+        price: 419,
+        quality: 5
+    },
+    spinningRod52: {
+        name: "Fortuna S66MH",
+        strength: 13.5,
+        price: 419,
+        quality: 5
+    },
+    spinningRod53: {
+        name: "Fortuna S68MH",
+        strength: 14.5,
+        price: 459,
+        quality: 5
+    },
+    spinningRod54: {
+        name: "Belmor SPF78M",
+        strength: 12,
+        price: 398,
+        quality: 5
+    },
+    spinningRod55: {
+        name: "Belmor SPF78MH",
+        strength: 13,
+        price: 419,
+        quality: 5
+    },
+    spinningRod56: {
+        name: "Belmor SPF88H",
+        strength: 14,
+        price: 449,
+        quality: 5
+    },
+    spinningRod57: {
+        name: "Belmor SPXF88XH",
+        strength: 16,
+        price: 498,
+        quality: 5
+    },
+    spinningRod58: {
+        name: "Super Duty S78H",
+        strength: 24.3,
+        price: 998,
+        quality: 5
+    },
+    spinningRod59: {
+        name: "Super Duty S78MH",
+        strength: 24,
+        price: 1048,
+        quality: 5
+    },
+    spinningRod60: {
+        name: "Super Duty S88H",
+        strength: 24.3,
+        price: 1099,
+        quality: 5
+    },
+    spinningRod61: {
+        name: "Super Duty S88XH",
+        strength: 30.5,
+        price: 1650,
+        quality: 5
+    },
+    spinningRod62: {
+        name: "Mechta SF60MH",
+        strength: 20,
+        price: 920,
+        quality: 6
+    },
+    spinningRod63: {
+        name: "Mechta SF68ML",
+        strength: 17,
+        price: 920,
+        quality: 6
+    },
+    spinningRod64: {
+        name: "Mechta SM70UL",
+        strength: 5.1,
+        price: 930,
+        quality: 6
+    },
+    spinningRod65: {
+        name: "Mechta SM70L",
+        strength: 13,
+        price: 930,
+        quality: 6
+    },
+    spinningRod66: {
+        name: "Mechta SXF70MH",
+        strength: 19,
+        price: 930,
+        quality: 6
+    },
+    spinningRod67: {
+        name: "Mechta SF78MH",
+        strength: 20,
+        price: 940,
+        quality: 6
+    },
+    spinningRod68: {
+        name: "Mechta SXF78XH",
+        strength: 23,
+        price: 940,
+        quality: 6
+    },
+    spinningRod69: {
+        name: "Mechta SM88MH",
+        strength: 17,
+        price: 960,
+        quality: 6
+    },
+    spinningRod70: {
+        name: "Mechta SXF88H",
+        strength: 21,
+        price: 960,
+        quality: 6
+    },
+    spinningRod71: {
+        name: "Karelia SPM66L",
+        strength: 10.2,
+        price: 740,
+        quality: 6
+    },
+    spinningRod72: {
+        name: "Karelia SPM68ML",
+        strength: 12,
+        price: 746,
+        quality: 6
+    },
+    spinningRod73: {
+        name: "Karelia SPF78M",
+        strength: 16,
+        price: 749,
+        quality: 6
+    },
+    spinningRod74: {
+        name: "Model One S78L",
+        strength: 15.7,
+        price: 1255,
+        quality: 6
+    },
+    spinningRod75: {
+        name: "Model One S78M",
+        strength: 23,
+        price: 1234,
+        quality: 6
+    },
+    spinningRod76: {
+        name: "Model One S78ML",
+        strength: 21.8,
+        price: 1253,
+        quality: 6
+    },
+    spinningRod77: {
+        name: "Model One S88MH",
+        strength: 25.5,
+        price: 1277,
+        quality: 6
+    },
+    spinningRod78: {
+        name: "Model One S98H",
+        strength: 35.4,
+        price: 2249,
+        quality: 6
+    },
+    spinningRod79: {
+        name: "Aeros SP60UL",
+        strength: 6.5,
+        price: 1560,
+        quality: 8
+    },
+    spinningRod80: {
+        name: "Aeros SP60ML",
+        strength: 23.2,
+        price: 1506,
+        quality: 8
+    },
+    spinningRod81: {
+        name: "Aeros SP68MH",
+        strength: 27.6,
+        price: 1340,
+        quality: 8
+    },
+    spinningRod82: {
+        name: "Ethnic SPF66MH",
+        strength: 26,
+        price: 1406,
+        quality: 8
+    },
+    spinningRod83: {
+        name: "Ethnic SPM68UL",
+        strength: 7,
+        price: 1899,
+        quality: 8
+    },
+    spinningRod84: {
+        name: "Ethnic SPM78L",
+        strength: 17,
+        price: 1974,
+        quality: 8
+    },
+    spinningRod85: {
+        name: "Ethnic SPF78MH",
+        strength: 26,
+        price: 1430,
+        quality: 8
+    },
+    spinningRod86: {
+        name: "Ethnic SPXF78H",
+        strength: 36.1,
+        price: 2500,
+        quality: 8
+    },
+    spinningRod87: {
+        name: "Ethnic SPF88MH",
+        strength: 26,
+        price: 1491,
+        quality: 8
+    },
+    spinningRod88: {
+        name: "Ethnic SPM88MH",
+        strength: 27,
+        price: 1550,
+        quality: 8
+    },
+    spinningRod89: {
+        name: "Ethnic SPXF98H",
+        strength: 36.1,
+        price: 2700,
+        quality: 8
+    },
+    spinningRod90: {
+        name: "Cardena SPF60L",
+        strength: 16,
+        price: 2115,
+        quality: 8
+    },
+    spinningRod91: {
+        name: "Cardena SPM68UL",
+        strength: 8,
+        price: 2625,
+        quality: 8
+    },
+    spinningRod92: {
+        name: "Cardena SPM68L",
+        strength: 20,
+        price: 2615,
+        quality: 8
+    },
+    spinningRod93: {
+        name: "Cardena SPM78ML",
+        strength: 26.1,
+        price: 2714,
+        quality: 8
+    },
+    spinningRod94: {
+        name: "Versa SPF66ML",
+        strength: 28.1,
+        price: 3022,
+        quality: 8
+    },
+    spinningRod95: {
+        name: "Versa SPF66M",
+        strength: 33.1,
+        price: 2300,
+        quality: 8
+    },
+    spinningRod96: {
+        name: "Versa SPF70UL",
+        strength: 8.5,
+        price: 3135,
+        quality: 8
+    },
+    spinningRod97: {
+        name: "Versa SPM70L",
+        strength: 21,
+        price: 3135,
+        quality: 8
+    },
+    spinningRod98: {
+        name: "Versa SPF77M",
+        strength: 33.1,
+        price: 2400,
+        quality: 8
+    },
+    spinningRod99: {
+        name: "Versa SPF77XH",
+        strength: 35,
+        price: 2650,
+        quality: 8
+    },
+    spinningRod100: {
+        name: "Versa SPF88H",
+        strength: 35.5,
+        price: 2799,
+        quality: 8
+    },
+    spinningRod101: {
+        name: "Versa SPF88MH",
+        strength: 33.1,
+        price: 2500,
+        quality: 8
+    },
+    spinningRod102: {
+        name: "Pulse SPF60UL",
+        strength: 9,
+        price: 3815,
+        quality: 8
+    },
+    spinningRod103: {
+        name: "Pulse SPF66L",
+        strength: 15,
+        price: 3815,
+        quality: 8
+    },
+    spinningRod104: {
+        name: "Pulse SPF66ML",
+        strength: 25.4,
+        price: 3815,
+        quality: 8
+    },
+    spinningRod105: {
+        name: "Pulse SPXF70M",
+        strength: 26.1,
+        price: 3929,
+        quality: 8
+    },
+    spinningRod106: {
+        name: "Pulse SPF77H",
+        strength: 28,
+        price: 3987,
+        quality: 8
+    },
+    spinningRod107: {
+        name: "Pulse SPF77MH",
+        strength: 26.2,
+        price: 3987,
+        quality: 8
+    },
+    spinningRod108: {
+        name: "Ventura SPF66ML",
+        strength: 22,
+        price: 1299,
+        quality: 8
+    },
+    spinningRod109: {
+        name: "Ventura SPXF66MH",
+        strength: 30,
+        price: 1699,
+        quality: 8
+    },
+    spinningRod110: {
+        name: "Ventura SPF70H",
+        strength: 34.1,
+        price: 1810,
+        quality: 8
+    },
+    spinningRod111: {
+        name: "Ventura SPF70MH",
+        strength: 31,
+        price: 1766,
+        quality: 8
+    },
+    spinningRod112: {
+        name: "Ventura SPXF70M",
+        strength: 26,
+        price: 1350,
+        quality: 8
+    },
+    spinningRod113: {
+        name: "Integra SPF66M",
+        strength: 31.1,
+        price: 1720,
+        quality: 8
+    },
+    spinningRod114: {
+        name: "Integra SPF66MH",
+        strength: 33.3,
+        price: 1799,
+        quality: 8
+    },
+    spinningRod115: {
+        name: "Integra SPF70ML",
+        strength: 26,
+        price: 2361,
+        quality: 8
+    },
+    spinningRod116: {
+        name: "Integra SPF70M",
+        strength: 32.2,
+        price: 1811,
+        quality: 8
+    },
+    spinningRod117: {
+        name: "Integra SPF70MH",
+        strength: 33.3,
+        price: 1850,
+        quality: 8
+    },
+    spinningRod118: {
+        name: "Integra SPF77M",
+        strength: 32.2,
+        price: 1911,
+        quality: 8
+    },
+    spinningRod119: {
+        name: "Evora SPM78ML",
+        strength: 32.9,
+        price: 3238,
+        quality: 8
+    },
+    spinningRod120: {
+        name: "Evora SPSL88MH",
+        strength: 38.7,
+        price: 3465,
+        quality: 8
+    },
+    spinningRod121: {
+        name: "Evora SPM98H",
+        strength: 39.4,
+        price: 3669,
+        quality: 8
+    },
+    spinningRod122: {
+        name: "Barracuda SPM68M",
+        strength: 78.8,
+        price: 5998,
+        quality: 8
+    },
+    spinningRod123: {
+        name: "Barracuda SPM78M",
+        strength: 77.7,
+        price: 6299,
+        quality: 8
+    },
+    spinningRod124: {
+        name: "Barracuda SPM88M",
+        strength: 78.8,
+        price: 6399,
+        quality: 8
+    },
+    spinningRod125: {
+        name: "Barracuda SPSL88MH",
+        strength: 96.6,
+        price: 8199,
+        quality: 8
+    },
+    spinningRod126: {
+        name: "Barracuda SPM88H",
+        strength: 95,
+        price: 7999,
+        quality: 8
+    },
+    spinningRod127: {
+        name: "Advent S-F66L",
+        strength: 23.1,
+        price: 4383,
+        quality: 9
+    },
+    spinningRod128: {
+        name: "Advent S-F66ML",
+        strength: 31.3,
+        price: 3550,
+        quality: 9
+    },
+    spinningRod129: {
+        name: "Advent S-F70MH",
+        strength: 32,
+        price: 2499,
+        quality: 9
+    },
+    spinningRod130: {
+        name: "Advent S-F70H",
+        strength: 45,
+        price: 4299,
+        quality: 9
+    },
+    spinningRod131: {
+        name: "Advent S-F70HH",
+        strength: 50,
+        price: 4605,
+        quality: 9
+    },
+    spinningRod132: {
+        name: "Advent S-F70HHH",
+        strength: 53,
+        price: 4709,
+        quality: 9
+    },
+    spinningRod133: {
+        name: "Advent S-F86HH",
+        strength: 50,
+        price: 4813,
+        quality: 9
+    },
+    spinningRod134: {
+        name: "Advent S-F93MH",
+        strength: 50,
+        price: 4860,
+        quality: 9
+    },
+    spinningRod135: {
+        name: "Advent S-F96H",
+        strength: 55,
+        price: 4929,
+        quality: 9
+    },
+    spinningRod136: {
+        name: "Advent S-F100HHH",
+        strength: 57,
+        price: 4995,
+        quality: 9
+    },
+    spinningRod137: {
+        name: "Legend SPF66UL",
+        strength: 10.1,
+        price: 5313,
+        quality: 9
+    },
+    spinningRod138: {
+        name: "Legend SPF66L",
+        strength: 16,
+        price: 5081,
+        quality: 9
+    },
+    spinningRod139: {
+        name: "Legend SPF66M",
+        strength: 39.5,
+        price: 5313,
+        quality: 9
+    },
+    spinningRod140: {
+        name: "Legend SPF68ML",
+        strength: 29,
+        price: 5313,
+        quality: 9
+    },
+    spinningRod141: {
+        name: "Legend SPF70M",
+        strength: 39.5,
+        price: 5383,
+        quality: 9
+    },
+    spinningRod142: {
+        name: "Legend SPF70MH",
+        strength: 42.1,
+        price: 5383,
+        quality: 9
+    },
+    spinningRod143: {
+        name: "Legend SPF77ML",
+        strength: 29,
+        price: 5442,
+        quality: 9
+    },
+    spinningRod144: {
+        name: "Legend SPF77H",
+        strength: 41.5,
+        price: 5383,
+        quality: 9
+    },
+    spinningRod145: {
+        name: "Legend SPF77XH",
+        strength: 42.5,
+        price: 5442,
+        quality: 9
+    },
+    spinningRod146: {
+        name: "Palmera UL SPM68UL",
+        strength: 10.8,
+        price: 4114,
+        quality: 9
+    },
+    spinningRod147: {
+        name: "Palmera UL SPM78L",
+        strength: 31.7,
+        price: 4920,
+        quality: 9
+    },
+    spinningRod148: {
+        name: "Armada SPF60M",
+        strength: 22.8,
+        price: 5542,
+        quality: 9
+    },
+    spinningRod149: {
+        name: "Armada SPF60MH",
+        strength: 22.8,
+        price: 5537,
+        quality: 9
+    },
+    spinningRod150: {
+        name: "Armada SPEF68M",
+        strength: 22.8,
+        price: 5700,
+        quality: 9
+    },
+    spinningRod151: {
+        name: "Armada SPEF68H",
+        strength: 21.9,
+        price: 5770,
+        quality: 9
+    },
+    spinningRod152: {
+        name: "Armada SPF68XH",
+        strength: 25.7,
+        price: 5770,
+        quality: 9
+    },
+    spinningRod153: {
+        name: "Armada SPF78MH",
+        strength: 22.8,
+        price: 5846,
+        quality: 9
+    },
+    spinningRod154: {
+        name: "Vexillar S-F66L",
+        strength: 17.1,
+        price: 9118,
+        quality: 10
+    },
+    spinningRod155: {
+        name: "Vexillar S-F66MH",
+        strength: 40,
+        price: 9118,
+        quality: 10
+    },
+    spinningRod156: {
+        name: "Vexillar S-F70UL",
+        strength: 11.5,
+        price: 9118,
+        quality: 10
+    },
+    spinningRod157: {
+        name: "Aquilon S-M68ULL",
+        strength: 12,
+        price: 11563,
+        quality: 10
+    },
+    spinningRod158: {
+        name: "Aquilon S-M70UL",
+        strength: 13,
+        price: 12806,
+        quality: 10
+    },
+    spinningRod159: {
+        name: "Aquilon S-M71L",
+        strength: 20,
+        price: 11563,
+        quality: 10
+    },
+    spinningRod160: {
+        name: "Ultima S-M60UL",
+        strength: 14,
+        price: 17774,
+        quality: 10
+    },
+    spinningRod161: {
+        name: "Ultima S-M61L",
+        strength: 36,
+        price: 18774,
+        quality: 10
+    },
+    spinningRod162: {
+        name: "Ultima S-M68ML",
+        strength: 60,
+        price: 17774,
+        quality: 10
+    },
+    spinningRod163: {
+        name: "Ultima S-M75ML",
+        strength: 62,
+        price: 18808,
+        quality: 10
+    },
+    spinningRod164: {
+        name: "Ultima S-M78L",
+        strength: 38,
+        price: 20808,
+        quality: 10
+    },
+    spinningRod165: {
+        name: "Ultima S-M87H",
+        strength: 125,
+        price: 21803,
+        quality: 10
+    },
+    spinningRod166: {
+        name: "Ultima S-M88HH",
+        strength: 136,
+        price: 22958,
+        quality: 10
+    },
+    spinningRod167: {
+        name: "Ultima S-M100HH",
+        strength: 142,
+        price: 24862,
+        quality: 10
+    },
+    spinningRod168: {
+        name: "Trout Master S-M60L",
+        strength: 21,
+        price: 12560,
+        quality: 10
+    },
+    spinningRod169: {
+        name: "Trout Master S-M68L",
+        strength: 25,
+        price: 13310,
+        quality: 10
+    },
+    spinningRod170: {
+        name: "Trout Master S-M71ML",
+        strength: 50,
+        price: 13938,
+        quality: 10
+    },
+    spinningRod171: {
+        name: "Trout Master S-M82M",
+        strength: 80,
+        price: 14442,
+        quality: 10
+    },
+    spinningRod172: {
+        name: "Black Edition SPM60ML",
+        strength: 30.3,
+        price: 6487,
+        quality: 10
+    },
+    spinningRod173: {
+        name: "Black Edition SPF60MH",
+        strength: 45,
+        price: 6487,
+        quality: 10
+    },
+    spinningRod174: {
+        name: "Black Edition SPXF60H",
+        strength: 43.7,
+        price: 6647,
+        quality: 10
+    },
+    spinningRod175: {
+        name: "Black Edition SPM68MH",
+        strength: 50.8,
+        price: 6948,
+        quality: 10
+    },
+    spinningRod176: {
+        name: "Black Edition SPXF68M",
+        strength: 45.7,
+        price: 6949,
+        quality: 10
+    },
+    spinningRod177: {
+        name: "Black Edition SPXF68H",
+        strength: 45.7,
+        price: 6949,
+        quality: 10
+    },
+    spinningRod178: {
+        name: "Black Edition SPM78MH",
+        strength: 50.8,
+        price: 7305,
+        quality: 10
+    },
+    spinningRod179: {
+        name: "Black Edition SPF78XH",
+        strength: 51.3,
+        price: 7305,
+        quality: 10
+    }
+};
+const castingRods = {
+    castingRod1: {
+        name: "Corona CST C60MH",
+        strength: 4.2,
+        price: 30,
+        quality: 1
+    },
+    castingRod2: {
+        name: "Corona CST C66MH",
+        strength: 4.2,
+        price: 34,
+        quality: 1
+    },
+    castingRod3: {
+        name: "Corona CST C66H",
+        strength: 5.4,
+        price: 34,
+        quality: 1
+    },
+    castingRod4: {
+        name: "Corona CST C70H",
+        strength: 5.4,
+        price: 36,
+        quality: 1
+    },
+    castingRod5: {
+        name: "Dynamic CST C60MH",
+        strength: 5.9,
+        price: 86,
+        quality: 2
+    },
+    castingRod6: {
+        name: "Dynamic CST C60H",
+        strength: 6.5,
+        price: 79,
+        quality: 2
+    },
+    castingRod7: {
+        name: "Dynamic CST C66MH",
+        strength: 5.9,
+        price: 95,
+        quality: 2
+    },
+    castingRod8: {
+        name: "Dynamic CST C70M",
+        strength: 6.5,
+        price: 113,
+        quality: 2
+    },
+    castingRod9: {
+        name: "Vision CST C66MH",
+        strength: 9.9,
+        price: 249,
+        quality: 3
+    },
+    castingRod10: {
+        name: "Lait CSTSL68UL",
+        strength: 4,
+        price: 529,
+        quality: 4
+    },
+    castingRod11: {
+        name: "Lait CSTSL70L",
+        strength: 7.5,
+        price: 539,
+        quality: 4
+    },
+    castingRod12: {
+        name: "Lait CSTSL78ML",
+        strength: 11.5,
+        price: 559,
+        quality: 4
+    },
+    castingRod13: {
+        name: "Arrow CST C60M",
+        strength: 7,
+        price: 155,
+        quality: 4
+    },
+    castingRod14: {
+        name: "Arrow CST C70M",
+        strength: 7,
+        price: 174,
+        quality: 4
+    },
+    castingRod15: {
+        name: "Linear CST 68ML",
+        strength: 11,
+        price: 478,
+        quality: 4
+    },
+    castingRod16: {
+        name: "Linear CST 78MH",
+        strength: 13.5,
+        price: 497,
+        quality: 4
+    },
+    castingRod17: {
+        name: "Linear CST 98H",
+        strength: 15.3,
+        price: 677,
+        quality: 4
+    },
+    castingRod18: {
+        name: "Heavy CST C66H",
+        strength: 11,
+        price: 289,
+        quality: 4
+    },
+    castingRod19: {
+        name: "Heavy CST C70XH",
+        strength: 13.1,
+        price: 388,
+        quality: 4
+    },
+    castingRod20: {
+        name: "Heavy CST C80XH",
+        strength: 15.4,
+        price: 653,
+        quality: 4
+    },
+    castingRod21: {
+        name: "Premium Stick CST C60MH",
+        strength: 12,
+        price: 315,
+        quality: 4
+    },
+    castingRod22: {
+        name: "Premium Stick CST C66H",
+        strength: 12.1,
+        price: 318,
+        quality: 4
+    },
+    castingRod23: {
+        name: "Premium Stick CST C66MH",
+        strength: 12,
+        price: 314,
+        quality: 4
+    },
+    castingRod24: {
+        name: "Premium Stick CST C70M",
+        strength: 11.7,
+        price: 319,
+        quality: 4
+    },
+    castingRod25: {
+        name: "Premium Stick CST C70H",
+        strength: 12.1,
+        price: 310,
+        quality: 4
+    },
+    castingRod26: {
+        name: "Premium Stick CST C70MH",
+        strength: 12,
+        price: 319,
+        quality: 4
+    },
+    castingRod27: {
+        name: "Premium Stick CST C80M",
+        strength: 11.7,
+        price: 322,
+        quality: 4
+    },
+    castingRod28: {
+        name: "Premium Stick CST C80H",
+        strength: 12.1,
+        price: 321,
+        quality: 4
+    },
+    castingRod29: {
+        name: "Belmor CSTF78M",
+        strength: 12,
+        price: 398,
+        quality: 5
+    },
+    castingRod30: {
+        name: "Belmor CSTF78MH",
+        strength: 13,
+        price: 419,
+        quality: 5
+    },
+    castingRod31: {
+        name: "Belmor CSTF88H",
+        strength: 14,
+        price: 599,
+        quality: 5
+    },
+    castingRod32: {
+        name: "Belmor CSTXF88XH",
+        strength: 16,
+        price: 698,
+        quality: 5
+    },
+    castingRod33: {
+        name: "Fortuna CST 60MH",
+        strength: 13.5,
+        price: 419,
+        quality: 5
+    },
+    castingRod34: {
+        name: "Fortuna CST 66MH",
+        strength: 14.5,
+        price: 598,
+        quality: 5
+    },
+    castingRod35: {
+        name: "Fortuna CST 68MH",
+        strength: 13.5,
+        price: 519,
+        quality: 5
+    },
+    castingRod36: {
+        name: "Super Duty CST60MH",
+        strength: 24,
+        price: 1328,
+        quality: 5
+    },
+    castingRod37: {
+        name: "Super Duty CST78H",
+        strength: 24.3,
+        price: 1398,
+        quality: 5
+    },
+    castingRod38: {
+        name: "Super Duty CST86XH",
+        strength: 30.5,
+        price: 1670,
+        quality: 5
+    },
+    castingRod39: {
+        name: "Mechta CSTF60MH",
+        strength: 20,
+        price: 920,
+        quality: 6
+    },
+    castingRod40: {
+        name: "Mechta CSTF68ML",
+        strength: 17,
+        price: 1199,
+        quality: 6
+    },
+    castingRod41: {
+        name: "Mechta CSTM70UL",
+        strength: 5.1,
+        price: 930,
+        quality: 6
+    },
+    castingRod42: {
+        name: "Mechta CSTM70L",
+        strength: 13,
+        price: 930,
+        quality: 6
+    },
+    castingRod43: {
+        name: "Mechta CSTF78MH",
+        strength: 20,
+        price: 930,
+        quality: 6
+    },
+    castingRod44: {
+        name: "Mechta CSTXF78MH",
+        strength: 19,
+        price: 930,
+        quality: 6
+    },
+    castingRod45: {
+        name: "Mechta CSTXF88H",
+        strength: 21,
+        price: 1090,
+        quality: 6
+    },
+    castingRod46: {
+        name: "Mechta CSTXF88XH",
+        strength: 23,
+        price: 1299,
+        quality: 6
+    },
+    castingRod47: {
+        name: "Mechta CSTM98MH",
+        strength: 17,
+        price: 990,
+        quality: 6
+    },
+    castingRod48: {
+        name: "Karelia CSTM68L",
+        strength: 10.2,
+        price: 744,
+        quality: 6
+    },
+    castingRod49: {
+        name: "Karelia CSTM78ML",
+        strength: 12,
+        price: 749,
+        quality: 6
+    },
+    castingRod50: {
+        name: "Karelia CSTF78M",
+        strength: 16,
+        price: 679,
+        quality: 6
+    },
+    castingRod51: {
+        name: "Karelia CSTF78MH",
+        strength: 18,
+        price: 849,
+        quality: 6
+    },
+    castingRod52: {
+        name: "Model One CST S68ML",
+        strength: 14.2,
+        price: 1099,
+        quality: 6
+    },
+    castingRod53: {
+        name: "Model One CST S68MH",
+        strength: 21,
+        price: 1145,
+        quality: 6
+    },
+    castingRod54: {
+        name: "Model One CST S78L",
+        strength: 15.7,
+        price: 1471,
+        quality: 6
+    },
+    castingRod55: {
+        name: "Model One CST S78M",
+        strength: 23,
+        price: 1438,
+        quality: 6
+    },
+    castingRod56: {
+        name: "Model One CST S88H",
+        strength: 35.4,
+        price: 2150,
+        quality: 6
+    },
+    castingRod57: {
+        name: "Aurora CSTF78M",
+        strength: 20,
+        price: 997,
+        quality: 7
+    },
+    castingRod58: {
+        name: "Aurora CSTXF78MH",
+        strength: 21,
+        price: 1188,
+        quality: 7
+    },
+    castingRod59: {
+        name: "Aurora CSTXF88H",
+        strength: 28,
+        price: 1699,
+        quality: 7
+    },
+    castingRod60: {
+        name: "Ethnic CSTF66MH",
+        strength: 26,
+        price: 1499,
+        quality: 8
+    },
+    castingRod61: {
+        name: "Ethnic CSTM68UL",
+        strength: 7,
+        price: 1899,
+        quality: 8
+    },
+    castingRod62: {
+        name: "Ethnic CSTM78L",
+        strength: 17,
+        price: 1974,
+        quality: 8
+    },
+    castingRod63: {
+        name: "Ethnic CSTF78ML",
+        strength: 20,
+        price: 1853,
+        quality: 8
+    },
+    castingRod64: {
+        name: "Ethnic CSTXF78H",
+        strength: 36.1,
+        price: 2250,
+        quality: 8
+    },
+    castingRod65: {
+        name: "Ethnic CSTM88MH",
+        strength: 27,
+        price: 1660,
+        quality: 8
+    },
+    castingRod66: {
+        name: "Ethnic CSTF88H",
+        strength: 36,
+        price: 2350,
+        quality: 8
+    },
+    castingRod67: {
+        name: "Ethnic CSTXF88XH",
+        strength: 35,
+        price: 2199,
+        quality: 8
+    },
+    castingRod68: {
+        name: "Ethnic CSTXF98H",
+        strength: 36.1,
+        price: 2450,
+        quality: 8
+    },
+    castingRod69: {
+        name: "Cardena CST CSF60L",
+        strength: 16,
+        price: 2151,
+        quality: 8
+    },
+    castingRod70: {
+        name: "Cardena CST CSM68UL",
+        strength: 8,
+        price: 2799,
+        quality: 8
+    },
+    castingRod71: {
+        name: "Cardena CST CSM78ML",
+        strength: 37.5,
+        price: 3499,
+        quality: 8
+    },
+    castingRod72: {
+        name: "Alfa Caster CF70UL",
+        strength: 8.3,
+        price: 2600,
+        quality: 8
+    },
+    castingRod73: {
+        name: "Alfa Caster CF70L",
+        strength: 18,
+        price: 2000,
+        quality: 8
+    },
+    castingRod74: {
+        name: "Alfa Caster CM77ML",
+        strength: 24,
+        price: 2000,
+        quality: 8
+    },
+    castingRod75: {
+        name: "Versa CF66ML",
+        strength: 28.1,
+        price: 2650,
+        quality: 8
+    },
+    castingRod76: {
+        name: "Versa CM66MH",
+        strength: 35.5,
+        price: 2400,
+        quality: 8
+    },
+    castingRod77: {
+        name: "Versa CF70UL",
+        strength: 8.5,
+        price: 3135,
+        quality: 8
+    },
+    castingRod78: {
+        name: "Versa CM70L",
+        strength: 21,
+        price: 3135,
+        quality: 8
+    },
+    castingRod79: {
+        name: "Versa CF77M",
+        strength: 35,
+        price: 2500,
+        quality: 8
+    },
+    castingRod80: {
+        name: "Versa CF77XH",
+        strength: 35,
+        price: 2500,
+        quality: 8
+    },
+    castingRod81: {
+        name: "Versa CF80MH",
+        strength: 35.5,
+        price: 2550,
+        quality: 8
+    },
+    castingRod82: {
+        name: "Versa CM80H",
+        strength: 35,
+        price: 2550,
+        quality: 8
+    },
+    castingRod83: {
+        name: "Pulse CF60UL",
+        strength: 9,
+        price: 3815,
+        quality: 8
+    },
+    castingRod84: {
+        name: "Pulse CF66L",
+        strength: 15,
+        price: 3815,
+        quality: 8
+    },
+    castingRod85: {
+        name: "Pulse CF66ML",
+        strength: 25.4,
+        price: 3815,
+        quality: 8
+    },
+    castingRod86: {
+        name: "Pulse CF70MH",
+        strength: 28,
+        price: 3929,
+        quality: 8
+    },
+    castingRod87: {
+        name: "Pulse CXF70M",
+        strength: 26.1,
+        price: 3929,
+        quality: 8
+    },
+    castingRod88: {
+        name: "Pulse CF70H",
+        strength: 28.1,
+        price: 3929,
+        quality: 8
+    },
+    castingRod89: {
+        name: "Pulse CF70XH",
+        strength: 28.6,
+        price: 3929,
+        quality: 8
+    },
+    castingRod90: {
+        name: "Ventura CF66ML",
+        strength: 22,
+        price: 1799,
+        quality: 8
+    },
+    castingRod91: {
+        name: "Ventura CF66MH",
+        strength: 31,
+        price: 1699,
+        quality: 8
+    },
+    castingRod92: {
+        name: "Ventura CXF70M",
+        strength: 26,
+        price: 1590,
+        quality: 8
+    },
+    castingRod93: {
+        name: "Ventura CXF70MH",
+        strength: 30,
+        price: 1656,
+        quality: 8
+    },
+    castingRod94: {
+        name: "Ventura CM77H",
+        strength: 34.5,
+        price: 1999,
+        quality: 8
+    },
+    castingRod95: {
+        name: "Integra CF66M",
+        strength: 31.1,
+        price: 1730,
+        quality: 8
+    },
+    castingRod96: {
+        name: "Integra CF70ML",
+        strength: 26,
+        price: 2361,
+        quality: 8
+    },
+    castingRod97: {
+        name: "Integra CF70MH",
+        strength: 33.3,
+        price: 1940,
+        quality: 8
+    },
+    castingRod98: {
+        name: "Integra CF77M",
+        strength: 32.2,
+        price: 1950,
+        quality: 8
+    },
+    castingRod99: {
+        name: "Aeros CST CSXF60H",
+        strength: 32.1,
+        price: 1800,
+        quality: 8
+    },
+    castingRod100: {
+        name: "Aeros CST CSF66MH",
+        strength: 27.6,
+        price: 1550,
+        quality: 8
+    },
+    castingRod101: {
+        name: "Evora CST CSSL78MH",
+        strength: 38.7,
+        price: 3100,
+        quality: 8
+    },
+    castingRod102: {
+        name: "Evora CST CSSL98H",
+        strength: 49.4,
+        price: 4499,
+        quality: 8
+    },
+    castingRod103: {
+        name: "Barracuda CST CSM68M",
+        strength: 78.8,
+        price: 5999,
+        quality: 8
+    },
+    castingRod104: {
+        name: "Barracuda CST CSSL78M",
+        strength: 60.8,
+        price: 4899,
+        quality: 8
+    },
+    castingRod105: {
+        name: "Barracuda CST CSSL88MH",
+        strength: 96.6,
+        price: 8299,
+        quality: 8
+    },
+    castingRod106: {
+        name: "Barracuda CST CSM88H",
+        strength: 95,
+        price: 7999,
+        quality: 8
+    },
+    castingRod107: {
+        name: "Armada CST CSXF60UL",
+        strength: 5.1,
+        price: 6098,
+        quality: 9
+    },
+    castingRod108: {
+        name: "Armada CST CSF60M",
+        strength: 22.8,
+        price: 6134,
+        quality: 9
+    },
+    castingRod109: {
+        name: "Armada CST CSF60MH",
+        strength: 22.8,
+        price: 5993,
+        quality: 9
+    },
+    castingRod110: {
+        name: "Armada CST CSXF60H",
+        strength: 21.9,
+        price: 6099,
+        quality: 9
+    },
+    castingRod111: {
+        name: "Armada CST CSXF68M",
+        strength: 22.8,
+        price: 6228,
+        quality: 9
+    },
+    castingRod112: {
+        name: "Armada CST CSF68MH",
+        strength: 22.8,
+        price: 6240,
+        quality: 9
+    },
+    castingRod113: {
+        name: "Armada CST CSF68XH",
+        strength: 25.7,
+        price: 6240,
+        quality: 9
+    },
+    castingRod114: {
+        name: "Legend CF66UL",
+        strength: 10.1,
+        price: 5313,
+        quality: 9
+    },
+    castingRod115: {
+        name: "Legend CF66L",
+        strength: 16,
+        price: 5081,
+        quality: 9
+    },
+    castingRod116: {
+        name: "Legend CF66M",
+        strength: 39.5,
+        price: 5313,
+        quality: 9
+    },
+    castingRod117: {
+        name: "Legend CF68ML",
+        strength: 29,
+        price: 5313,
+        quality: 9
+    },
+    castingRod118: {
+        name: "Legend CF70M",
+        strength: 39.5,
+        price: 5383,
+        quality: 9
+    },
+    castingRod119: {
+        name: "Legend CF70MH",
+        strength: 41.5,
+        price: 5383,
+        quality: 9
+    },
+    castingRod120: {
+        name: "Legend CF77ML",
+        strength: 29,
+        price: 5442,
+        quality: 9
+    },
+    castingRod121: {
+        name: "Legend CF77H",
+        strength: 42,
+        price: 5383,
+        quality: 9
+    },
+    castingRod122: {
+        name: "Advent CST-F66L",
+        strength: 23.1,
+        price: 4383,
+        quality: 9
+    },
+    castingRod123: {
+        name: "Advent CST-F66ML",
+        strength: 31.3,
+        price: 3550,
+        quality: 9
+    },
+    castingRod124: {
+        name: "Advent CST-F70MH",
+        strength: 32,
+        price: 2499,
+        quality: 9
+    },
+    castingRod125: {
+        name: "Advent CST-F70H",
+        strength: 45,
+        price: 4299,
+        quality: 9
+    },
+    castingRod126: {
+        name: "Advent CST-F70HH",
+        strength: 50,
+        price: 4605,
+        quality: 9
+    },
+    castingRod127: {
+        name: "Advent CST-F70HHH",
+        strength: 53,
+        price: 4709,
+        quality: 9
+    },
+    castingRod128: {
+        name: "Advent CST-F86HH",
+        strength: 50,
+        price: 4813,
+        quality: 9
+    },
+    castingRod129: {
+        name: "Advent CST-F93MH",
+        strength: 50,
+        price: 4860,
+        quality: 9
+    },
+    castingRod130: {
+        name: "Advent CST-F96H",
+        strength: 55,
+        price: 4929,
+        quality: 9
+    },
+    castingRod131: {
+        name: "Advent CST-F100HHH",
+        strength: 57,
+        price: 4995,
+        quality: 9
+    },
+    castingRod132: {
+        name: "Rocket CM77M",
+        strength: 78.6,
+        price: 6299,
+        quality: 9
+    },
+    castingRod133: {
+        name: "Rocket CM88MH",
+        strength: 84,
+        price: 6799,
+        quality: 9
+    },
+    castingRod134: {
+        name: "Rocket CM88H",
+        strength: 86.2,
+        price: 6999,
+        quality: 9
+    },
+    castingRod135: {
+        name: "Rocket CM88XH",
+        strength: 89.9,
+        price: 7299,
+        quality: 9
+    },
+    castingRod136: {
+        name: "Black Edition CST CSF60MH",
+        strength: 45,
+        price: 6961,
+        quality: 10
+    },
+    castingRod137: {
+        name: "Black Edition CST CSXF60H",
+        strength: 43.7,
+        price: 6991,
+        quality: 10
+    },
+    castingRod138: {
+        name: "Black Edition CST CSF68M",
+        strength: 45.7,
+        price: 7276,
+        quality: 10
+    },
+    castingRod139: {
+        name: "Black Edition CST CSM68MH",
+        strength: 50.8,
+        price: 7175,
+        quality: 10
+    },
+    castingRod140: {
+        name: "Black Edition CST CSXF68M",
+        strength: 45.7,
+        price: 7199,
+        quality: 10
+    },
+    castingRod141: {
+        name: "Black Edition CST CSF68XH",
+        strength: 51.3,
+        price: 7598,
+        quality: 10
+    },
+    castingRod142: {
+        name: "Black Edition CST CSF78MH",
+        strength: 45,
+        price: 7790,
+        quality: 10
+    },
+    castingRod143: {
+        name: "Vexillar CST-F66L",
+        strength: 17.1,
+        price: 9118,
+        quality: 10
+    },
+    castingRod144: {
+        name: "Vexillar CST-F66MH",
+        strength: 40,
+        price: 9118,
+        quality: 10
+    },
+    castingRod145: {
+        name: "Vexillar CST-F70UL",
+        strength: 11.5,
+        price: 9118,
+        quality: 10
+    },
+    castingRod146: {
+        name: "Vexillar CST-F70H",
+        strength: 42,
+        price: 9118,
+        quality: 10
+    },
+    castingRod147: {
+        name: "Aquilon CST-M68ULL",
+        strength: 12,
+        price: 11563,
+        quality: 10
+    },
+    castingRod148: {
+        name: "Aquilon CST-M70UL",
+        strength: 13,
+        price: 12806,
+        quality: 10
+    },
+    castingRod149: {
+        name: "Aquilon CST-M71L",
+        strength: 20,
+        price: 11563,
+        quality: 10
+    },
+    castingRod150: {
+        name: "Trout Master CST-M60L",
+        strength: 21,
+        price: 12560,
+        quality: 10
+    },
+    castingRod151: {
+        name: "Trout Master CST-M68L",
+        strength: 25,
+        price: 13310,
+        quality: 10
+    },
+    castingRod152: {
+        name: "Trout Master CST-M71ML",
+        strength: 50,
+        price: 13938,
+        quality: 10
+    },
+    castingRod153: {
+        name: "Trout Master CST-M82M",
+        strength: 80,
+        price: 14442,
+        quality: 10
+    },
+    castingRod154: {
+        name: "Trout Master CST-M88MH",
+        strength: 100,
+        price: 16221,
+        quality: 10
+    },
+    castingRod155: {
+        name: "Ultima CST-M60UL",
+        strength: 14,
+        price: 17774,
+        quality: 10
+    },
+    castingRod156: {
+        name: "Ultima CST-M61L",
+        strength: 36,
+        price: 18974,
+        quality: 10
+    },
+    castingRod157: {
+        name: "Ultima CST-M68ML",
+        strength: 60,
+        price: 17774,
+        quality: 10
+    },
+    castingRod158: {
+        name: "Ultima CST-M75ML",
+        strength: 62,
+        price: 18808,
+        quality: 10
+    },
+    castingRod159: {
+        name: "Ultima CST-M77M",
+        strength: 106,
+        price: 19198,
+        quality: 10
+    },
+    castingRod160: {
+        name: "Ultima CST-M87H",
+        strength: 125,
+        price: 21803,
+        quality: 10
+    },
+    castingRod161: {
+        name: "Ultima CST-M88HH",
+        strength: 136,
+        price: 22958,
+        quality: 10
+    },
+    castingRod162: {
+        name: "Ultima CST-M100HH",
+        strength: 142,
+        price: 24862,
+        quality: 10
+    }
+};
+const jerkRods = {
+    jerkRod1: {
+        name: "Heavy Jerk C70XH",
+        strength: 15.4,
+        price: 372,
+        quality: 3
+    },
+    jerkRod2: {
+        name: "Heavy Jerk C80XH",
+        strength: 13.1,
+        price: 398,
+        quality: 3
+    },
+    jerkRod3: {
+        name: "Super Duty Jerk JR60XH",
+        strength: 27.7,
+        price: 895,
+        quality: 4
+    },
+    jerkRod4: {
+        name: "Super Duty Jerk JR68XH",
+        strength: 28.5,
+        price: 938,
+        quality: 4
+    },
+    jerkRod5: {
+        name: "Fortuna Jerk J60H",
+        strength: 23.9,
+        price: 1137,
+        quality: 5
+    },
+    jerkRod6: {
+        name: "Fortuna Jerk J60XH",
+        strength: 30.5,
+        price: 1245,
+        quality: 5
+    },
+    jerkRod7: {
+        name: "Karelia Jerk JXF66H",
+        strength: 32.1,
+        price: 1372,
+        quality: 5
+    },
+    jerkRod8: {
+        name: "Karelia Jerk JXF70XH",
+        strength: 34.1,
+        price: 1394,
+        quality: 5
+    },
+    jerkRod9: {
+        name: "Mechta JXF70XH",
+        strength: 23,
+        price: 739,
+        quality: 6
+    },
+    jerkRod10: {
+        name: "Model One Jerk J60H",
+        strength: 35,
+        price: 1576,
+        quality: 7
+    },
+    jerkRod11: {
+        name: "Model One Jerk J60XH",
+        strength: 39.4,
+        price: 1576,
+        quality: 7
+    },
+    jerkRod12: {
+        name: "Model One Jerk J68XH",
+        strength: 40.1,
+        price: 1634,
+        quality: 7
+    },
+    jerkRod13: {
+        name: "Versus JF70MH",
+        strength: 38,
+        price: 3029,
+        quality: 8
+    },
+    jerkRod14: {
+        name: "Versus JF70H",
+        strength: 39.5,
+        price: 3029,
+        quality: 8
+    },
+    jerkRod15: {
+        name: "Versus JF77XH",
+        strength: 40.5,
+        price: 3142,
+        quality: 8
+    },
+    jerkRod16: {
+        name: "Ethnic Jerk JF66H",
+        strength: 43.1,
+        price: 2417,
+        quality: 8
+    },
+    jerkRod17: {
+        name: "Ethnic Jerk JXF70H",
+        strength: 44.3,
+        price: 2473,
+        quality: 8
+    },
+    jerkRod18: {
+        name: "Ethnic Jerk JXF70XH",
+        strength: 45.2,
+        price: 2528,
+        quality: 8
+    },
+    jerkRod19: {
+        name: "Legend JXF70H",
+        strength: 46,
+        price: 5383,
+        quality: 9
+    },
+    jerkRod20: {
+        name: "Legend JXF70XH",
+        strength: 49.3,
+        price: 5383,
+        quality: 9
+    },
+    jerkRod21: {
+        name: "Advent J-F68H",
+        strength: 50,
+        price: 7804,
+        quality: 9
+    },
+    jerkRod22: {
+        name: "Advent J-F68HH",
+        strength: 52,
+        price: 7924,
+        quality: 9
+    },
+    jerkRod23: {
+        name: "Advent J-F70HHH",
+        strength: 54,
+        price: 8164,
+        quality: 9
+    },
+    jerkRod24: {
+        name: "Barracuda JB JSF60MH",
+        strength: 60.8,
+        price: 5431,
+        quality: 9
+    },
+    jerkRod25: {
+        name: "Barracuda JB JSF68H",
+        strength: 61.9,
+        price: 5899,
+        quality: 9
+    },
+    jerkRod26: {
+        name: "Barracuda JB JSF68XH",
+        strength: 62.4,
+        price: 5899,
+        quality: 9
+    },
+    jerkRod27: {
+        name: "Muskie Strike JSF60H",
+        strength: 49.7,
+        price: 7783,
+        quality: 10
+    },
+    jerkRod28: {
+        name: "Muskie Strike JSF60XH",
+        strength: 54.1,
+        price: 7783,
+        quality: 10
+    },
+    jerkRod29: {
+        name: "Muskie Strike JSXF68XH",
+        strength: 48.2,
+        price: 8143,
+        quality: 10
+    },
+    jerkRod30: {
+        name: "Ultima J-F68MH",
+        strength: 72,
+        price: 17774,
+        quality: 10
+    },
+    jerkRod31: {
+        name: "Ultima J-F70H",
+        strength: 77,
+        price: 18549,
+        quality: 10
+    },
+    jerkRod32: {
+        name: "Ultima J-F71HH",
+        strength: 84,
+        price: 19197,
+        quality: 10
+    },
+    jerkRod33: {
+        name: "Ultima J-F72HHH",
+        strength: 88,
+        price: 20110,
+        quality: 10
+    }
+};
+const feederRods = {
+    feederRod1: {
+        name: "Sorento FD100",
+        strength: 4.6,
+        price: 38,
+        quality: 2
+    },
+    feederRod2: {
+        name: "Sorento FD120",
+        strength: 4.6,
+        price: 40,
+        quality: 2
+    },
+    feederRod3: {
+        name: "Sorento FD130",
+        strength: 4.6,
+        price: 42,
+        quality: 2
+    },
+    feederRod4: {
+        name: "Comfort FD330",
+        strength: 6,
+        price: 80,
+        quality: 3
+    },
+    feederRod5: {
+        name: "Comfort FD360",
+        strength: 6,
+        price: 84,
+        quality: 3
+    },
+    feederRod6: {
+        name: "Comfort FD390",
+        strength: 6,
+        price: 89,
+        quality: 3
+    },
+    feederRod7: {
+        name: "Asteria FD110",
+        strength: 7.8,
+        price: 139,
+        quality: 3
+    },
+    feederRod8: {
+        name: "Asteria FD130",
+        strength: 7.8,
+        price: 149,
+        quality: 3
+    },
+    feederRod9: {
+        name: "Palmar FD120",
+        strength: 12.5,
+        price: 248,
+        quality: 4
+    },
+    feederRod10: {
+        name: "Palmar FD150",
+        strength: 12.5,
+        price: 263,
+        quality: 4
+    },
+    feederRod11: {
+        name: "Fantazia FD350",
+        strength: 14,
+        price: 299,
+        quality: 5
+    },
+    feederRod12: {
+        name: "Fantazia FD370",
+        strength: 14,
+        price: 309,
+        quality: 5
+    },
+    feederRod13: {
+        name: "Fantazia FD390",
+        strength: 14,
+        price: 319,
+        quality: 5
+    },
+    feederRod14: {
+        name: "Fantazia FD410",
+        strength: 14,
+        price: 329,
+        quality: 5
+    },
+    feederRod15: {
+        name: "Persey FD110",
+        strength: 16,
+        price: 380,
+        quality: 5
+    },
+    feederRod16: {
+        name: "Persey FD140",
+        strength: 16,
+        price: 398,
+        quality: 5
+    },
+    feederRod17: {
+        name: "Fortuna Feeder FD390",
+        strength: 17.7,
+        price: 449,
+        quality: 5
+    },
+    feederRod18: {
+        name: "Fortuna Feeder FD420",
+        strength: 19,
+        price: 478,
+        quality: 5
+    },
+    feederRod19: {
+        name: "Impuls FD390",
+        strength: 21,
+        price: 599,
+        quality: 6
+    },
+    feederRod20: {
+        name: "Impuls FD420",
+        strength: 21,
+        price: 619,
+        quality: 6
+    },
+    feederRod21: {
+        name: "Impuls FD450",
+        strength: 21,
+        price: 639,
+        quality: 6
+    },
+    feederRod22: {
+        name: "Sentense FD340MH",
+        strength: 24.7,
+        price: 757,
+        quality: 6
+    },
+    feederRod23: {
+        name: "Model Two FD360M",
+        strength: 23.9,
+        price: 835,
+        quality: 7
+    },
+    feederRod24: {
+        name: "Model Two FD360MH",
+        strength: 25.9,
+        price: 868,
+        quality: 7
+    },
+    feederRod25: {
+        name: "Model Two FD390XH",
+        strength: 26,
+        price: 884,
+        quality: 7
+    },
+    feederRod26: {
+        name: "Model Two FD420H",
+        strength: 26.2,
+        price: 918,
+        quality: 7
+    },
+    feederRod27: {
+        name: "Mechta FD360",
+        strength: 25,
+        price: 799,
+        quality: 7
+    },
+    feederRod28: {
+        name: "Mechta FD390",
+        strength: 25,
+        price: 819,
+        quality: 7
+    },
+    feederRod29: {
+        name: "Mechta FD420",
+        strength: 25,
+        price: 839,
+        quality: 7
+    },
+    feederRod30: {
+        name: "Mechta FD440",
+        strength: 25,
+        price: 849,
+        quality: 7
+    },
+    feederRod31: {
+        name: "Model One FD360M",
+        strength: 27.5,
+        price: 1299,
+        quality: 8
+    },
+    feederRod32: {
+        name: "Model One FD390M",
+        strength: 27.9,
+        price: 1343,
+        quality: 8
+    },
+    feederRod33: {
+        name: "Model One FD420H",
+        strength: 29.3,
+        price: 1390,
+        quality: 8
+    },
+    feederRod34: {
+        name: "Model One FD450XH",
+        strength: 29.7,
+        price: 1459,
+        quality: 8
+    },
+    feederRod35: {
+        name: "Wingate FF110H",
+        strength: 32.3,
+        price: 1911,
+        quality: 8
+    },
+    feederRod36: {
+        name: "Wingate FF120H",
+        strength: 33,
+        price: 1965,
+        quality: 8
+    },
+    feederRod37: {
+        name: "Wingate FF130XH",
+        strength: 33.7,
+        price: 2031,
+        quality: 8
+    },
+    feederRod38: {
+        name: "Coldstream FM120MH",
+        strength: 33.3,
+        price: 2454,
+        quality: 8
+    },
+    feederRod39: {
+        name: "Coldstream FM130H",
+        strength: 35.8,
+        price: 2554,
+        quality: 8
+    },
+    feederRod40: {
+        name: "Coldstream FM140H",
+        strength: 35.8,
+        price: 2733,
+        quality: 8
+    },
+    feederRod41: {
+        name: "Bunessan FF120H",
+        strength: 14.8,
+        price: 3013,
+        quality: 9
+    },
+    feederRod42: {
+        name: "Bunessan FXF120XH",
+        strength: 14,
+        price: 3013,
+        quality: 9
+    },
+    feederRod43: {
+        name: "Bunessan FF130H",
+        strength: 16.2,
+        price: 3126,
+        quality: 9
+    },
+    feederRod44: {
+        name: "Bunessan FF140H",
+        strength: 14.8,
+        price: 3194,
+        quality: 9
+    },
+    feederRod45: {
+        name: "Blackwood FSL130H",
+        strength: 24.1,
+        price: 1810,
+        quality: 9
+    },
+    feederRod46: {
+        name: "Blackwood FSL140XH",
+        strength: 25.5,
+        price: 2020,
+        quality: 9
+    },
+    feederRod47: {
+        name: "Royal FM120H",
+        strength: 33.2,
+        price: 5302,
+        quality: 9
+    },
+    feederRod48: {
+        name: "Royal FM130XH",
+        strength: 33.8,
+        price: 5547,
+        quality: 9
+    },
+    feederRod49: {
+        name: "Royal FM130XXH",
+        strength: 30.7,
+        price: 5664,
+        quality: 9
+    }
+};
+const pickerRods = {
+    pickerRod1: {
+        name: "Impuls P300",
+        strength: 10,
+        price: 659,
+        quality: 1
+    },
+    pickerRod2: {
+        name: "Palmar PCK78",
+        strength: 6.2,
+        price: 268,
+        quality: 3
+    },
+    pickerRod3: {
+        name: "Palmar PCK88",
+        strength: 6.2,
+        price: 288,
+        quality: 3
+    },
+    pickerRod4: {
+        name: "Persey PCK98",
+        strength: 8.8,
+        price: 485,
+        quality: 4
+    },
+    pickerRod5: {
+        name: "Fortuna Picker P300-MH",
+        strength: 9.9,
+        price: 389,
+        quality: 4
+    },
+    pickerRod6: {
+        name: "Model Two Picker 270M",
+        strength: 6.2,
+        price: 819,
+        quality: 6
+    },
+    pickerRod7: {
+        name: "Model Two Picker 300MH",
+        strength: 11.1,
+        price: 899,
+        quality: 6
+    },
+    pickerRod8: {
+        name: "Mechta P240",
+        strength: 14,
+        price: 800,
+        quality: 7
+    },
+    pickerRod9: {
+        name: "Mechta P270",
+        strength: 15,
+        price: 1000,
+        quality: 7
+    },
+    pickerRod10: {
+        name: "Mechta P300",
+        strength: 16,
+        price: 1100,
+        quality: 7
+    },
+    pickerRod11: {
+        name: "Model One Picker 240M",
+        strength: 15.1,
+        price: 999,
+        quality: 7
+    },
+    pickerRod12: {
+        name: "Model One Picker 270M",
+        strength: 22,
+        price: 1599,
+        quality: 7
+    },
+    pickerRod13: {
+        name: "Model One Picker 300MH",
+        strength: 25.9,
+        price: 1894,
+        quality: 7
+    },
+    pickerRod14: {
+        name: "Wingate Picker PF98H",
+        strength: 26,
+        price: 2099,
+        quality: 7
+    },
+    pickerRod15: {
+        name: "Bunessan Picker PF88H",
+        strength: 10.4,
+        price: 2800,
+        quality: 8
+    },
+    pickerRod16: {
+        name: "Bunessan Picker PXF88XH",
+        strength: 13.1,
+        price: 2800,
+        quality: 8
+    },
+    pickerRod17: {
+        name: "Bunessan Picker PF98XH",
+        strength: 14.9,
+        price: 3650,
+        quality: 8
+    },
+    pickerRod18: {
+        name: "Blackwood Picker PSL98MH",
+        strength: 18,
+        price: 2198,
+        quality: 9
+    },
+    pickerRod19: {
+        name: "Royal Picker PM88MH",
+        strength: 29.5,
+        price: 4966,
+        quality: 9
+    },
+    pickerRod20: {
+        name: "Royal Picker PF98H",
+        strength: 29.5,
+        price: 5024,
+        quality: 9
+    },
+    pickerRod21: {
+        name: "Royal Picker PM98H",
+        strength: 29.4,
+        price: 5163,
+        quality: 9
+    },
+    pickerRod22: {
+        name: "Sage Picker M88M",
+        strength: 27.1,
+        price: 4989,
+        quality: 10
+    },
+    pickerRod23: {
+        name: "Sage Picker M98M",
+        strength: 28.1,
+        price: 5489,
+        quality: 10
+    },
+    pickerRod24: {
+        name: "Sage Picker M98MH",
+        strength: 31.3,
+        price: 5989,
+        quality: 10
+    },
+    pickerRod25: {
+        name: "Legacy Picker F98M",
+        strength: 32.4,
+        price: 14899,
+        quality: 10
+    },
+    pickerRod26: {
+        name: "Legacy Picker M98M",
+        strength: 32.3,
+        price: 14898,
+        quality: 10
+    },
+    pickerRod27: {
+        name: "Legacy Picker F98MH",
+        strength: 35,
+        price: 17898,
+        quality: 10
+    }
+};
+const carpRods = {
+    carpRod1: {
+        name: "Persey CP110",
+        strength: 20.1,
+        price: 716,
+        quality: 3
+    },
+    carpRod2: {
+        name: "Persey CP120",
+        strength: 20.1,
+        price: 755,
+        quality: 3
+    },
+    carpRod3: {
+        name: "Classic Model Carp 360H",
+        strength: 26,
+        price: 995,
+        quality: 5
+    },
+    carpRod4: {
+        name: "Classic Model Carp 360XH",
+        strength: 27.4,
+        price: 995,
+        quality: 5
+    },
+    carpRod5: {
+        name: "Mechta Carp 340",
+        strength: 30,
+        price: 1318,
+        quality: 7
+    },
+    carpRod6: {
+        name: "Mechta Carp 360",
+        strength: 33,
+        price: 1372,
+        quality: 7
+    },
+    carpRod7: {
+        name: "Mechta Carp 380",
+        strength: 35,
+        price: 1405,
+        quality: 7
+    },
+    carpRod8: {
+        name: "Fortuna Carp 360M",
+        strength: 31.2,
+        price: 1680,
+        quality: 7
+    },
+    carpRod9: {
+        name: "Fortuna Carp 360H",
+        strength: 35.5,
+        price: 1680,
+        quality: 7
+    },
+    carpRod10: {
+        name: "Fortuna Carp 360XH",
+        strength: 39,
+        price: 1680,
+        quality: 7
+    },
+    carpRod11: {
+        name: "Native 12-2.75",
+        strength: 50,
+        price: 7889,
+        quality: 9
+    },
+    carpRod12: {
+        name: "Native 12-3.50",
+        strength: 52,
+        price: 7996,
+        quality: 9
+    },
+    carpRod13: {
+        name: "Native 13-3.50",
+        strength: 52,
+        price: 8756,
+        quality: 9
+    },
+    carpRod14: {
+        name: "Carp Dominator CSL118H",
+        strength: 49.6,
+        price: 7904,
+        quality: 10
+    },
+    carpRod15: {
+        name: "Carp Dominator CF118XH",
+        strength: 45.9,
+        price: 7664,
+        quality: 10
+    },
+    carpRod16: {
+        name: "Carp Dominator CM128XH",
+        strength: 51,
+        price: 8594,
+        quality: 10
+    },
+    carpRod17: {
+        name: "Carp Dominator CF128XH",
+        strength: 47.5,
+        price: 8193,
+        quality: 10
+    },
+    carpRod18: {
+        name: "Sage 12-2.75",
+        strength: 56,
+        price: 9478,
+        quality: 10
+    },
+    carpRod19: {
+        name: "Sage 12-3.00",
+        strength: 58,
+        price: 9790,
+        quality: 10
+    },
+    carpRod20: {
+        name: "Sage 12-3.25",
+        strength: 59,
+        price: 9895,
+        quality: 10
+    },
+    carpRod21: {
+        name: "Sage 12-3.50",
+        strength: 60,
+        price: 9965,
+        quality: 10
+    },
+    carpRod22: {
+        name: "Sage 13-3.00",
+        strength: 58,
+        price: 10090,
+        quality: 10
+    },
+    carpRod23: {
+        name: "Sage 13-3.50",
+        strength: 60,
+        price: 10163,
+        quality: 10
+    },
+    carpRod24: {
+        name: "Atlas 12-4.00",
+        strength: 57,
+        price: 9733,
+        quality: 10
+    },
+    carpRod25: {
+        name: "Atlas 12-4.50",
+        strength: 59,
+        price: 9991,
+        quality: 10
+    },
+    carpRod26: {
+        name: "Atlas 13-5.00",
+        strength: 62,
+        price: 10500,
+        quality: 10
+    },
+    carpRod27: {
+        name: "Avalon 12-2.75",
+        strength: 62,
+        price: 10950,
+        quality: 10
+    },
+    carpRod28: {
+        name: "Avalon 12-3.25",
+        strength: 64.1,
+        price: 11196,
+        quality: 10
+    },
+    carpRod29: {
+        name: "Avalon 12-3.50",
+        strength: 65.2,
+        price: 11890,
+        quality: 10
+    },
+    carpRod30: {
+        name: "Avalon 13-3.75",
+        strength: 66,
+        price: 12267,
+        quality: 10
+    },
+    carpRod31: {
+        name: "Legacy 12-2.50",
+        strength: 70.2,
+        price: 15329,
+        quality: 10
+    },
+    carpRod32: {
+        name: "Legacy 12-3.00",
+        strength: 72.1,
+        price: 15838,
+        quality: 10
+    },
+    carpRod33: {
+        name: "Legacy 12-3.25",
+        strength: 73.3,
+        price: 15978,
+        quality: 10
+    },
+    carpRod34: {
+        name: "Legacy 12-3.50",
+        strength: 75,
+        price: 16493,
+        quality: 10
+    },
+    carpRod35: {
+        name: "Legacy 12-3.75",
+        strength: 76,
+        price: 16961,
+        quality: 10
+    },
+    carpRod36: {
+        name: "Legacy 13-4.00",
+        strength: 78,
+        price: 17473,
+        quality: 10
+    },
+    carpRod37: {
+        name: "Legacy 13-4.50",
+        strength: 80.2,
+        price: 18490,
+        quality: 10
+    },
+    carpRod38: {
+        name: "Legacy Ti 12-2.50",
+        strength: 70.2,
+        price: 16604,
+        quality: 10
+    },
+    carpRod39: {
+        name: "Legacy Ti 12-3.00",
+        strength: 72.1,
+        price: 17117,
+        quality: 10
+    },
+    carpRod40: {
+        name: "Legacy Ti 12-3.25",
+        strength: 73.3,
+        price: 17259,
+        quality: 10
+    },
+    carpRod41: {
+        name: "Legacy Ti 12-3.50",
+        strength: 75,
+        price: 17796,
+        quality: 10
+    },
+    carpRod42: {
+        name: "Legacy Ti 12-3.75",
+        strength: 76,
+        price: 18385,
+        quality: 10
+    },
+    carpRod43: {
+        name: "Legacy Ti 13-4.00",
+        strength: 78,
+        price: 18961,
+        quality: 10
+    },
+    carpRod44: {
+        name: "Legacy Ti 13-4.50",
+        strength: 80.2,
+        price: 19989,
+        quality: 10
+    }
+};
+const pilkerRods = {
+    pilkerRod1: {
+        name: "Saltmaster - Fjord Ultra 88",
+        strength: 25.4,
+        price: 2400,
+        quality: 8
+    },
+    pilkerRod2: {
+        name: "Saltmaster - Fjord 88",
+        strength: 28.5,
+        price: 2600,
+        quality: 8
+    },
+    pilkerRod3: {
+        name: "Saltmaster - Offshore 88",
+        strength: 38.2,
+        price: 3499,
+        quality: 8
+    },
+    pilkerRod4: {
+        name: "Saltmaster - Inshore 92",
+        strength: 33,
+        price: 2899,
+        quality: 8
+    },
+    pilkerRod5: {
+        name: "7 Seas - 80-30140",
+        strength: 36.3,
+        price: 3899,
+        quality: 9
+    },
+    pilkerRod6: {
+        name: "7 Seas - 80-120420",
+        strength: 52.3,
+        price: 4598,
+        quality: 9
+    },
+    pilkerRod7: {
+        name: "7 Seas - 88-50190",
+        strength: 41.3,
+        price: 4199,
+        quality: 9
+    },
+    pilkerRod8: {
+        name: "7 Seas - 88-120420",
+        strength: 54,
+        price: 4898,
+        quality: 9
+    },
+    pilkerRod9: {
+        name: "Poseidon Jig & Pilker 82-30130",
+        strength: 45.5,
+        price: 7499,
+        quality: 10
+    },
+    pilkerRod10: {
+        name: "Poseidon Jig & Pilker 92-40190",
+        strength: 56.4,
+        price: 8397,
+        quality: 10
+    },
+    pilkerRod11: {
+        name: "Poseidon Jig & Pilker 92-80210",
+        strength: 75.3,
+        price: 9898,
+        quality: 10
+    },
+    pilkerRod12: {
+        name: "Ocean Queen 86-50150",
+        strength: 48.2,
+        price: 5398,
+        quality: 10
+    },
+    pilkerRod13: {
+        name: "Ocean Queen 86-100300",
+        strength: 61.1,
+        price: 6198,
+        quality: 10
+    },
+    pilkerRod14: {
+        name: "Ocean Queen 86-160420",
+        strength: 68.2,
+        price: 6696,
+        quality: 10
+    },
+    pilkerRod15: {
+        name: "Poseidon Sensi 80-20130",
+        strength: 49.2,
+        price: 8899,
+        quality: 10
+    },
+    pilkerRod16: {
+        name: "Poseidon Sensi 88-50190",
+        strength: 63.7,
+        price: 9498,
+        quality: 10
+    },
+    pilkerRod17: {
+        name: "Poseidon Mega Pirk 90340",
+        strength: 88.1,
+        price: 16900,
+        quality: 10
+    },
+    pilkerRod18: {
+        name: "Poseidon Mega Jig 60260",
+        strength: 88.4,
+        price: 16900,
+        quality: 10
+    }
+};
+const seaRods = {
+    seaRod1: {
+        name: "Fjordmaster 70-012",
+        strength: 40.2,
+        price: 3899,
+        quality: 8
+    },
+    seaRod2: {
+        name: "Fjordmaster 70-020",
+        strength: 43.6,
+        price: 4194,
+        quality: 8
+    },
+    seaRod3: {
+        name: "Fjordmaster 70-030",
+        strength: 46.1,
+        price: 4499,
+        quality: 8
+    },
+    seaRod4: {
+        name: "Fjordmaster 70-050",
+        strength: 48,
+        price: 4699,
+        quality: 8
+    },
+    seaRod5: {
+        name: "Dual Strike 60-040",
+        strength: 59.2,
+        price: 6299,
+        quality: 9
+    },
+    seaRod6: {
+        name: "Dual Strike 70-015",
+        strength: 55,
+        price: 5898,
+        quality: 9
+    },
+    seaRod7: {
+        name: "Dual Strike 70-025",
+        strength: 57,
+        price: 6199,
+        quality: 9
+    },
+    seaRod8: {
+        name: "Dual Strike 70-040",
+        strength: 62,
+        price: 6799,
+        quality: 9
+    },
+    seaRod9: {
+        name: "Coast Runner 70-025",
+        strength: 76,
+        price: 7897,
+        quality: 9
+    },
+    seaRod10: {
+        name: "Coast Runner 70-040",
+        strength: 78.3,
+        price: 8297,
+        quality: 9
+    },
+    seaRod11: {
+        name: "Coast Runner 70-050",
+        strength: 83.1,
+        price: 8699,
+        quality: 9
+    },
+    seaRod12: {
+        name: "Nordmaster 70-030",
+        strength: 95,
+        price: 9797,
+        quality: 9
+    },
+    seaRod13: {
+        name: "Tristar Deep Jig 68-020",
+        strength: 107.5,
+        price: 12399,
+        quality: 9
+    },
+    seaRod14: {
+        name: "Tristar Deep Jig 68-030",
+        strength: 115.4,
+        price: 13197,
+        quality: 9
+    },
+    seaRod15: {
+        name: "Tristar Deep Jig 68-050",
+        strength: 128.2,
+        price: 14897,
+        quality: 9
+    },
+    seaRod16: {
+        name: "Tristar Deep Jig 78-030",
+        strength: 119.3,
+        price: 13897,
+        quality: 9
+    },
+    seaRod17: {
+        name: "Tristar Deep Jig 78-050",
+        strength: 135.6,
+        price: 15898,
+        quality: 9
+    },
+    seaRod18: {
+        name: "Arctic Special 70-030",
+        strength: 125.5,
+        price: 16292,
+        quality: 9
+    },
+    seaRod19: {
+        name: "Deep Attack 70-095",
+        strength: 159.1,
+        price: 19491,
+        quality: 9
+    },
+    seaRod20: {
+        name: "Storm Rider 70-030",
+        strength: 147.8,
+        price: 19797,
+        quality: 10
+    },
+    seaRod21: {
+        name: "Storm Rider 70-050",
+        strength: 155.6,
+        price: 20396,
+        quality: 10
+    },
+    seaRod22: {
+        name: "Polar Hunter 70-030",
+        strength: 163,
+        price: 23696,
+        quality: 10
+    },
+    seaRod23: {
+        name: "Poseidon 70-050",
+        strength: 188.3,
+        price: 27897,
+        quality: 10
+    },
+    seaRod24: {
+        name: "Poseidon 70-080",
+        strength: 198.4,
+        price: 29497,
+        quality: 10
+    },
+    seaRod25: {
+        name: "Poseidon 70-100",
+        strength: 214.7,
+        price: 33297,
+        quality: 10
+    },
+    seaRod26: {
+        name: "Poseidon 80-050",
+        strength: 193.1,
+        price: 29799,
+        quality: 10
+    },
+    seaRod27: {
+        name: "Poseidon 80-080",
+        strength: 206.5,
+        price: 31897,
+        quality: 10
+    },
+    seaRod28: {
+        name: "Poseidon 80-100",
+        strength: 218.4,
+        price: 36897,
+        quality: 10
+    },
+    seaRod29: {
+        name: "Poseidon Ultra 70-100",
+        strength: 232.2,
+        price: 43999,
+        quality: 10
+    },
+    seaRod30: {
+        name: "Poseidon Ultra 80-100",
+        strength: 238.3,
+        price: 47999,
+        quality: 10
+    }
+};
+const spinningReels = {
+    spinningReel1: {
+        name: "Spark 2 2000S",
+        strength: 3.2,
+        mechanism: 3.4,
+        price: 9,
+        quality: 1
+    },
+    spinningReel2: {
+        name: "Spark 2 3000S",
+        strength: 3.2,
+        mechanism: 3.77,
+        price: 10,
+        quality: 1
+    },
+    spinningReel3: {
+        name: "Libra 2 2000S",
+        strength: 3.3,
+        mechanism: 4.1,
+        price: 18,
+        quality: 2
+    },
+    spinningReel4: {
+        name: "Libra 2 3000S",
+        strength: 3.3,
+        mechanism: 4.5,
+        price: 18,
+        quality: 2
+    },
+    spinningReel5: {
+        name: "Lacerti NG 4000",
+        strength: 3.8,
+        mechanism: 5.39,
+        price: 59,
+        quality: 2
+    },
+    spinningReel6: {
+        name: "Lagoon 1000S",
+        strength: 1.8,
+        mechanism: 3.8,
+        price: 90,
+        quality: 3
+    },
+    spinningReel7: {
+        name: "Lagoon 3000S",
+        strength: 5.4,
+        mechanism: 5.44,
+        price: 178,
+        quality: 3
+    },
+    spinningReel8: {
+        name: "Hydra Smart 2 25S",
+        strength: 3.4,
+        mechanism: 5.4,
+        price: 59,
+        quality: 3
+    },
+    spinningReel9: {
+        name: "Lagoon-HP 2 2000S",
+        strength: 3.5,
+        mechanism: 5,
+        price: 70,
+        quality: 3
+    },
+    spinningReel10: {
+        name: "Lagoon-HP 2 4000S",
+        strength: 5.4,
+        mechanism: 8.04,
+        price: 229,
+        quality: 3
+    },
+    spinningReel11: {
+        name: "Lacerti-SX NG 4000",
+        strength: 4.2,
+        mechanism: 6.07,
+        price: 118,
+        quality: 3
+    },
+    spinningReel12: {
+        name: "Pride 2000S",
+        strength: 4,
+        mechanism: 4.41,
+        price: 299,
+        quality: 4
+    },
+    spinningReel13: {
+        name: "Pride 4000S",
+        strength: 7.5,
+        mechanism: 9.43,
+        price: 480,
+        quality: 4
+    },
+    spinningReel14: {
+        name: "Pride 6000S",
+        strength: 7.5,
+        mechanism: 17.26,
+        price: 533,
+        quality: 4
+    },
+    spinningReel15: {
+        name: "Adriatica 3000S",
+        strength: 5.4,
+        mechanism: 6.48,
+        price: 249,
+        quality: 4
+    },
+    spinningReel16: {
+        name: "Adriatica 5000S",
+        strength: 7.5,
+        mechanism: 14,
+        price: 450,
+        quality: 4
+    },
+    spinningReel17: {
+        name: "Hydra G2 30s",
+        strength: 5.2,
+        mechanism: 5.88,
+        price: 185,
+        quality: 4
+    },
+    spinningReel18: {
+        name: "Dragon 30s",
+        strength: 5.8,
+        mechanism: 6.72,
+        price: 363,
+        quality: 4
+    },
+    spinningReel19: {
+        name: "Dragon 40s",
+        strength: 5.8,
+        mechanism: 9.02,
+        price: 363,
+        quality: 4
+    },
+    spinningReel20: {
+        name: "Element 1000",
+        strength: 2,
+        mechanism: 4.04,
+        price: 129,
+        quality: 5
+    },
+    spinningReel21: {
+        name: "Element 2000",
+        strength: 3.6,
+        mechanism: 5.79,
+        price: 129,
+        quality: 5
+    },
+    spinningReel22: {
+        name: "Element 3000",
+        strength: 5.4,
+        mechanism: 8.04,
+        price: 249,
+        quality: 5
+    },
+    spinningReel23: {
+        name: "Element 4000",
+        strength: 5.4,
+        mechanism: 9.53,
+        price: 249,
+        quality: 5
+    },
+    spinningReel24: {
+        name: "Pegasus 10s",
+        strength: 2.3,
+        mechanism: 4.97,
+        price: 259,
+        quality: 5
+    },
+    spinningReel25: {
+        name: "Pegasus 30s",
+        strength: 5.8,
+        mechanism: 8.81,
+        price: 399,
+        quality: 5
+    },
+    spinningReel26: {
+        name: "Hercules G2 20s",
+        strength: 3.7,
+        mechanism: 6.94,
+        price: 460,
+        quality: 5
+    },
+    spinningReel27: {
+        name: "Hercules G2 40s",
+        strength: 6.8,
+        mechanism: 10.15,
+        price: 460,
+        quality: 5
+    },
+    spinningReel28: {
+        name: "Element PRO 1000",
+        strength: 2,
+        mechanism: 4.92,
+        price: 152,
+        quality: 6
+    },
+    spinningReel29: {
+        name: "Element PRO 2000",
+        strength: 3.6,
+        mechanism: 6.03,
+        price: 192,
+        quality: 6
+    },
+    spinningReel30: {
+        name: "Element PRO 3000",
+        strength: 5.4,
+        mechanism: 9.93,
+        price: 350,
+        quality: 6
+    },
+    spinningReel31: {
+        name: "Element PRO 4000",
+        strength: 6.4,
+        mechanism: 11.05,
+        price: 380,
+        quality: 6
+    },
+    spinningReel32: {
+        name: "EasySpin 1000s",
+        strength: 3.2,
+        mechanism: 5.12,
+        price: 399,
+        quality: 6
+    },
+    spinningReel33: {
+        name: "Sirius 20s",
+        strength: 3.6,
+        mechanism: 8.15,
+        price: 418,
+        quality: 6
+    },
+    spinningReel34: {
+        name: "Proton 2000",
+        strength: 3.6,
+        mechanism: 9.55,
+        price: 395,
+        quality: 6
+    },
+    spinningReel35: {
+        name: "Proton 4000",
+        strength: 7.2,
+        mechanism: 13.81,
+        price: 529,
+        quality: 6
+    },
+    spinningReel36: {
+        name: "Proton 6000",
+        strength: 8.1,
+        mechanism: 17.26,
+        price: 630,
+        quality: 6
+    },
+    spinningReel37: {
+        name: "Super Cast 6000s",
+        strength: 8.2,
+        mechanism: 15.79,
+        price: 698,
+        quality: 6
+    },
+    spinningReel38: {
+        name: "Sabre 40s",
+        strength: 9,
+        mechanism: 13.02,
+        price: 787,
+        quality: 6
+    },
+    spinningReel39: {
+        name: "Sabre 60s",
+        strength: 9.9,
+        mechanism: 21.68,
+        price: 1160,
+        quality: 6
+    },
+    spinningReel40: {
+        name: "Bird 2 GS 10S",
+        strength: 3.4,
+        mechanism: 5.52,
+        price: 560,
+        quality: 7
+    },
+    spinningReel41: {
+        name: "Bird 2 GS 30S",
+        strength: 8.2,
+        mechanism: 18.5,
+        price: 870,
+        quality: 7
+    },
+    spinningReel42: {
+        name: "Bird 2 20S",
+        strength: 3.6,
+        mechanism: 13.24,
+        price: 799,
+        quality: 7
+    },
+    spinningReel43: {
+        name: "Horizon 2 2000s",
+        strength: 3.8,
+        mechanism: 12.51,
+        price: 688,
+        quality: 7
+    },
+    spinningReel44: {
+        name: "Horizon 2 3000s",
+        strength: 7.7,
+        mechanism: 18.8,
+        price: 749,
+        quality: 7
+    },
+    spinningReel45: {
+        name: "Horizon 2 4000s",
+        strength: 8.2,
+        mechanism: 17.91,
+        price: 769,
+        quality: 7
+    },
+    spinningReel46: {
+        name: "Pulsar 2000",
+        strength: 3.8,
+        mechanism: 11.05,
+        price: 600,
+        quality: 7
+    },
+    spinningReel47: {
+        name: "Pulsar 4000",
+        strength: 8.6,
+        mechanism: 15.21,
+        price: 745,
+        quality: 7
+    },
+    spinningReel48: {
+        name: "Pulsar 6000",
+        strength: 9.5,
+        mechanism: 24.16,
+        price: 1250,
+        quality: 7
+    },
+    spinningReel49: {
+        name: "Meteor 30s",
+        strength: 7.7,
+        mechanism: 15.98,
+        price: 698,
+        quality: 7
+    },
+    spinningReel50: {
+        name: "Titan 8000",
+        strength: 12.7,
+        mechanism: 27.66,
+        price: 1796,
+        quality: 7
+    },
+    spinningReel51: {
+        name: "Alfa 1000",
+        strength: 3.6,
+        mechanism: 5.77,
+        price: 651,
+        quality: 8
+    },
+    spinningReel52: {
+        name: "Alfa 2000",
+        strength: 4,
+        mechanism: 11.87,
+        price: 1051,
+        quality: 8
+    },
+    spinningReel53: {
+        name: "Alfa 4000",
+        strength: 9,
+        mechanism: 16.96,
+        price: 1201,
+        quality: 8
+    },
+    spinningReel54: {
+        name: "Alfa 6000",
+        strength: 13.5,
+        mechanism: 31.56,
+        price: 1888,
+        quality: 8
+    },
+    spinningReel55: {
+        name: "Alfa 8000",
+        strength: 14.5,
+        mechanism: 37.73,
+        price: 2391,
+        quality: 8
+    },
+    spinningReel56: {
+        name: "Bird 2 GSX 10s",
+        strength: 4,
+        mechanism: 5.91,
+        price: 853,
+        quality: 8
+    },
+    spinningReel57: {
+        name: "Bird 2 GSX 20s",
+        strength: 5,
+        mechanism: 13.13,
+        price: 1511,
+        quality: 8
+    },
+    spinningReel58: {
+        name: "Bird 2 GSX 30s",
+        strength: 8.6,
+        mechanism: 16.57,
+        price: 1099,
+        quality: 8
+    },
+    spinningReel59: {
+        name: "Bird 2 GSX 40s",
+        strength: 9.5,
+        mechanism: 17.94,
+        price: 1374,
+        quality: 8
+    },
+    spinningReel60: {
+        name: "Corsair 10S",
+        strength: 4.8,
+        mechanism: 7.32,
+        price: 1499,
+        quality: 8
+    },
+    spinningReel61: {
+        name: "Corsair 20S",
+        strength: 6.1,
+        mechanism: 17.62,
+        price: 2099,
+        quality: 8
+    },
+    spinningReel62: {
+        name: "Corsair 30S",
+        strength: 10.8,
+        mechanism: 22.26,
+        price: 1600,
+        quality: 8
+    },
+    spinningReel63: {
+        name: "Velara 1000",
+        strength: 4.8,
+        mechanism: 7.74,
+        price: 1750,
+        quality: 8
+    },
+    spinningReel64: {
+        name: "Velara 3000",
+        strength: 12.7,
+        mechanism: 30.55,
+        price: 1950,
+        quality: 8
+    },
+    spinningReel65: {
+        name: "Velara 6000",
+        strength: 14.5,
+        mechanism: 38.98,
+        price: 2550,
+        quality: 8
+    },
+    spinningReel66: {
+        name: "Velara 8000",
+        strength: 17.5,
+        mechanism: 41.78,
+        price: 5499,
+        quality: 8
+    },
+    spinningReel67: {
+        name: "Overlord 3 10S",
+        strength: 5,
+        mechanism: 8.51,
+        price: 2500,
+        quality: 8
+    },
+    spinningReel68: {
+        name: "Overlord 3 20S",
+        strength: 6.4,
+        mechanism: 18.66,
+        price: 2800,
+        quality: 8
+    },
+    spinningReel69: {
+        name: "Natora 1000",
+        strength: 5,
+        mechanism: 5.8,
+        price: 1949,
+        quality: 8
+    },
+    spinningReel70: {
+        name: "Natora 2000",
+        strength: 6.3,
+        mechanism: 16.24,
+        price: 2349,
+        quality: 8
+    },
+    spinningReel71: {
+        name: "Natora 3000",
+        strength: 11.3,
+        mechanism: 28.58,
+        price: 2349,
+        quality: 8
+    },
+    spinningReel72: {
+        name: "Natora 4000",
+        strength: 12.7,
+        mechanism: 35.49,
+        price: 2499,
+        quality: 8
+    },
+    spinningReel73: {
+        name: "Natora 6000",
+        strength: 15,
+        mechanism: 37.43,
+        price: 3116,
+        quality: 8
+    },
+    spinningReel74: {
+        name: "Natora 8000",
+        strength: 18.1,
+        mechanism: 43.76,
+        price: 7085,
+        quality: 8
+    },
+    spinningReel75: {
+        name: "Conquest II 2000s",
+        strength: 5.5,
+        mechanism: 13.54,
+        price: 1591,
+        quality: 8
+    },
+    spinningReel76: {
+        name: "Conquest II 4000s",
+        strength: 12.7,
+        mechanism: 29.9,
+        price: 2291,
+        quality: 8
+    },
+    spinningReel77: {
+        name: "Narga 2000",
+        strength: 5.5,
+        mechanism: 16.66,
+        price: 1621,
+        quality: 8
+    },
+    spinningReel78: {
+        name: "Narga 4000",
+        strength: 11.7,
+        mechanism: 27.33,
+        price: 1621,
+        quality: 8
+    },
+    spinningReel79: {
+        name: "Narga 6000",
+        strength: 13.6,
+        mechanism: 35.86,
+        price: 1985,
+        quality: 8
+    },
+    spinningReel80: {
+        name: "Narga 8000",
+        strength: 14.5,
+        mechanism: 42.38,
+        price: 3491,
+        quality: 8
+    },
+    spinningReel81: {
+        name: "Commandor 2 20S",
+        strength: 6,
+        mechanism: 9.7,
+        price: 1981,
+        quality: 8
+    },
+    spinningReel82: {
+        name: "Commandor 2 30S",
+        strength: 10.8,
+        mechanism: 18.6,
+        price: 1499,
+        quality: 8
+    },
+    spinningReel83: {
+        name: "Commandor 2 40S",
+        strength: 12,
+        mechanism: 21.02,
+        price: 1699,
+        quality: 8
+    },
+    spinningReel84: {
+        name: "Commandor 2 60S",
+        strength: 13.4,
+        mechanism: 30.12,
+        price: 1950,
+        quality: 8
+    },
+    spinningReel85: {
+        name: "Gold 30s",
+        strength: 8,
+        mechanism: 16.82,
+        price: 995,
+        quality: 8
+    },
+    spinningReel86: {
+        name: "Gold 60s",
+        strength: 14,
+        mechanism: 28.35,
+        price: 1847,
+        quality: 8
+    },
+    spinningReel87: {
+        name: "Gold 80s",
+        strength: 14,
+        mechanism: 34.58,
+        price: 2186,
+        quality: 8
+    },
+    spinningReel88: {
+        name: "Mosquito 2 3000s",
+        strength: 8.6,
+        mechanism: 17.06,
+        price: 848,
+        quality: 8
+    },
+    spinningReel89: {
+        name: "Commandor GS 40S",
+        strength: 12.7,
+        mechanism: 23.71,
+        price: 2611,
+        quality: 8
+    },
+    spinningReel90: {
+        name: "Commandor GS 60S",
+        strength: 14.5,
+        mechanism: 36.31,
+        price: 3199,
+        quality: 8
+    },
+    spinningReel91: {
+        name: "Everest II 4000s",
+        strength: 13,
+        mechanism: 30.16,
+        price: 2719,
+        quality: 8
+    },
+    spinningReel92: {
+        name: "Everest II 6000s",
+        strength: 16.3,
+        mechanism: 35.16,
+        price: 5081,
+        quality: 8
+    },
+    spinningReel93: {
+        name: "Everest II 8000s",
+        strength: 22,
+        mechanism: 44.62,
+        price: 11321,
+        quality: 8
+    },
+    spinningReel94: {
+        name: "Caliber HSV 80 SLC",
+        strength: 15.4,
+        mechanism: 30.24,
+        price: 2885,
+        quality: 8
+    },
+    spinningReel95: {
+        name: "Tagara II 3000 SHS",
+        strength: 16.3,
+        mechanism: 39.76,
+        price: 4999,
+        quality: 8
+    },
+    spinningReel96: {
+        name: "Tagara II 6000",
+        strength: 18.1,
+        mechanism: 45.89,
+        price: 6300,
+        quality: 8
+    },
+    spinningReel97: {
+        name: "Tagara II 8000",
+        strength: 22.6,
+        mechanism: 57.06,
+        price: 14656,
+        quality: 8
+    },
+    spinningReel98: {
+        name: "Tagara II 10000",
+        strength: 26.3,
+        mechanism: 62.45,
+        price: 21872,
+        quality: 8
+    },
+    spinningReel99: {
+        name: "Caliber 80 SLC",
+        strength: 17.2,
+        mechanism: 37.74,
+        price: 5312,
+        quality: 8
+    },
+    spinningReel100: {
+        name: "Evia 6000",
+        strength: 17.2,
+        mechanism: 38.3,
+        price: 5199,
+        quality: 8
+    },
+    spinningReel101: {
+        name: "Evia 8000",
+        strength: 18.1,
+        mechanism: 41.7,
+        price: 8475,
+        quality: 8
+    },
+    spinningReel102: {
+        name: "Overlord 3B 10S",
+        strength: 5.5,
+        mechanism: 8.49,
+        price: 3000,
+        quality: 9
+    },
+    spinningReel103: {
+        name: "Overlord 3B 20S",
+        strength: 7,
+        mechanism: 19.6,
+        price: 3500,
+        quality: 9
+    },
+    spinningReel104: {
+        name: "Z-Series 2 10S",
+        strength: 6,
+        mechanism: 7.88,
+        price: 3598,
+        quality: 9
+    },
+    spinningReel105: {
+        name: "Z-Series 2 20S",
+        strength: 8.2,
+        mechanism: 16.45,
+        price: 3898,
+        quality: 9
+    },
+    spinningReel106: {
+        name: "Z-Series 2 30S",
+        strength: 15.7,
+        mechanism: 22.97,
+        price: 3898,
+        quality: 9
+    },
+    spinningReel107: {
+        name: "Z-Series 2 40S",
+        strength: 15.7,
+        mechanism: 28.18,
+        price: 3998,
+        quality: 9
+    },
+    spinningReel108: {
+        name: "Z-Series 2 60S",
+        strength: 17.7,
+        mechanism: 45.1,
+        price: 5697,
+        quality: 9
+    },
+    spinningReel109: {
+        name: "Overlord 3E 10S",
+        strength: 6.4,
+        mechanism: 8.49,
+        price: 4500,
+        quality: 9
+    },
+    spinningReel110: {
+        name: "Overlord 3E 20S",
+        strength: 8.4,
+        mechanism: 20.36,
+        price: 5200,
+        quality: 9
+    },
+    spinningReel111: {
+        name: "P-Series 2 GS 10S",
+        strength: 6.5,
+        mechanism: 7.19,
+        price: 4629,
+        quality: 9
+    },
+    spinningReel112: {
+        name: "P-Series 2 GS 20S",
+        strength: 8.6,
+        mechanism: 17.05,
+        price: 4628,
+        quality: 9
+    },
+    spinningReel113: {
+        name: "P-Series 2 GS 30S",
+        strength: 16.3,
+        mechanism: 25.32,
+        price: 4628,
+        quality: 9
+    },
+    spinningReel114: {
+        name: "P-Series 2 GS 40S",
+        strength: 16.3,
+        mechanism: 29.95,
+        price: 4706,
+        quality: 9
+    },
+    spinningReel115: {
+        name: "P-Series 2 GS 60S",
+        strength: 18.4,
+        mechanism: 47.44,
+        price: 7783,
+        quality: 9
+    },
+    spinningReel116: {
+        name: "Mayor III 1000S",
+        strength: 7.5,
+        mechanism: 9.65,
+        price: 5796,
+        quality: 9
+    },
+    spinningReel117: {
+        name: "Mayor III 2000S",
+        strength: 9.3,
+        mechanism: 19.7,
+        price: 7596,
+        quality: 9
+    },
+    spinningReel118: {
+        name: "Mayor III 3000S",
+        strength: 15.9,
+        mechanism: 35,
+        price: 4196,
+        quality: 9
+    },
+    spinningReel119: {
+        name: "Azimut 4000",
+        strength: 15.4,
+        mechanism: 37.56,
+        price: 4699,
+        quality: 9
+    },
+    spinningReel120: {
+        name: "Azimut 6000",
+        strength: 19,
+        mechanism: 43.68,
+        price: 6900,
+        quality: 9
+    },
+    spinningReel121: {
+        name: "Azimut 8000",
+        strength: 23.6,
+        mechanism: 49.63,
+        price: 15900,
+        quality: 9
+    },
+    spinningReel122: {
+        name: "Azimut 10000",
+        strength: 27.2,
+        mechanism: 55,
+        price: 21600,
+        quality: 9
+    },
+    spinningReel123: {
+        name: "SG8000 Ultra Power",
+        strength: 19.5,
+        mechanism: 51.14,
+        price: 9988,
+        quality: 9
+    },
+    spinningReel124: {
+        name: "Everest-24 8000s",
+        strength: 22.7,
+        mechanism: 52,
+        price: 11321,
+        quality: 9
+    },
+    spinningReel125: {
+        name: "Overlord 3BS 10S",
+        strength: 7.3,
+        mechanism: 9.55,
+        price: 5600,
+        quality: 10
+    },
+    spinningReel126: {
+        name: "Overlord 3BS 20S",
+        strength: 9.1,
+        mechanism: 20.95,
+        price: 6500,
+        quality: 10
+    },
+    spinningReel127: {
+        name: "Overlord 3GS 10S",
+        strength: 7.7,
+        mechanism: 10.02,
+        price: 6500,
+        quality: 10
+    },
+    spinningReel128: {
+        name: "Overlord 3GS 20S",
+        strength: 9.5,
+        mechanism: 23.06,
+        price: 9600,
+        quality: 10
+    },
+    spinningReel129: {
+        name: "JSX 10S",
+        strength: 7.7,
+        mechanism: 9,
+        price: 6144,
+        quality: 10
+    },
+    spinningReel130: {
+        name: "JSX 20S",
+        strength: 9.5,
+        mechanism: 20.84,
+        price: 9120,
+        quality: 10
+    },
+    spinningReel131: {
+        name: "Overlord 3RS 10S",
+        strength: 8.2,
+        mechanism: 12.02,
+        price: 7500,
+        quality: 10
+    },
+    spinningReel132: {
+        name: "Overlord 3RS 20S",
+        strength: 10,
+        mechanism: 25.95,
+        price: 11999,
+        quality: 10
+    },
+    spinningReel133: {
+        name: "JSX Inferno 10S",
+        strength: 8.2,
+        mechanism: 11.04,
+        price: 6723,
+        quality: 10
+    },
+    spinningReel134: {
+        name: "JSX Inferno 20S",
+        strength: 10,
+        mechanism: 22.45,
+        price: 11556,
+        quality: 10
+    },
+    spinningReel135: {
+        name: "Bestia II 1000 SHS",
+        strength: 8.6,
+        mechanism: 11.41,
+        price: 7900,
+        quality: 10
+    },
+    spinningReel136: {
+        name: "Bestia II 2000 SHS",
+        strength: 10.8,
+        mechanism: 24.25,
+        price: 13500,
+        quality: 10
+    },
+    spinningReel137: {
+        name: "Bestia II 3000 SHS",
+        strength: 17.2,
+        mechanism: 43.84,
+        price: 7999,
+        quality: 10
+    },
+    spinningReel138: {
+        name: "Bestia II 6000 SHS",
+        strength: 19.9,
+        mechanism: 54.6,
+        price: 9489,
+        quality: 10
+    },
+    spinningReel139: {
+        name: "Bestia II 8000 SHS",
+        strength: 24.5,
+        mechanism: 66.7,
+        price: 16604,
+        quality: 10
+    },
+    spinningReel140: {
+        name: "Admiral II 4000S",
+        strength: 17.7,
+        mechanism: 43.16,
+        price: 5650,
+        quality: 10
+    },
+    spinningReel141: {
+        name: "Admiral II 6000S",
+        strength: 21.1,
+        mechanism: 57.45,
+        price: 12099,
+        quality: 10
+    },
+    spinningReel142: {
+        name: "Admiral II 8000S",
+        strength: 23.6,
+        mechanism: 66.95,
+        price: 15099,
+        quality: 10
+    },
+    spinningReel143: {
+        name: "Admiral II 10000S",
+        strength: 29,
+        mechanism: 76.42,
+        price: 25196,
+        quality: 10
+    },
+    spinningReel144: {
+        name: "Chronica II 6000",
+        strength: 20.4,
+        mechanism: 72.63,
+        price: 10900,
+        quality: 10
+    },
+    spinningReel145: {
+        name: "Venga baitcasting 6000",
+        strength: 22.6,
+        mechanism: 69.66,
+        price: 18791,
+        quality: 10
+    },
+    spinningReel146: {
+        name: "Venga baitcasting 10000",
+        strength: 31.7,
+        mechanism: 99,
+        price: 32722,
+        quality: 10
+    },
+    spinningReel147: {
+        name: "Venga II 6000",
+        strength: 22.7,
+        mechanism: 71.2,
+        price: 18900,
+        quality: 10
+    },
+    spinningReel148: {
+        name: "Venga II 8000 SHS",
+        strength: 30,
+        mechanism: 80.25,
+        price: 26900,
+        quality: 10
+    },
+    spinningReel149: {
+        name: "Venga II 10000",
+        strength: 32.7,
+        mechanism: 108.31,
+        price: 34500,
+        quality: 10
+    },
+    spinningReel150: {
+        name: "Venga II 30000",
+        strength: 34.9,
+        mechanism: 144.12,
+        price: 48500,
+        quality: 10
+    },
+    spinningReel151: {
+        name: "Megara 8000",
+        strength: 25.4,
+        mechanism: 71.76,
+        price: 22472,
+        quality: 10
+    },
+    spinningReel152: {
+        name: "Goliaf 10000",
+        strength: 30.8,
+        mechanism: 112.61,
+        price: 31500,
+        quality: 10
+    },
+    spinningReel153: {
+        name: "Goliaf 20000",
+        strength: 31.8,
+        mechanism: 105.28,
+        price: 33199,
+        quality: 10
+    },
+    spinningReel154: {
+        name: "Goliaf 30000",
+        strength: 33.6,
+        mechanism: 120.56,
+        price: 39799,
+        quality: 10
+    },
+    spinningReel155: {
+        name: "Turion SW 8000",
+        strength: 30.8,
+        mechanism: 110.68,
+        price: 32500,
+        quality: 10
+    },
+    spinningReel156: {
+        name: "Turion SW 10000",
+        strength: 34.5,
+        mechanism: 114.29,
+        price: 45600,
+        quality: 10
+    },
+    spinningReel157: {
+        name: "Turion SW 20000",
+        strength: 35.4,
+        mechanism: 120.19,
+        price: 49799,
+        quality: 10
+    },
+    spinningReel158: {
+        name: "Turion SW 30000",
+        strength: 36.3,
+        mechanism: 127.94,
+        price: 56799,
+        quality: 10
+    },
+    spinningReel159: {
+        name: "Furia 10000 SHS",
+        strength: 34,
+        mechanism: 104.74,
+        price: 37499,
+        quality: 10
+    },
+    spinningReel160: {
+        name: "Furia 10000",
+        strength: 34.9,
+        mechanism: 118.27,
+        price: 41000,
+        quality: 10
+    },
+    spinningReel161: {
+        name: "Furia 20000",
+        strength: 36.7,
+        mechanism: 128.53,
+        price: 51499,
+        quality: 10
+    },
+    spinningReel162: {
+        name: "Furia 30000",
+        strength: 38.6,
+        mechanism: 132.79,
+        price: 66989,
+        quality: 10
+    }
+};
+const lowprofileReels = {
+    lowprofileReel1: {
+        name: "Profisher",
+        strength: 3.2,
+        mechanism: 8.03,
+        price: 140,
+        quality: 3
+    },
+    lowprofileReel2: {
+        name: "Optimus",
+        strength: 3.6,
+        mechanism: 6.13,
+        price: 182,
+        quality: 3
+    },
+    lowprofileReel3: {
+        name: "Energy SNB-R",
+        strength: 4.1,
+        mechanism: 12.26,
+        price: 770,
+        quality: 5
+    },
+    lowprofileReel4: {
+        name: "Winner NG LP-HS",
+        strength: 4.5,
+        mechanism: 13.56,
+        price: 300,
+        quality: 5
+    },
+    lowprofileReel5: {
+        name: "Riva 2 MS-R",
+        strength: 4.8,
+        mechanism: 19.51,
+        price: 1050,
+        quality: 6
+    },
+    lowprofileReel6: {
+        name: "SportPro X2 MS-R",
+        strength: 5.2,
+        mechanism: 23.02,
+        price: 1299,
+        quality: 6
+    },
+    lowprofileReel7: {
+        name: "Nitro 2 TN-R",
+        strength: 5.7,
+        mechanism: 21.49,
+        price: 1799,
+        quality: 6
+    },
+    lowprofileReel8: {
+        name: "Charger 2 TC-R",
+        strength: 6.8,
+        mechanism: 28.93,
+        price: 2499,
+        quality: 6
+    },
+    lowprofileReel9: {
+        name: "Black Bird 2 LS-R",
+        strength: 5,
+        mechanism: 25.81,
+        price: 1298,
+        quality: 7
+    },
+    lowprofileReel10: {
+        name: "Thunderbolt SSP HS-R",
+        strength: 5.4,
+        mechanism: 21.76,
+        price: 1700,
+        quality: 7
+    },
+    lowprofileReel11: {
+        name: "Silver Bird 2 LS-R",
+        strength: 7.3,
+        mechanism: 26.68,
+        price: 2596,
+        quality: 7
+    },
+    lowprofileReel12: {
+        name: "Spectrum TSH-R",
+        strength: 7.3,
+        mechanism: 31.93,
+        price: 2999,
+        quality: 7
+    },
+    lowprofileReel13: {
+        name: "Pro Bird 2 MS-R",
+        strength: 7.7,
+        mechanism: 34.54,
+        price: 3109,
+        quality: 7
+    },
+    lowprofileReel14: {
+        name: "T-Tech STT-R",
+        strength: 6.3,
+        mechanism: 29.68,
+        price: 1999,
+        quality: 8
+    },
+    lowprofileReel15: {
+        name: "T-Tech STT-HSR",
+        strength: 6.3,
+        mechanism: 30.21,
+        price: 2099,
+        quality: 8
+    },
+    lowprofileReel16: {
+        name: "Mayor 2 TMC-R",
+        strength: 7.3,
+        mechanism: 27.41,
+        price: 3810,
+        quality: 8
+    },
+    lowprofileReel17: {
+        name: "Zero 2 Z-R",
+        strength: 7.7,
+        mechanism: 43.41,
+        price: 3590,
+        quality: 8
+    },
+    lowprofileReel18: {
+        name: "Zero 2 ZHS-R",
+        strength: 7.7,
+        mechanism: 44.59,
+        price: 3490,
+        quality: 8
+    },
+    lowprofileReel19: {
+        name: "Zero GS ZG-R",
+        strength: 9,
+        mechanism: 56.56,
+        price: 4377,
+        quality: 8
+    },
+    lowprofileReel20: {
+        name: "Jet-Series JS-R",
+        strength: 7.3,
+        mechanism: 38.72,
+        price: 3591,
+        quality: 9
+    },
+    lowprofileReel21: {
+        name: "Alfa Pro LP",
+        strength: 7.8,
+        mechanism: 33.49,
+        price: 3296,
+        quality: 9
+    },
+    lowprofileReel22: {
+        name: "Pillar 2 TPC-R",
+        strength: 8.2,
+        mechanism: 38.9,
+        price: 4849,
+        quality: 9
+    },
+    lowprofileReel23: {
+        name: "Pillar 2 TPC-R-HS",
+        strength: 8.2,
+        mechanism: 35.68,
+        price: 4849,
+        quality: 9
+    },
+    lowprofileReel24: {
+        name: "Jet-Series JSG-R",
+        strength: 8.6,
+        mechanism: 34.56,
+        price: 5887,
+        quality: 9
+    },
+    lowprofileReel25: {
+        name: "Jet-Series JSGHS-R",
+        strength: 8.6,
+        mechanism: 31.91,
+        price: 5887,
+        quality: 9
+    },
+    lowprofileReel26: {
+        name: "Jet-Bullet LP HS-R",
+        strength: 8.2,
+        mechanism: 36.07,
+        price: 7543,
+        quality: 10
+    },
+    lowprofileReel27: {
+        name: "Skipper LP-R HS",
+        strength: 9,
+        mechanism: 43,
+        price: 9498,
+        quality: 10
+    },
+    lowprofileReel28: {
+        name: "Jet-Series JSX-R",
+        strength: 9,
+        mechanism: 36.69,
+        price: 10940,
+        quality: 10
+    },
+    lowprofileReel29: {
+        name: "Jet-Series JSXHS-R",
+        strength: 9,
+        mechanism: 34.92,
+        price: 10940,
+        quality: 10
+    },
+    lowprofileReel30: {
+        name: "JSX Inferno LP-R",
+        strength: 9.5,
+        mechanism: 34.92,
+        price: 17879,
+        quality: 10
+    }
+};
+const baitcastingReels = {
+    baitcastingReel1: {
+        name: "Winner Round II",
+        strength: 5.5,
+        mechanism: 10.2,
+        price: 249,
+        quality: 3
+    },
+    baitcastingReel2: {
+        name: "Magellan 400",
+        strength: 6.3,
+        mechanism: 13.84,
+        price: 399,
+        quality: 4
+    },
+    baitcastingReel3: {
+        name: "Spider 400-R2",
+        strength: 7.5,
+        mechanism: 17.51,
+        price: 499,
+        quality: 5
+    },
+    baitcastingReel4: {
+        name: "Zodiac 500-R2",
+        strength: 8,
+        mechanism: 29.25,
+        price: 799,
+        quality: 6
+    },
+    baitcastingReel5: {
+        name: "Compact ZC40",
+        strength: 8.6,
+        mechanism: 30.67,
+        price: 899,
+        quality: 7
+    },
+    baitcastingReel6: {
+        name: "Compact ZC50",
+        strength: 8.6,
+        mechanism: 33.42,
+        price: 949,
+        quality: 7
+    },
+    baitcastingReel7: {
+        name: "Compact ZC60",
+        strength: 9,
+        mechanism: 35.08,
+        price: 1125,
+        quality: 7
+    },
+    baitcastingReel8: {
+        name: "Black Box ZBB50",
+        strength: 9,
+        mechanism: 37.14,
+        price: 1160,
+        quality: 7
+    },
+    baitcastingReel9: {
+        name: "Black Box ZBB60",
+        strength: 11,
+        mechanism: 40,
+        price: 1571,
+        quality: 7
+    },
+    baitcastingReel10: {
+        name: "SteelHead 500-R",
+        strength: 12.5,
+        mechanism: 39.75,
+        price: 2358,
+        quality: 7
+    },
+    baitcastingReel11: {
+        name: "SteelHead 600-R",
+        strength: 16,
+        mechanism: 53,
+        price: 4711,
+        quality: 7
+    },
+    baitcastingReel12: {
+        name: "ZM-3 Z40",
+        strength: 11,
+        mechanism: 49.58,
+        price: 2499,
+        quality: 8
+    },
+    baitcastingReel13: {
+        name: "ZM-3 Z50",
+        strength: 12.7,
+        mechanism: 51.97,
+        price: 2989,
+        quality: 8
+    },
+    baitcastingReel14: {
+        name: "ZM-3 Z60",
+        strength: 12.7,
+        mechanism: 56.19,
+        price: 3408,
+        quality: 8
+    },
+    baitcastingReel15: {
+        name: "Billionaire 50R",
+        strength: 11,
+        mechanism: 56.86,
+        price: 2299,
+        quality: 8
+    },
+    baitcastingReel16: {
+        name: "Billionaire 60R",
+        strength: 13.6,
+        mechanism: 71.05,
+        price: 3797,
+        quality: 8
+    },
+    baitcastingReel17: {
+        name: "ZM-4 Z40",
+        strength: 12.7,
+        mechanism: 63.34,
+        price: 4097,
+        quality: 8
+    },
+    baitcastingReel18: {
+        name: "ZM-4 Z50",
+        strength: 15,
+        mechanism: 68.95,
+        price: 4599,
+        quality: 8
+    },
+    baitcastingReel19: {
+        name: "ZM-4 Z60",
+        strength: 15,
+        mechanism: 74.19,
+        price: 5537,
+        quality: 8
+    },
+    baitcastingReel20: {
+        name: "Billionaire H-Version 60R",
+        strength: 18,
+        mechanism: 77,
+        price: 7510,
+        quality: 8
+    },
+    baitcastingReel21: {
+        name: "ZM Ranger Z60",
+        strength: 15.9,
+        mechanism: 78.01,
+        price: 6299,
+        quality: 9
+    },
+    baitcastingReel22: {
+        name: "ZM Ranger Z70",
+        strength: 18.1,
+        mechanism: 88.19,
+        price: 9977,
+        quality: 9
+    },
+    baitcastingReel23: {
+        name: "Imperial R605",
+        strength: 16.3,
+        mechanism: 99.41,
+        price: 9117,
+        quality: 9
+    },
+    baitcastingReel24: {
+        name: "ZM-Steelness ZMS50",
+        strength: 17.2,
+        mechanism: 82.99,
+        price: 7785,
+        quality: 9
+    },
+    baitcastingReel25: {
+        name: "ZM-Steelness ZMS60",
+        strength: 17.2,
+        mechanism: 91.84,
+        price: 8500,
+        quality: 9
+    },
+    baitcastingReel26: {
+        name: "Minister CS 60",
+        strength: 17.2,
+        mechanism: 99.68,
+        price: 9700,
+        quality: 9
+    },
+    baitcastingReel27: {
+        name: "Minister CS SG60",
+        strength: 18.1,
+        mechanism: 110.97,
+        price: 12000,
+        quality: 9
+    },
+    baitcastingReel28: {
+        name: "ZM-3 Spear SG70",
+        strength: 19,
+        mechanism: 97.45,
+        price: 11433,
+        quality: 9
+    },
+    baitcastingReel29: {
+        name: "Minister NGT LD50",
+        strength: 19,
+        mechanism: 92.01,
+        price: 11499,
+        quality: 9
+    },
+    baitcastingReel30: {
+        name: "Minister NGT LD60",
+        strength: 20,
+        mechanism: 97.75,
+        price: 13425,
+        quality: 9
+    },
+    baitcastingReel31: {
+        name: "ZM Monster LD60",
+        strength: 20.9,
+        mechanism: 90.17,
+        price: 15319,
+        quality: 9
+    },
+    baitcastingReel32: {
+        name: "Centauri ZC70",
+        strength: 20.4,
+        mechanism: 117.4,
+        price: 15999,
+        quality: 9
+    },
+    baitcastingReel33: {
+        name: "Centauri ZC80",
+        strength: 23.5,
+        mechanism: 125.85,
+        price: 20948,
+        quality: 9
+    },
+    baitcastingReel34: {
+        name: "Classic SG70",
+        strength: 23.5,
+        mechanism: 114.77,
+        price: 16595,
+        quality: 9
+    },
+    baitcastingReel35: {
+        name: "Rocket Jet SG70",
+        strength: 27.2,
+        mechanism: 136,
+        price: 23999,
+        quality: 10
+    },
+    baitcastingReel36: {
+        name: "Rocket Jet SG80",
+        strength: 30.8,
+        mechanism: 147.5,
+        price: 31990,
+        quality: 10
+    }
+};
+const powerReels = {
+    powerReel1: {
+        name: "Winner Trolling 10",
+        strength: 5.5,
+        mechanism: 10.84,
+        price: 350,
+        quality: 5
+    },
+    powerReel2: {
+        name: "Winner Trolling 20",
+        strength: 6.4,
+        mechanism: 12.52,
+        price: 590,
+        quality: 5
+    },
+    powerReel3: {
+        name: "Winner Trolling 30",
+        strength: 7.3,
+        mechanism: 15.46,
+        price: 779,
+        quality: 5
+    },
+    powerReel4: {
+        name: "Zodiac C-10",
+        strength: 8,
+        mechanism: 26.7,
+        price: 1099,
+        quality: 6
+    },
+    powerReel5: {
+        name: "Zodiac C-20",
+        strength: 9,
+        mechanism: 25.32,
+        price: 1290,
+        quality: 6
+    },
+    powerReel6: {
+        name: "Simplex 200",
+        strength: 8.2,
+        mechanism: 28.77,
+        price: 1189,
+        quality: 7
+    },
+    powerReel7: {
+        name: "Simplex 300",
+        strength: 9,
+        mechanism: 31.65,
+        price: 1389,
+        quality: 7
+    },
+    powerReel8: {
+        name: "Simplex 400",
+        strength: 10,
+        mechanism: 33.75,
+        price: 1990,
+        quality: 7
+    },
+    powerReel9: {
+        name: "Narga C-LW 10",
+        strength: 8.2,
+        mechanism: 27.65,
+        price: 1190,
+        quality: 7
+    },
+    powerReel10: {
+        name: "Narga C-LW 20",
+        strength: 9,
+        mechanism: 29.6,
+        price: 1348,
+        quality: 7
+    },
+    powerReel11: {
+        name: "Narga C-LW 30",
+        strength: 10,
+        mechanism: 33.22,
+        price: 1890,
+        quality: 7
+    },
+    powerReel12: {
+        name: "Seagull 20",
+        strength: 10,
+        mechanism: 36.54,
+        price: 1989,
+        quality: 7
+    },
+    powerReel13: {
+        name: "Seagull 30",
+        strength: 11.8,
+        mechanism: 37.22,
+        price: 2690,
+        quality: 7
+    },
+    powerReel14: {
+        name: "Hamra C-LW 10",
+        strength: 10.9,
+        mechanism: 38.75,
+        price: 2499,
+        quality: 8
+    },
+    powerReel15: {
+        name: "Hamra C-LW 20",
+        strength: 11.8,
+        mechanism: 45.93,
+        price: 3099,
+        quality: 8
+    },
+    powerReel16: {
+        name: "Hamra C-LW 30",
+        strength: 12.7,
+        mechanism: 52,
+        price: 4199,
+        quality: 8
+    },
+    powerReel17: {
+        name: "Argus 10",
+        strength: 10.9,
+        mechanism: 61.96,
+        price: 3791,
+        quality: 8
+    },
+    powerReel18: {
+        name: "Argus 20",
+        strength: 11.8,
+        mechanism: 64.49,
+        price: 4591,
+        quality: 8
+    },
+    powerReel19: {
+        name: "Argus 30",
+        strength: 12.7,
+        mechanism: 64.97,
+        price: 5190,
+        quality: 8
+    },
+    powerReel20: {
+        name: "Altitude 10 DLC",
+        strength: 11,
+        mechanism: 46.12,
+        price: 3190,
+        quality: 8
+    },
+    powerReel21: {
+        name: "Altitude 20 DLC",
+        strength: 12.7,
+        mechanism: 53.37,
+        price: 4388,
+        quality: 8
+    },
+    powerReel22: {
+        name: "Isinga C-LW 10",
+        strength: 11.8,
+        mechanism: 48.11,
+        price: 3386,
+        quality: 8
+    },
+    powerReel23: {
+        name: "Isinga C-LW 20",
+        strength: 12.7,
+        mechanism: 55,
+        price: 4194,
+        quality: 8
+    },
+    powerReel24: {
+        name: "Isinga C-LW 30",
+        strength: 14.5,
+        mechanism: 63.86,
+        price: 5995,
+        quality: 8
+    },
+    powerReel25: {
+        name: "Halibut 20",
+        strength: 12.7,
+        mechanism: 41.59,
+        price: 3590,
+        quality: 8
+    },
+    powerReel26: {
+        name: "Halibut 20 2S",
+        strength: 12.7,
+        mechanism: 40.71,
+        price: 3990,
+        quality: 8
+    },
+    powerReel27: {
+        name: "Oriental 20",
+        strength: 14.5,
+        mechanism: 87.13,
+        price: 8189,
+        quality: 8
+    },
+    powerReel28: {
+        name: "Oriental 30",
+        strength: 15.9,
+        mechanism: 87.1,
+        price: 9389,
+        quality: 8
+    },
+    powerReel29: {
+        name: "SteelHead C-10",
+        strength: 14.5,
+        mechanism: 47.42,
+        price: 5390,
+        quality: 8
+    },
+    powerReel30: {
+        name: "SteelHead C-20",
+        strength: 16,
+        mechanism: 49.67,
+        price: 6280,
+        quality: 8
+    },
+    powerReel31: {
+        name: "SteelHead C-30",
+        strength: 17.2,
+        mechanism: 54.12,
+        price: 8980,
+        quality: 8
+    },
+    powerReel32: {
+        name: "Taiga C 20",
+        strength: 15.4,
+        mechanism: 94.44,
+        price: 9694,
+        quality: 8
+    },
+    powerReel33: {
+        name: "Taiga C 30",
+        strength: 15.4,
+        mechanism: 109.46,
+        price: 10495,
+        quality: 8
+    },
+    powerReel34: {
+        name: "Taiga C 40",
+        strength: 17.2,
+        mechanism: 136.13,
+        price: 15590,
+        quality: 8
+    },
+    powerReel35: {
+        name: "Rigal 20 2S",
+        strength: 16.3,
+        mechanism: 74.33,
+        price: 8799,
+        quality: 8
+    },
+    powerReel36: {
+        name: "Billionaire CNV 10",
+        strength: 18,
+        mechanism: 78.86,
+        price: 10880,
+        quality: 8
+    },
+    powerReel37: {
+        name: "Billionaire CNV 20",
+        strength: 20,
+        mechanism: 79.54,
+        price: 14950,
+        quality: 8
+    },
+    powerReel38: {
+        name: "Billionaire CNV 30 MS",
+        strength: 21.7,
+        mechanism: 88.14,
+        price: 19979,
+        quality: 8
+    },
+    powerReel39: {
+        name: "Palomar 10",
+        strength: 17.2,
+        mechanism: 122.37,
+        price: 13988,
+        quality: 9
+    },
+    powerReel40: {
+        name: "Palomar 20",
+        strength: 18.1,
+        mechanism: 133.3,
+        price: 16786,
+        quality: 9
+    },
+    powerReel41: {
+        name: "Palomar 30",
+        strength: 19,
+        mechanism: 133.6,
+        price: 18485,
+        quality: 9
+    },
+    powerReel42: {
+        name: "Tera C-LW 20",
+        strength: 18.1,
+        mechanism: 104.76,
+        price: 12979,
+        quality: 9
+    },
+    powerReel43: {
+        name: "Tera C-LW 30",
+        strength: 19,
+        mechanism: 132.06,
+        price: 17499,
+        quality: 9
+    },
+    powerReel44: {
+        name: "Tera C-LW 40",
+        strength: 20.9,
+        mechanism: 147.61,
+        price: 24998,
+        quality: 9
+    },
+    powerReel45: {
+        name: "Tera L-LD 20",
+        strength: 19,
+        mechanism: 121.9,
+        price: 16984,
+        quality: 9
+    },
+    powerReel46: {
+        name: "Tera L-LD 30",
+        strength: 20.9,
+        mechanism: 142.77,
+        price: 23985,
+        quality: 9
+    },
+    powerReel47: {
+        name: "Tera L-LD 40",
+        strength: 21.8,
+        mechanism: 157.72,
+        price: 29988,
+        quality: 9
+    },
+    powerReel48: {
+        name: "Cardinal 10",
+        strength: 20,
+        mechanism: 104.39,
+        price: 16479,
+        quality: 9
+    },
+    powerReel49: {
+        name: "Cardinal 20",
+        strength: 21.8,
+        mechanism: 133.84,
+        price: 24588,
+        quality: 9
+    },
+    powerReel50: {
+        name: "Cardinal 20 2S",
+        strength: 21.8,
+        mechanism: 130.23,
+        price: 25290,
+        quality: 9
+    },
+    powerReel51: {
+        name: "Cardinal 30",
+        strength: 22.7,
+        mechanism: 167.89,
+        price: 31085,
+        quality: 9
+    },
+    powerReel52: {
+        name: "Cardinal 30 2S",
+        strength: 22.7,
+        mechanism: 152.5,
+        price: 33980,
+        quality: 9
+    },
+    powerReel53: {
+        name: "Taiga LTD C 20 2S",
+        strength: 22.7,
+        mechanism: 205,
+        price: 38984,
+        quality: 9
+    },
+    powerReel54: {
+        name: "Taiga LTD C 40 2S",
+        strength: 24.5,
+        mechanism: 274,
+        price: 274,
+        quality: 9
+    },
+    powerReel55: {
+        name: "Tongar 2Gen 20",
+        strength: 19,
+        mechanism: 163.24,
+        price: 25985,
+        quality: 10
+    },
+    powerReel56: {
+        name: "Tongar 2Gen 20 DS",
+        strength: 19,
+        mechanism: 166.25,
+        price: 27983,
+        quality: 10
+    },
+    powerReel57: {
+        name: "Tongar 2Gen 30 DS",
+        strength: 21.8,
+        mechanism: 187,
+        price: 37985,
+        quality: 10
+    },
+    powerReel58: {
+        name: "Albacore 20",
+        strength: 23.6,
+        mechanism: 205,
+        price: 44480,
+        quality: 10
+    },
+    powerReel59: {
+        name: "Albacore 40 DS",
+        strength: 30.8,
+        mechanism: 205,
+        price: 61982,
+        quality: 10
+    },
+    powerReel60: {
+        name: "Venga C 20 2S",
+        strength: 29,
+        mechanism: 160,
+        price: 44487,
+        quality: 10
+    },
+    powerReel61: {
+        name: "Venga C 30 2S",
+        strength: 29,
+        mechanism: 174,
+        price: 49784,
+        quality: 10
+    },
+    powerReel62: {
+        name: "Venga C 40 2S",
+        strength: 30.8,
+        mechanism: 185,
+        price: 57680,
+        quality: 10
+    },
+    powerReel63: {
+        name: "Triumph 10 2S",
+        strength: 30.8,
+        mechanism: 185,
+        price: 53589,
+        quality: 10
+    },
+    powerReel64: {
+        name: "Triumph 20 2S",
+        strength: 31.8,
+        mechanism: 191,
+        price: 62680,
+        quality: 10
+    },
+    powerReel65: {
+        name: "Triumph 30 2S",
+        strength: 33.6,
+        mechanism: 202,
+        price: 69987,
+        quality: 10
+    },
+    powerReel66: {
+        name: "Borealica 20 DS",
+        strength: 30.8,
+        mechanism: 205,
+        price: 68999,
+        quality: 10
+    },
+    powerReel67: {
+        name: "Borealica 30 DS",
+        strength: 34,
+        mechanism: 450,
+        price: 78999,
+        quality: 10
+    },
+    powerReel68: {
+        name: "Borealica 40 DS",
+        strength: 35.4,
+        mechanism: 450,
+        price: 86989,
+        quality: 10
+    },
+    powerReel69: {
+        name: "Electro Raptor 20",
+        strength: 31.7,
+        mechanism: 368,
+        price: 71989,
+        quality: 10
+    },
+    powerReel70: {
+        name: "Electro Raptor 40",
+        strength: 38.1,
+        mechanism: 400,
+        price: 119871,
+        quality: 10
+    }
+};
+const nylonLines = {
+    nylonLine1: {
+        name: "Super Line - 1.5lb",
+        strength: .7,
+        price: 6,
+        quality: 2
+    },
+    nylonLine2: {
+        name: "Super Line - 3lb",
+        strength: 1.5,
+        price: 5,
+        quality: 2
+    },
+    nylonLine3: {
+        name: "Super Line - 5lb",
+        strength: 2.3,
+        price: 4,
+        quality: 2
+    },
+    nylonLine4: {
+        name: "Super Line - 7lb",
+        strength: 3.1,
+        price: 4,
+        quality: 2
+    },
+    nylonLine5: {
+        name: "Super Line - 8.5lb",
+        strength: 3.9,
+        price: 4,
+        quality: 2
+    },
+    nylonLine6: {
+        name: "Super Line - 10lb",
+        strength: 4.8,
+        price: 4,
+        quality: 2
+    },
+    nylonLine7: {
+        name: "Super Line - 12lb",
+        strength: 5.6,
+        price: 5,
+        quality: 2
+    },
+    nylonLine8: {
+        name: "Super Line - 16.5lb",
+        strength: 7.5,
+        price: 5,
+        quality: 2
+    },
+    nylonLine9: {
+        name: "Super Line - 20lb",
+        strength: 9.3,
+        price: 6,
+        quality: 2
+    },
+    nylonLine10: {
+        name: "Super Line - 24lb",
+        strength: 11,
+        price: 6,
+        quality: 2
+    },
+    nylonLine11: {
+        name: "Indiana - 3.5LB",
+        strength: 1.7,
+        price: 45,
+        quality: 5
+    },
+    nylonLine12: {
+        name: "Indiana - 5LB",
+        strength: 2.1,
+        price: 39,
+        quality: 5
+    },
+    nylonLine13: {
+        name: "Indiana - 8LB",
+        strength: 3.5,
+        price: 36,
+        quality: 5
+    },
+    nylonLine14: {
+        name: "Indiana - 11LB",
+        strength: 5,
+        price: 35,
+        quality: 5
+    },
+    nylonLine15: {
+        name: "Indiana - 16LB",
+        strength: 7.5,
+        price: 39,
+        quality: 5
+    },
+    nylonLine16: {
+        name: "Indiana - 23LB",
+        strength: 10.5,
+        price: 42,
+        quality: 5
+    },
+    nylonLine17: {
+        name: "Indiana - 28LB",
+        strength: 13,
+        price: 42,
+        quality: 5
+    },
+    nylonLine18: {
+        name: "Indiana - 35LB",
+        strength: 16,
+        price: 45,
+        quality: 5
+    },
+    nylonLine19: {
+        name: "Mono Original - 2.5LB",
+        strength: 1.2,
+        price: 82,
+        quality: 8
+    },
+    nylonLine20: {
+        name: "Mono Original - 4LB",
+        strength: 1.8,
+        price: 79,
+        quality: 8
+    },
+    nylonLine21: {
+        name: "Mono Original - 5LB",
+        strength: 2.3,
+        price: 76,
+        quality: 8
+    },
+    nylonLine22: {
+        name: "Mono Original - 7.5LB",
+        strength: 3.4,
+        price: 73,
+        quality: 8
+    },
+    nylonLine23: {
+        name: "Mono Original - 11.5LB",
+        strength: 5.2,
+        price: 67,
+        quality: 8
+    },
+    nylonLine24: {
+        name: "Mono Original - 15LB",
+        strength: 6.8,
+        price: 67,
+        quality: 8
+    },
+    nylonLine25: {
+        name: "Mono Original - 18LB",
+        strength: 8,
+        price: 67,
+        quality: 8
+    },
+    nylonLine26: {
+        name: "Mono Original - 25LB",
+        strength: 11.5,
+        price: 67,
+        quality: 8
+    },
+    nylonLine27: {
+        name: "Mono Original - 32LB",
+        strength: 14.5,
+        price: 70,
+        quality: 8
+    },
+    nylonLine28: {
+        name: "Mono Original - 40LB",
+        strength: 18,
+        price: 76,
+        quality: 8
+    },
+    nylonLine29: {
+        name: "Mono Original - 55LB",
+        strength: 25,
+        price: 85,
+        quality: 8
+    },
+    nylonLine30: {
+        name: "Mono Original - 80LB",
+        strength: 36,
+        price: 89,
+        quality: 8
+    },
+    nylonLine31: {
+        name: "Mono SS - 3LB",
+        strength: 1.4,
+        price: 152,
+        quality: 8
+    },
+    nylonLine32: {
+        name: "Mono SS - 4.5LB",
+        strength: 2,
+        price: 145,
+        quality: 8
+    },
+    nylonLine33: {
+        name: "Mono SS - 6.5LB",
+        strength: 3,
+        price: 137,
+        quality: 8
+    },
+    nylonLine34: {
+        name: "Mono SS - 9LB",
+        strength: 4.2,
+        price: 129,
+        quality: 8
+    },
+    nylonLine35: {
+        name: "Mono SS - 15LB",
+        strength: 7,
+        price: 129,
+        quality: 8
+    },
+    nylonLine36: {
+        name: "Mono SS - 23LB",
+        strength: 10.4,
+        price: 129,
+        quality: 8
+    },
+    nylonLine37: {
+        name: "Mono SS - 33LB",
+        strength: 15,
+        price: 129,
+        quality: 8
+    },
+    nylonLine38: {
+        name: "Mono SS - 50LB",
+        strength: 23,
+        price: 129,
+        quality: 8
+    },
+    nylonLine39: {
+        name: "Mono SS - 60LB",
+        strength: 27,
+        price: 133,
+        quality: 8
+    },
+    nylonLine40: {
+        name: "Mono SS - 72LB",
+        strength: 33,
+        price: 141,
+        quality: 8
+    },
+    nylonLine41: {
+        name: "Mono SS - 100LB",
+        strength: 45,
+        price: 149,
+        quality: 8
+    },
+    nylonLine42: {
+        name: "Mono SS - 123LB",
+        strength: 56,
+        price: 157,
+        quality: 8
+    },
+    nylonLine43: {
+        name: "Power line 4.8LB",
+        strength: 2.2,
+        price: 113,
+        quality: 9
+    },
+    nylonLine44: {
+        name: "Power line 5.5LB",
+        strength: 2.6,
+        price: 113,
+        quality: 9
+    },
+    nylonLine45: {
+        name: "Power line 7.5LB",
+        strength: 3.5,
+        price: 119,
+        quality: 9
+    },
+    nylonLine46: {
+        name: "Power line 9LB",
+        strength: 4.2,
+        price: 119,
+        quality: 9
+    },
+    nylonLine47: {
+        name: "Power line 14LB",
+        strength: 6.5,
+        price: 123,
+        quality: 9
+    },
+    nylonLine48: {
+        name: "Power line 17LB",
+        strength: 7.8,
+        price: 123,
+        quality: 9
+    },
+    nylonLine49: {
+        name: "Power line 21LB",
+        strength: 9.6,
+        price: 127,
+        quality: 9
+    },
+    nylonLine50: {
+        name: "Power line 28LB",
+        strength: 12.8,
+        price: 127,
+        quality: 9
+    },
+    nylonLine51: {
+        name: "Power line 33LB",
+        strength: 15.1,
+        price: 133,
+        quality: 9
+    },
+    nylonLine52: {
+        name: "Power line 37LB",
+        strength: 16.8,
+        price: 133,
+        quality: 9
+    },
+    nylonLine53: {
+        name: "Power line 45LB",
+        strength: 20.5,
+        price: 138,
+        quality: 9
+    },
+    nylonLine54: {
+        name: "Power line 54LB",
+        strength: 24.6,
+        price: 140,
+        quality: 9
+    },
+    nylonLine55: {
+        name: "Invisible 3.3LB",
+        strength: 1.5,
+        price: 75,
+        quality: 10
+    },
+    nylonLine56: {
+        name: "Invisible 4.2LB",
+        strength: 1.9,
+        price: 75,
+        quality: 10
+    },
+    nylonLine57: {
+        name: "Invisible 5.5LB",
+        strength: 2.5,
+        price: 75,
+        quality: 10
+    },
+    nylonLine58: {
+        name: "Invisible 7LB",
+        strength: 3.2,
+        price: 75,
+        quality: 10
+    },
+    nylonLine59: {
+        name: "Invisible 8LB",
+        strength: 3.7,
+        price: 75,
+        quality: 10
+    },
+    nylonLine60: {
+        name: "Invisible 9.7LB",
+        strength: 4.4,
+        price: 75,
+        quality: 10
+    },
+    nylonLine61: {
+        name: "Invisible 12LB",
+        strength: 5.5,
+        price: 75,
+        quality: 10
+    },
+    nylonLine62: {
+        name: "Ultra line 7.5LB",
+        strength: 3.4,
+        price: 180,
+        quality: 10
+    },
+    nylonLine63: {
+        name: "Ultra line 9LB",
+        strength: 4.2,
+        price: 180,
+        quality: 10
+    },
+    nylonLine64: {
+        name: "Ultra line 11LB",
+        strength: 5,
+        price: 180,
+        quality: 10
+    },
+    nylonLine65: {
+        name: "Ultra line 16.5LB",
+        strength: 7.6,
+        price: 190,
+        quality: 10
+    },
+    nylonLine66: {
+        name: "Ultra line 19LB",
+        strength: 8.7,
+        price: 190,
+        quality: 10
+    },
+    nylonLine67: {
+        name: "Ultra line 25LB",
+        strength: 11.3,
+        price: 193,
+        quality: 10
+    },
+    nylonLine68: {
+        name: "Ultra line 30LB",
+        strength: 14,
+        price: 197,
+        quality: 10
+    },
+    nylonLine69: {
+        name: "Ultra line 38LB",
+        strength: 17.3,
+        price: 200,
+        quality: 10
+    },
+    nylonLine70: {
+        name: "Ultra line 42LB",
+        strength: 19.1,
+        price: 207,
+        quality: 10
+    },
+    nylonLine71: {
+        name: "Ultra line 52LB",
+        strength: 23.7,
+        price: 211,
+        quality: 10
+    },
+    nylonLine72: {
+        name: "Ultra line 62LB",
+        strength: 28.2,
+        price: 217,
+        quality: 10
+    },
+    nylonLine73: {
+        name: "Ultra line 72LB",
+        strength: 32.8,
+        price: 219,
+        quality: 10
+    },
+    nylonLine74: {
+        name: "Ultra line 84LB",
+        strength: 38.1,
+        price: 221,
+        quality: 10
+    },
+    nylonLine75: {
+        name: "Heavy line 13.5LB",
+        strength: 6.2,
+        price: 450,
+        quality: 10
+    },
+    nylonLine76: {
+        name: "Heavy line 23LB",
+        strength: 10.6,
+        price: 450,
+        quality: 10
+    },
+    nylonLine77: {
+        name: "Heavy line 38LB",
+        strength: 17.3,
+        price: 450,
+        quality: 10
+    },
+    nylonLine78: {
+        name: "Heavy line 48LB",
+        strength: 22,
+        price: 459,
+        quality: 10
+    },
+    nylonLine79: {
+        name: "Heavy line 62LB",
+        strength: 28.2,
+        price: 475,
+        quality: 10
+    },
+    nylonLine80: {
+        name: "Heavy line 70LB",
+        strength: 32,
+        price: 481,
+        quality: 10
+    },
+    nylonLine81: {
+        name: "Heavy line 80LB",
+        strength: 36.4,
+        price: 487,
+        quality: 10
+    },
+    nylonLine82: {
+        name: "Heavy line 96LB",
+        strength: 43.6,
+        price: 493,
+        quality: 10
+    },
+    nylonLine83: {
+        name: "Heavy line 108LB",
+        strength: 49,
+        price: 505,
+        quality: 10
+    },
+    nylonLine84: {
+        name: "Heavy line 132LB",
+        strength: 60,
+        price: 535,
+        quality: 10
+    },
+    nylonLine85: {
+        name: "Heavy line 170LB",
+        strength: 77.5,
+        price: 571,
+        quality: 10
+    },
+    nylonLine86: {
+        name: "HiPower Nylon 30LB",
+        strength: 13.6,
+        price: 729,
+        quality: 10
+    },
+    nylonLine87: {
+        name: "HiPower Nylon 40LB",
+        strength: 18,
+        price: 729,
+        quality: 10
+    },
+    nylonLine88: {
+        name: "HiPower Nylon 50LB",
+        strength: 22.5,
+        price: 729,
+        quality: 10
+    },
+    nylonLine89: {
+        name: "HiPower Nylon 60LB",
+        strength: 27,
+        price: 749,
+        quality: 10
+    },
+    nylonLine90: {
+        name: "HiPower Nylon 80LB",
+        strength: 36,
+        price: 749,
+        quality: 10
+    },
+    nylonLine91: {
+        name: "HiPower Nylon 100LB",
+        strength: 45,
+        price: 820,
+        quality: 10
+    },
+    nylonLine92: {
+        name: "HiPower Nylon 130LB",
+        strength: 60,
+        price: 820,
+        quality: 10
+    },
+    nylonLine93: {
+        name: "HiPower Nylon 170LB",
+        strength: 77,
+        price: 899,
+        quality: 10
+    },
+}
+const fluorocarbonLines = {
+    fluorocarbonLine1: {
+        name: "Fine Fluorocarbon 4LB",
+        strength: 1.8,
+        price: 149,
+        quality: 5
+    },
+    fluorocarbonLine2: {
+        name: "Fine Fluorocarbon 5LB",
+        strength: 2.3,
+        price: 149,
+        quality: 5
+    },
+    fluorocarbonLine3: {
+        name: "Fine Fluorocarbon 6LB",
+        strength: 2.8,
+        price: 153,
+        quality: 5
+    },
+    fluorocarbonLine4: {
+        name: "Fine Fluorocarbon 7LB",
+        strength: 3.2,
+        price: 153,
+        quality: 5
+    },
+    fluorocarbonLine5: {
+        name: "Fine Fluorocarbon 9.5LB",
+        strength: 4.3,
+        price: 156,
+        quality: 5
+    },
+    fluorocarbonLine6: {
+        name: "Fine Fluorocarbon 12LB",
+        strength: 5.4,
+        price: 159,
+        quality: 5
+    },
+    fluorocarbonLine7: {
+        name: "Fine Fluorocarbon 17LB",
+        strength: 7.7,
+        price: 162,
+        quality: 5
+    },
+    fluorocarbonLine8: {
+        name: "Fine Fluorocarbon 20LB",
+        strength: 9.3,
+        price: 165,
+        quality: 5
+    },
+    fluorocarbonLine9: {
+        name: "Fine Fluorocarbon 22LB",
+        strength: 10,
+        price: 166,
+        quality: 5
+    },
+    fluorocarbonLine10: {
+        name: "Pure Fluorocarbon 4.5LB",
+        strength: 2.2,
+        price: 221,
+        quality: 9
+    },
+    fluorocarbonLine11: {
+        name: "Pure Fluorocarbon 6LB",
+        strength: 2.7,
+        price: 221,
+        quality: 9
+    },
+    fluorocarbonLine12: {
+        name: "Pure Fluorocarbon 7LB",
+        strength: 3.1,
+        price: 224,
+        quality: 9
+    },
+    fluorocarbonLine13: {
+        name: "Pure Fluorocarbon 8LB",
+        strength: 3.6,
+        price: 229,
+        quality: 9
+    },
+    fluorocarbonLine14: {
+        name: "Pure Fluorocarbon 10LB",
+        strength: 4.4,
+        price: 230,
+        quality: 9
+    },
+    fluorocarbonLine15: {
+        name: "Pure Fluorocarbon 12LB",
+        strength: 5.5,
+        price: 235,
+        quality: 9
+    },
+    fluorocarbonLine16: {
+        name: "Pure Fluorocarbon 14LB",
+        strength: 6.4,
+        price: 238,
+        quality: 9
+    },
+    fluorocarbonLine17: {
+        name: "Pure Fluorocarbon 17LB",
+        strength: 7.8,
+        price: 240,
+        quality: 9
+    },
+    fluorocarbonLine18: {
+        name: "Pure Fluorocarbon 21LB",
+        strength: 9.7,
+        price: 245,
+        quality: 9
+    },
+    fluorocarbonLine19: {
+        name: "Pure Fluorocarbon 26LB",
+        strength: 11.6,
+        price: 248,
+        quality: 9
+    },
+    fluorocarbonLine20: {
+        name: "Pure Fluorocarbon 30LB",
+        strength: 13.8,
+        price: 260,
+        quality: 9
+    },
+    fluorocarbonLine21: {
+        name: "Pure Fluorocarbon 38LB",
+        strength: 17.4,
+        price: 265,
+        quality: 9
+    },
+    fluorocarbonLine22: {
+        name: "Micro Carbon 2.2LB",
+        strength: 1,
+        price: 149,
+        quality: 9
+    },
+    fluorocarbonLine23: {
+        name: "Micro Carbon 2.5LB",
+        strength: 1.2,
+        price: 149,
+        quality: 9
+    },
+    fluorocarbonLine24: {
+        name: "Micro Carbon 2.8LB",
+        strength: 1.3,
+        price: 149,
+        quality: 9
+    },
+    fluorocarbonLine25: {
+        name: "Micro Carbon 3.2LB",
+        strength: 1.5,
+        price: 149,
+        quality: 9
+    },
+    fluorocarbonLine26: {
+        name: "Micro Carbon 3.6LB",
+        strength: 1.7,
+        price: 149,
+        quality: 9
+    },
+    fluorocarbonLine27: {
+        name: "Power Carbon 3.5LB",
+        strength: 1.6,
+        price: 239,
+        quality: 9
+    },
+    fluorocarbonLine28: {
+        name: "Power Carbon 4.6LB",
+        strength: 2.1,
+        price: 243,
+        quality: 9
+    },
+    fluorocarbonLine29: {
+        name: "Power Carbon 5.5LB",
+        strength: 2.5,
+        price: 249,
+        quality: 9
+    },
+    fluorocarbonLine30: {
+        name: "Power Carbon 7.5LB",
+        strength: 3.4,
+        price: 253,
+        quality: 9
+    },
+    fluorocarbonLine31: {
+        name: "Power Carbon 8.8LB",
+        strength: 4,
+        price: 257,
+        quality: 9
+    },
+    fluorocarbonLine32: {
+        name: "Power Carbon 13LB",
+        strength: 6,
+        price: 259,
+        quality: 9
+    },
+    fluorocarbonLine33: {
+        name: "Power Carbon 15LB",
+        strength: 6.9,
+        price: 258,
+        quality: 9
+    },
+    fluorocarbonLine34: {
+        name: "Power Carbon 18LB",
+        strength: 8.2,
+        price: 259,
+        quality: 9
+    },
+    fluorocarbonLine35: {
+        name: "Power Carbon 21.5LB",
+        strength: 9.8,
+        price: 263,
+        quality: 9
+    },
+    fluorocarbonLine36: {
+        name: "Power Carbon 27LB",
+        strength: 12.3,
+        price: 269,
+        quality: 9
+    },
+    fluorocarbonLine37: {
+        name: "Power Carbon 33LB",
+        strength: 15,
+        price: 273,
+        quality: 9
+    },
+    fluorocarbonLine38: {
+        name: "Power Carbon 42LB",
+        strength: 19.1,
+        price: 277,
+        quality: 9
+    },
+    fluorocarbonLine39: {
+        name: "Power Carbon 50LB",
+        strength: 22.8,
+        price: 283,
+        quality: 9
+    },
+    fluorocarbonLine40: {
+        name: "Power Carbon 61LB",
+        strength: 27.7,
+        price: 287,
+        quality: 9
+    },
+    fluorocarbonLine41: {
+        name: "Fluorocarbon 3LB",
+        strength: 1.4,
+        price: 240,
+        quality: 10
+    },
+    fluorocarbonLine42: {
+        name: "Fluorocarbon 3,7LB",
+        strength: 1.7,
+        price: 240,
+        quality: 10
+    },
+    fluorocarbonLine43: {
+        name: "Fluorocarbon 4,8LB",
+        strength: 2.2,
+        price: 240,
+        quality: 10
+    },
+    fluorocarbonLine44: {
+        name: "Fluorocarbon 5,7LB",
+        strength: 2.6,
+        price: 240,
+        quality: 10
+    },
+    fluorocarbonLine45: {
+        name: "Fluorocarbon 7,7LB",
+        strength: 3.5,
+        price: 240,
+        quality: 10
+    },
+    fluorocarbonLine46: {
+        name: "Fluorocarbon 9LB",
+        strength: 4.1,
+        price: 240,
+        quality: 10
+    },
+    fluorocarbonLine47: {
+        name: "Fluorocarbon 13,6LB",
+        strength: 6.2,
+        price: 245,
+        quality: 10
+    },
+    fluorocarbonLine48: {
+        name: "Fluorocarbon 16,3LB",
+        strength: 7.4,
+        price: 245,
+        quality: 10
+    },
+    fluorocarbonLine49: {
+        name: "Fluorocarbon 20,7LB",
+        strength: 9.4,
+        price: 245,
+        quality: 10
+    },
+    fluorocarbonLine50: {
+        name: "Fluorocarbon 28LB",
+        strength: 12.7,
+        price: 250,
+        quality: 10
+    },
+    fluorocarbonLine51: {
+        name: "Fluorocarbon 41,8LB",
+        strength: 19,
+        price: 250,
+        quality: 10
+    },
+    fluorocarbonLine52: {
+        name: "SL-Type Fluorocarbon 51LB",
+        strength: 23.1,
+        price: 149,
+        quality: 10
+    },
+    fluorocarbonLine53: {
+        name: "SL-Type Fluorocarbon 62LB",
+        strength: 28.2,
+        price: 149,
+        quality: 10
+    },
+    fluorocarbonLine54: {
+        name: "SL-Type Fluorocarbon 77LB",
+        strength: 35,
+        price: 169,
+        quality: 10
+    },
+    fluorocarbonLine55: {
+        name: "SL-Type Fluorocarbon 95LB",
+        strength: 43.2,
+        price: 179,
+        quality: 10
+    },
+    fluorocarbonLine56: {
+        name: "SL-Type Fluorocarbon 121LB",
+        strength: 55,
+        price: 199,
+        quality: 10
+    }
+};
+const braidLines = {
+    braidLine1: {
+        name: "Super Braid - 10lb",
+        strength: 4.5,
+        price: 6,
+        quality: 2
+    },
+    braidLine2: {
+        name: "Super Braid - 20lb",
+        strength: 9.1,
+        price: 7,
+        quality: 2
+    },
+    braidLine3: {
+        name: "Super Braid - 30lb",
+        strength: 13,
+        price: 7,
+        quality: 2
+    },
+    braidLine4: {
+        name: "Super Braid - 40lb",
+        strength: 18,
+        price: 8,
+        quality: 2
+    },
+    braidLine5: {
+        name: "Super Braid - 50lb",
+        strength: 22,
+        price: 9,
+        quality: 2
+    },
+    braidLine6: {
+        name: "Super Braid - 60lb",
+        strength: 27,
+        price: 9,
+        quality: 2
+    },
+    braidLine7: {
+        name: "Super Braid - 70lb",
+        strength: 31,
+        price: 9,
+        quality: 2
+    },
+    braidLine8: {
+        name: "Super Braid - 80lb",
+        strength: 36,
+        price: 13,
+        quality: 2
+    },
+    braidLine9: {
+        name: "Super Braid - 90lb",
+        strength: 40,
+        price: 18,
+        quality: 2
+    },
+    braidLine10: {
+        name: "Super Braid - 100lb",
+        strength: 45,
+        price: 26,
+        quality: 2
+    },
+    braidLine11: {
+        name: "Hybrid - 8LB",
+        strength: 3.5,
+        price: 49,
+        quality: 5
+    },
+    braidLine12: {
+        name: "Hybrid - 11LB",
+        strength: 5,
+        price: 49,
+        quality: 5
+    },
+    braidLine13: {
+        name: "Hybrid - 16LB",
+        strength: 7.2,
+        price: 57,
+        quality: 5
+    },
+    braidLine14: {
+        name: "Hybrid - 22LB",
+        strength: 10,
+        price: 63,
+        quality: 5
+    },
+    braidLine15: {
+        name: "Hybrid - 28LB",
+        strength: 12.5,
+        price: 66,
+        quality: 5
+    },
+    braidLine16: {
+        name: "Hybrid - 35LB",
+        strength: 15,
+        price: 69,
+        quality: 5
+    },
+    braidLine17: {
+        name: "Hybrid - 42LB",
+        strength: 19,
+        price: 70,
+        quality: 5
+    },
+    braidLine18: {
+        name: "Hybrid - 55LB",
+        strength: 25,
+        price: 73,
+        quality: 5
+    },
+    braidLine19: {
+        name: "Hybrid - 72LB",
+        strength: 33,
+        price: 86,
+        quality: 5
+    },
+    braidLine20: {
+        name: "ExtraSilk - 6.5LB",
+        strength: 3,
+        price: 133,
+        quality: 8
+    },
+    braidLine21: {
+        name: "ExtraSilk - 9LB",
+        strength: 4,
+        price: 130,
+        quality: 8
+    },
+    braidLine22: {
+        name: "ExtraSilk - 12LB",
+        strength: 5.4,
+        price: 127,
+        quality: 8
+    },
+    braidLine23: {
+        name: "ExtraSilk - 17LB",
+        strength: 8,
+        price: 121,
+        quality: 8
+    },
+    braidLine24: {
+        name: "ExtraSilk - 22LB",
+        strength: 10.2,
+        price: 121,
+        quality: 8
+    },
+    braidLine25: {
+        name: "ExtraSilk - 30LB",
+        strength: 13.5,
+        price: 121,
+        quality: 8
+    },
+    braidLine26: {
+        name: "ExtraSilk - 34LB",
+        strength: 15.6,
+        price: 130,
+        quality: 8
+    },
+    braidLine27: {
+        name: "ExtraSilk - 46LB",
+        strength: 21,
+        price: 133,
+        quality: 8
+    },
+    braidLine28: {
+        name: "ExtraSilk - 60LB",
+        strength: 28,
+        price: 139,
+        quality: 8
+    },
+    braidLine29: {
+        name: "ExtraSilk - 90LB",
+        strength: 40,
+        price: 145,
+        quality: 8
+    },
+    braidLine30: {
+        name: "ExtraSilk - 140LB",
+        strength: 65,
+        price: 148,
+        quality: 8
+    },
+    braidLine31: {
+        name: "DevilBraid - 12LB",
+        strength: 5.4,
+        price: 497,
+        quality: 9
+    },
+    braidLine32: {
+        name: "DevilBraid - 14LB",
+        strength: 6.5,
+        price: 497,
+        quality: 9
+    },
+    braidLine33: {
+        name: "DevilBraid - 20LB",
+        strength: 9.2,
+        price: 521,
+        quality: 9
+    },
+    braidLine34: {
+        name: "DevilBraid - 28LB",
+        strength: 12.8,
+        price: 521,
+        quality: 9
+    },
+    braidLine35: {
+        name: "DevilBraid - 34LB",
+        strength: 15.6,
+        price: 521,
+        quality: 9
+    },
+    braidLine36: {
+        name: "DevilBraid - 48LB",
+        strength: 22,
+        price: 545,
+        quality: 9
+    },
+    braidLine37: {
+        name: "DevilBraid - 58LB",
+        strength: 26.5,
+        price: 577,
+        quality: 9
+    },
+    braidLine38: {
+        name: "DevilBraid - 66LB",
+        strength: 30,
+        price: 599,
+        quality: 9
+    },
+    braidLine39: {
+        name: "DevilBraid - 77LB",
+        strength: 35,
+        price: 625,
+        quality: 9
+    },
+    braidLine40: {
+        name: "DevilBraid - 120LB",
+        strength: 55,
+        price: 673,
+        quality: 9
+    },
+    braidLine41: {
+        name: "DevilBraid - 160LB",
+        strength: 74,
+        price: 699,
+        quality: 9
+    },
+    braidLine42: {
+        name: "Power Braid 13LB",
+        strength: 5.9,
+        price: 160,
+        quality: 9
+    },
+    braidLine43: {
+        name: "Power Braid 18LB",
+        strength: 8.2,
+        price: 160,
+        quality: 9
+    },
+    braidLine44: {
+        name: "Power Braid 20LB",
+        strength: 9.2,
+        price: 170,
+        quality: 9
+    },
+    braidLine45: {
+        name: "Power Braid 26LB",
+        strength: 12,
+        price: 170,
+        quality: 9
+    },
+    braidLine46: {
+        name: "Power Braid 30LB",
+        strength: 13.5,
+        price: 180,
+        quality: 9
+    },
+    braidLine47: {
+        name: "Power Braid 39LB",
+        strength: 17.7,
+        price: 180,
+        quality: 9
+    },
+    braidLine48: {
+        name: "Power Braid 50LB",
+        strength: 22.8,
+        price: 187,
+        quality: 9
+    },
+    braidLine49: {
+        name: "Power Braid 63LB",
+        strength: 28.5,
+        price: 187,
+        quality: 9
+    },
+    braidLine50: {
+        name: "Power Braid 79LB",
+        strength: 36,
+        price: 190,
+        quality: 9
+    },
+    braidLine51: {
+        name: "Power Braid 86LB",
+        strength: 39,
+        price: 190,
+        quality: 9
+    },
+    braidLine52: {
+        name: "Power Braid 99LB",
+        strength: 45,
+        price: 199,
+        quality: 9
+    },
+    braidLine53: {
+        name: "Micro Braid 6LB",
+        strength: 2.8,
+        price: 100,
+        quality: 10
+    },
+    braidLine54: {
+        name: "Micro Braid 7LB",
+        strength: 3.3,
+        price: 100,
+        quality: 10
+    },
+    braidLine55: {
+        name: "Micro Braid 8LB",
+        strength: 3.7,
+        price: 100,
+        quality: 10
+    },
+    braidLine56: {
+        name: "Micro Braid 11LB",
+        strength: 5,
+        price: 100,
+        quality: 10
+    },
+    braidLine57: {
+        name: "Micro Braid 16LB",
+        strength: 7.3,
+        price: 100,
+        quality: 10
+    },
+    braidLine58: {
+        name: "Ultra Braid 12 LB",
+        strength: 5.4,
+        price: 199,
+        quality: 10
+    },
+    braidLine59: {
+        name: "Ultra Braid 15 LB",
+        strength: 6.9,
+        price: 199,
+        quality: 10
+    },
+    braidLine60: {
+        name: "Ultra Braid 21 LB",
+        strength: 9.5,
+        price: 211,
+        quality: 10
+    },
+    braidLine61: {
+        name: "Ultra Braid 27 LB",
+        strength: 12.2,
+        price: 211,
+        quality: 10
+    },
+    braidLine62: {
+        name: "Ultra Braid 29 LB",
+        strength: 13.3,
+        price: 219,
+        quality: 10
+    },
+    braidLine63: {
+        name: "Ultra Braid 36 LB",
+        strength: 16.4,
+        price: 227,
+        quality: 10
+    },
+    braidLine64: {
+        name: "Ultra Braid 51 LB",
+        strength: 23,
+        price: 235,
+        quality: 10
+    },
+    braidLine65: {
+        name: "Ultra Braid 64 LB",
+        strength: 29.2,
+        price: 240,
+        quality: 10
+    },
+    braidLine66: {
+        name: "Ultra Braid 70 LB",
+        strength: 32,
+        price: 240,
+        quality: 10
+    },
+    braidLine67: {
+        name: "Ultra Braid 128 LB",
+        strength: 58,
+        price: 250,
+        quality: 10
+    },
+    braidLine68: {
+        name: "Ultra Braid 176 LB",
+        strength: 80,
+        price: 280,
+        quality: 10
+    },
+    braidLine69: {
+        name: "Heavy Braid 132LB",
+        strength: 60,
+        price: 689,
+        quality: 10
+    },
+    braidLine70: {
+        name: "Heavy Braid 185LB",
+        strength: 84,
+        price: 749,
+        quality: 10
+    },
+    braidLine71: {
+        name: "Heavy Braid 242LB",
+        strength: 110,
+        price: 890,
+        quality: 10
+    },
+    braidLine72: {
+        name: "Heavy Braid 326LB",
+        strength: 148,
+        price: 989,
+        quality: 10
+    },
+    braidLine73: {
+        name: "Heavy Braid 420LB",
+        strength: 190.6,
+        price: 1255,
+        quality: 10
+    },
+    braidLine74: {
+        name: "HiPower Braid 30LB",
+        strength: 13.6,
+        price: 869,
+        quality: 10
+    },
+    braidLine75: {
+        name: "HiPower Braid 40LB",
+        strength: 18,
+        price: 869,
+        quality: 10
+    },
+    braidLine76: {
+        name: "HiPower Braid 50LB",
+        strength: 22.5,
+        price: 869,
+        quality: 10
+    },
+    braidLine77: {
+        name: "HiPower Braid 65LB",
+        strength: 30,
+        price: 928,
+        quality: 10
+    },
+    braidLine78: {
+        name: "HiPower Braid 80LB",
+        strength: 36,
+        price: 928,
+        quality: 10
+    },
+    braidLine79: {
+        name: "HiPower Braid 100LB",
+        strength: 45,
+        price: 974,
+        quality: 10
+    },
+    braidLine80: {
+        name: "HiPower Braid 130LB",
+        strength: 60,
+        price: 974,
+        quality: 10
+    },
+    braidLine81: {
+        name: "HiPower Braid 180LB",
+        strength: 82,
+        price: 1044,
+        quality: 10
+    },
+    braidLine82: {
+        name: "HiPower Braid 240LB",
+        strength: 110,
+        price: 1324,
+        quality: 10
+    },
+    braidLine83: {
+        name: "HiPower Braid 320LB",
+        strength: 145,
+        price: 1534,
+        quality: 10
+    },
+    braidLine84: {
+        name: "HiPower Braid 450LB",
+        strength: 205,
+        price: 1744,
+        quality: 10
+    }
+}
+const rodTypes = {
+    pole: poleRods,
+    bolognese: bologneseRods,
+    match: matchRods,
+    spinning: spinningRods,
+    casting: castingRods,
+    jerk: jerkRods,
+    feeder: feederRods,
+    picker: pickerRods,
+    carp: carpRods,
+    pilker: pilkerRods,
+    sea: seaRods
+};
+const reelTypes = {
+    spinning: spinningReels,
+    lowprofile: lowprofileReels,
+    baitcasting: baitcastingReels,
+    power: powerReels
+};
+const lineTypes = {
+    nylon: nylonLines,
+    fluorocarbon: fluorocarbonLines,
+    braid: braidLines
+};
+const components = [
+    { name: 'rod', tackleTypes: rodTypes },
+    { name: 'reel', tackleTypes: reelTypes },
+    { name: 'line', tackleTypes: lineTypes }
+];
+let isReelNeeded = false;
+let isLeaderNeeded = false;
+
+// Получить формат прочности
+function getStrengthFormat(strength) {
+    return `${strength} кг`;
+}
+
+// Получить формат цены
+function getPriceFormat(price) {
+    return `⛃ ${price}`;
+}
+
+// Получить формат качества
+function getQualityFormat(quality) {
+    const stars = convertQualityToStars(quality);
+
+    return `${stars} (${quality}/10)`;
+}
+
+// Получить стоимость
+function getPrice(name, tackleTypes) {
+    const selectedId = document.getElementById(`${name}-selector`).value;
+    const item = getTackleByType(name, tackleTypes, selectedId);
+
+    if (selectedId && item) {
+        return item.price;
+    } else {
+        return 0;
+    }
+}
+
+// Получить качество
+function getQuality(name, tackleTypes) {
+    const selectedId = document.getElementById(`${name}-selector`).value;
+    const item = getTackleByType(name, tackleTypes, selectedId);
+
+    if (selectedId && item) {
+        return item.quality;
+    } else {
+        return 0;
+    }
+}
+
+// Получить прочность
+function getStrength(name, tackleTypes, strengthProp = 'strength') {
+    const selectedId = document.getElementById(`${name}-selector`).value;
+    const item = getTackleByType(name, tackleTypes, selectedId);
+
+    if (selectedId && item) {
+        return item[strengthProp];
+    } else {
+        return null;
+    }
+}
+
+// Получить прочность поводка
+function getLeaderStrength() {
+    const input = document.getElementById('leader-strength-input');
+    const value = parseFloat(input.value);
+
+    if (!isNaN(value) && value > 0) {
+        return value;
+    } else {
+        return null;
+    }
+}
+
+// Получить снасть по типу
+function getTackleByType(name, tackleTypes, selectedId) {
+    if (!selectedId) return null;
+
+    const selectedType = document.getElementById(`${name}-type-selector`).value;
+    const items = tackleTypes[selectedType];
+
+    return items[selectedId];
+}
+
+// Сгенерировать HTML-код общих характеристик
+function generateCommonCharacteristicsHTML(item) {
+    const price = getPriceFormat(item.price);
+    const quality = getQualityFormat(item.quality);
+
+    return `
+                <div class="characteristic"><strong>Цена:</strong> ${price}</div>
+                <div class="characteristic"><strong>Качество:</strong> ${quality}</div>
+            `;
+}
+
+// Сгенерировать HTML-код характеристик снасти
+function generateTackleCharacteristicsHTML(item) {
+    const strength = getStrengthFormat(item.strength);
+
+    return `
+                <div class="characteristic"><strong>Прочность:</strong> ${strength}</div>
+                ${generateCommonCharacteristicsHTML(item)}
+            `;
+}
+
+// Сгенерировать HTML-код характеристик катушки
+function generateReelCharacteristicsHTML(item) {
+    const friction = getStrengthFormat(item.strength);
+    const mechanism = getStrengthFormat(item.mechanism);
+
+    return `
+                <div class="characteristic"><strong>Сила фрикциона:</strong> ${friction}</div>
+                <div class="characteristic"><strong>Прочность механизма:</strong> ${mechanism}</div>
+                ${generateCommonCharacteristicsHTML(item)}
+            `;
+}
+
+// Сгенерировать совет
+function generateAdvice(strength) {
+    const rodVsLine = strength.rodVsLine;
+    const adviceParts = [];
+    let count = 0;
+    let maxCount = 4;
+
+    if (rodVsLine !== null) {
+        count++;
+        if (rodVsLine < 0) {
+            adviceParts.push('Удилище слабее лески — риск поломки удилища при вываживании крупной рыбы!!');
+        } else if (rodVsLine >= 0 && rodVsLine < 5) {
+            adviceParts.push('Удилище немного прочнее лески — риск поломки удилища при рывке рыбы.');
+        }
+    }
+    if (!isReelNeeded) {
+        maxCount -= 2;
+    }
+    if (isLeaderNeeded) {
+        const leaderVsFriction = strength.leaderVsFriction;
+        const mechanismVsLeader = strength.mechanismVsLeader;
+        const lineVsLeader = strength.lineVsLeader;
+
+        if (checkDifferenceExists(mechanismVsLeader)) {
+            count++;
+            if (mechanismVsLeader < 0) {
+                adviceParts.push('Механизм слабее поводка — риск поломки катушки при клине!!');
+            } else if (mechanismVsLeader >= 0 && mechanismVsLeader < 10) {
+                adviceParts.push('Механим немного прочнее поводка — риск поломки катушки при клине и сильном рывке рыбы.');
+            }
+        }
+        if (checkDifferenceExists(lineVsLeader)) {
+            count++;
+            if (lineVsLeader < 0) {
+                adviceParts.push('Леска слабее поводка — поводок не выполняет защитную функцию!!');
+            } else if (lineVsLeader >= 0 && lineVsLeader < 5) {
+                adviceParts.push('Леска немного прочнее поводка — риск обрыва лески при рывке рыбы.');
+            }
+        }
+        if (checkDifferenceExists(leaderVsFriction)) {
+            count++;
+            if (leaderVsFriction < 0) {
+                adviceParts.push('Поводок слабее фрикциона катушки — риск обрыва поводка при сильно затянутом фрикционе!!');
+            } else if (leaderVsFriction >= 0 && leaderVsFriction < 10) {
+                adviceParts.push('Поводок немного прочнее фрикциона катушки — риск обрыва поводка при рывке рыбы и сильно затянутом фрикционе.');
+            }
+        }
+    } else {
+        const lineVsFriction = strength.lineVsFriction;
+        const mechanismVsLine = strength.mechanismVsLine;
+
+        maxCount -= 1;
+        if (checkDifferenceExists(mechanismVsLine)) {
+            count++;
+            if (mechanismVsLine < 0) {
+                adviceParts.push('Механизм слабее лески — риск поломки катушки при клине!!');
+            } else if (mechanismVsLine >= 0 && mechanismVsLine < 10) {
+                adviceParts.push('Механим немного прочнее лески — риск поломки катушки при клине и сильном рывке рыбы.');
+            }
+        }
+        if (checkDifferenceExists(lineVsFriction)) {
+            count++;
+            if (lineVsFriction < 0) {
+                adviceParts.push('Леска слабее фрикциона катушки — риск обрыва лески при сильно затянутом фрикционе!!');
+            } else if (lineVsFriction >= 0 && lineVsFriction < 10) {
+                adviceParts.push('Леска немного прочнее фрикциона — риск обрыва лески при рывке рыбы и сильно затянутом фрикционе.');
+            }
+        }
+    }
+    if (adviceParts.length === 0) {
+        if (count === maxCount) {
+            return 'Оптимальная сборка!';
+        } else {
+            return 'Выберите все элементы для получения рекомендаций.';
+        }
+    } else {
+        return adviceParts.join('\n\n');
+    }
+}
+
+// Очистить HTML-код
+function clearHTML(element) {
+    element.innerHTML = '';
+}
+
+// Фильтровать по типу
+function filterByType(name, tackleTypes, showDetails) {
+    const selectedType = document.getElementById(`${name}-type-selector`).value;
+    const selectorContainer = document.getElementById(`${name}-selector-container`);
+    const detailsContainer = document.getElementById(`${name}-details-container`);
+    const selector = document.getElementById(`${name}-selector`);
+    const isSorted = document.getElementById(`sort-${name}-checkbox`).checked;
+
+    clearHTML(selector);
+    if (!selectedType) {
+        hideElement(selectorContainer);
+        clearHTML(detailsContainer);
+        updateBuildInfo();
+
+        return;
+    }
+
+    const items = Object.entries(tackleTypes[selectedType]);
+
+    showElement(selectorContainer);
+    if (isSorted) {
+        items.sort(([, a], [, b]) => a.strength - b.strength);
+    }
+    items.forEach(([id, item]) => {
+        const option = document.createElement('option');
+
+        option.value = id;
+        option.textContent = `${item.name} (${getStrengthFormat(item.strength)})`;
+        selector.appendChild(option);
+    });
+    clearHTML(detailsContainer);
+    showDetails();
+}
+
+// Фильтровать удилища по типу
+function filterRodsByType() {
+    const selectedType = document.getElementById('rod-type-selector').value;
+
+    isReelNeeded = selectedType && selectedType !== 'pole';
+    if (isReelNeeded) {
+        toggleReel(showElement);
+    } else {
+        toggleReel(hideElement);
+    }
+    filterByType('rod', rodTypes, showRodDetails);
+}
+
+// Фильтровать катушки по типу
+function filterReelsByType() {
+    filterByType('reel', reelTypes, showReelDetails);
+}
+
+// Фильтровать лески по типу
+function filterLinesByType() {
+    filterByType('line', lineTypes, showLineDetails);
+}
+
+// Переключить катушку
+function toggleReel(lambda) {
+    lambda(document.getElementById('reel-section'));
+    if (isLeaderNeeded) {
+        lambda(document.getElementById('info-leader-vs-friction'));
+        lambda(document.getElementById('info-mechanism-vs-leader'));
+    } else {
+        lambda(document.getElementById('info-line-vs-friction'));
+        lambda(document.getElementById('info-mechanism-vs-line'));
+    }
+}
+
+// Переключить поводок
+function toggleLeader() {
+    const checkbox = document.getElementById('leader-enabled');
+    const section = document.getElementById('leader-strength-section');
+    const lineInfo = [
+        'info-line-vs-friction',
+        'info-mechanism-vs-line'
+    ];
+    const leaderInfo = [
+        'info-leader-vs-friction',
+        'info-mechanism-vs-leader',
+        'info-line-vs-leader'
+    ];
+
+    isLeaderNeeded = checkbox.checked;
+    if (isLeaderNeeded) {
+        const input = document.getElementById('leader-strength-input');
+
+        showElement(section);
+        if (!input.value) {
+            input.value = 0;
+        }
+        if (isReelNeeded) {
+            showElement(document.getElementById('info-leader-vs-friction'));
+            showElement(document.getElementById('info-mechanism-vs-leader'));
+            hideElement(document.getElementById('info-line-vs-friction'));
+            hideElement(document.getElementById('info-mechanism-vs-line'));
+        }
+        showElement(document.getElementById('info-line-vs-leader'));
+        updateLeaderStrengthText();
+    } else {
+        hideElement(section);
+        document.getElementById('leader-strength-display').textContent = getStrengthFormat(0);
+        if (isReelNeeded) {
+            showElement(document.getElementById('info-line-vs-friction'));
+            showElement(document.getElementById('info-mechanism-vs-line'));
+            hideElement(document.getElementById('info-leader-vs-friction'));
+            hideElement(document.getElementById('info-mechanism-vs-leader'));
+        }
+        hideElement(document.getElementById('info-line-vs-leader'));
+        updateBuildInfo();
+    }
+}
+
+// Показать детели
+function showDetails(name, tackleTypes, generator) {
+    const selectedType = document.getElementById(`${name}-type-selector`).value;
+    const selectedId = document.getElementById(`${name}-selector`).value;
+    const container = document.getElementById(`${name}-details-container`);
+    const items = tackleTypes[selectedType];
+    const item = items[selectedId];
+
+    clearHTML(container);
+    if (selectedId && item) {
+        container.innerHTML = generator(item);
+    }
+    updateBuildInfo();
+}
+
+// Показать детали удилища
+function showRodDetails() {
+    showDetails('rod', rodTypes, generateTackleCharacteristicsHTML);
+}
+
+// Показать детали катушки
+function showReelDetails() {
+    showDetails('reel', reelTypes, generateReelCharacteristicsHTML);
+}
+
+// Показать детали лески
+function showLineDetails() {
+    showDetails('line', lineTypes, generateTackleCharacteristicsHTML);
+}
+
+// Показать элемент
+function showElement(element) {
+    element.style.display = 'block';
+}
+
+// Скрыть элемент
+function hideElement(element) {
+    element.style.display = 'none';
+}
+
+// Обновить текст
+function updateText(elementId, text) {
+    const element = document.getElementById(elementId);
+
+    element.textContent = text;
+}
+
+// Обновить текст и цвет
+function updateTextAndColor(elementId, text, color) {
+    const element = document.getElementById(elementId);
+
+    element.textContent = text;
+    element.style.color = color;
+}
+
+// Обновить текст прочности поводка
+function updateLeaderStrengthText() {
+    const input = document.getElementById('leader-strength-input');
+    const display = document.getElementById('leader-strength-display');
+    const value = parseFloat(input.value);
+
+    if (!isNaN(value) && value >= 0) {
+        display.textContent = getStrengthFormat(value.toFixed(1));
+    } else {
+        display.textContent = getStrengthFormat(0);
+    }
+    updateBuildInfo();
+}
+
+// Обновить текст разницы прочности
+function updateStrengthDifferenceText(elementId, percentage, perfect) {
+    const element = document.getElementById(elementId);
+
+    if (percentage === null) {
+        updateTextAndColor(elementId, '0%', 'white');
+    } else if (percentage >= perfect) {
+        updateTextAndColor(elementId, `+${percentage}%`, '#27ae60');
+    } else if (percentage >= 0) {
+        updateTextAndColor(elementId, `+${percentage}%`, '#ffcc00');
+    } else {
+        updateTextAndColor(elementId, `${percentage}%`, '#e74c3c');
+    }
+}
+
+// Обновить текст совета
+function updateAdviceText(advice) {
+    const element = document.getElementById('advice');
+
+    element.textContent = advice;
+    if (advice.includes('!!')) {
+        element.style.color = '#e74c3c';
+    } else if (advice.includes('риск')) {
+        element.style.color = '#ffcc00';
+    } else if (advice.includes('Оптимальная сборка!')) {
+        element.style.color = '#27ae60';
+    } else {
+        element.style.color = 'white';
+    }
+}
+
+// Обновить информацию о сборке
+function updateBuildInfo() {
+    const price = calculateTotalPrice();
+    const quality = calculateAverageQuality();
+    const strength = calculateStrengthDifference();
+    const advice = generateAdvice(strength);
+
+    updateText('total-price', getPriceFormat(price));
+    updateText('average-quality', getQualityFormat(quality));
+    if (isLeaderNeeded) {
+        if (isReelNeeded) {
+            updateStrengthDifferenceText('leader-vs-friction', strength.leaderVsFriction, 10);
+            updateStrengthDifferenceText('mechanism-vs-leader', strength.mechanismVsLeader, 10);
+        }
+        updateStrengthDifferenceText('line-vs-leader', strength.lineVsLeader, 5);
+    } else if (isReelNeeded) {
+        updateStrengthDifferenceText('line-vs-friction', strength.lineVsFriction, 10);
+        updateStrengthDifferenceText('mechanism-vs-line', strength.mechanismVsLine, 10);
+    }
+    updateStrengthDifferenceText('rod-vs-line', strength.rodVsLine, 5);
+    updateAdviceText(advice);
+}
+
+// Конвертировать качество в звёзды
+function convertQualityToStars(quality) {
+    const roundedQuality = Math.floor(quality);
+    let stars = '';
+
+    for (let i = 0; i < roundedQuality; i++) {
+        stars += '★';
+    }
+    for (let i = roundedQuality; i < 10; i++) {
+        stars += '☆';
+    }
+
+    return stars;
+}
+
+// Рассчитать стоимость сборки
+function calculateTotalPrice() {
+    let totalPrice = 0;
+
+    for (const component of components) {
+        const price = getPrice(component.name, component.tackleTypes);
+
+        totalPrice += price;
+    }
+
+    return totalPrice;
+}
+
+// Рассчитать среднее качество
+function calculateAverageQuality() {
+    const qualities = [];
+
+    for (const component of components) {
+        const quality = getQuality(component.name, component.tackleTypes);
+
+        if (quality > 0) {
+            qualities.push(quality);
+        }
+    }
+
+    const length = qualities.length
+
+    if (length === 0) return 0;
+
+    const sum = qualities.reduce((acc, q) => acc + q, 0);
+    const average = sum / length;
+
+    return Math.floor(average);
+}
+
+// Рассчитать разницу прочности
+function calculateStrengthDifference() {
+    const rodStrength = getStrength('rod', rodTypes);
+    const reelFriction = getStrength('reel', reelTypes);
+    const reelMechanism = getStrength('reel', reelTypes, 'mechanism');
+    const lineStrength = getStrength('line', lineTypes);
+    const result = {
+        rodVsLine: calculatePercentageDifference(lineStrength, rodStrength)
+    };
+
+    if (isLeaderNeeded) {
+        const leaderStrength = getLeaderStrength();
+
+        result.lineVsLeader = calculatePercentageDifference(leaderStrength, lineStrength);
+        if (isReelNeeded) {
+            result.leaderVsFriction = calculatePercentageDifference(reelFriction, leaderStrength);
+            result.mechanismVsLeader = calculatePercentageDifference(leaderStrength, reelMechanism);
+        }
+    } else if (isReelNeeded) {
+        result.lineVsFriction = calculatePercentageDifference(reelFriction, lineStrength);
+        result.mechanismVsLine = calculatePercentageDifference(lineStrength, reelMechanism);
+    }
+    return result;
+}
+
+// Рассчитать разницу в процентах
+function calculatePercentageDifference(value1, value2) {
+    if (value1 === null || value2 === null) {
+        return null;
+    }
+
+    const percentage = (value2 / value1 - 1) * 100;
+
+    return Math.round(percentage);
+}
+
+// Проверить существование разницы
+function checkDifferenceExists(difference) {
+    return typeof difference !== 'undefined' && difference !== null
+}
